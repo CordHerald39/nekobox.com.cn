@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "nekobox-android",
+    "title": "NekoBox for Android",
+    "icon": "N",
+    "platform": "Android",
+    "repository": "MatsuriDayo/NekoBoxForAndroid",
+    "description": "使用 sing-box 的 Android 通用代理工具。",
+    "guidance": "项目 README 提醒 Google Play 同名版本自 2024 年 5 月起由第三方控制；请按原始项目提供的渠道下载。",
+    "tag": "Android 项目"
+  },
+  {
+    "slug": "nekoray-history",
+    "title": "NekoRay / NekoBox for PC",
+    "icon": "PC",
+    "platform": "Windows · Linux",
+    "repository": "MatsuriDayo/nekoray",
+    "description": "桌面历史项目，开发者文档标记为已存档、不再维护。",
+    "guidance": "此入口用于历史资料核对，不作为当前维护版本推荐。参阅开发者文档中的迁移与替代项。",
+    "tag": "历史资料"
+  }
+]

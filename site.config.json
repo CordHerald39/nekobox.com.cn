@@ -1,0 +1,94 @@
+{
+  "n": 4,
+  "domain": "nekobox.com.cn",
+  "name": "NekoBox 中文指南",
+  "subject": "NekoBox",
+  "theme": "neko",
+  "color": "#6540ab",
+  "monogram": "N",
+  "wordmark": "NekoBox",
+  "title": "NekoBox 安卓下载与使用教程",
+  "kicker": "NEKOBOX / ANDROID GUIDE",
+  "hero": [
+    "认识 NekoBox，",
+    "从 Android 开始。"
+  ],
+  "description": "NekoBox 中文指南提供 NekoBox for Android 原始项目下载入口，介绍 APK 架构选择、Clash Meta 订阅与 sing-box 配置导入、Android VPN 和分应用代理，并说明 NekoRay 历史项目的区别。",
+  "panelCaption": "Android 项目与桌面历史版本，不要混为一谈。",
+  "scope": "专注 Android 使用体验",
+  "platforms": [
+    "Android",
+    "sing-box"
+  ],
+  "downloadCta": "查看 Android 下载",
+  "downloadHeading": "认准项目，再下载安装",
+  "downloadIntro": "NekoBox for Android 与 NekoRay 桌面历史项目的状态不同。",
+  "guideHeading": "把连接问题拆成具体步骤",
+  "noteTitle": "名字相近，不代表配置完全相同。",
+  "noteText": "不同客户端接受的配置类型可能不同。先确认导入格式，再检查系统 VPN 和应用路由。",
+  "serviceHeading": "为 Android 选择合适服务",
+  "sourceNote": "Android 下载追溯 MatsuriDayo/NekoBoxForAndroid，历史桌面项目不当作持续维护的软件推荐。",
+  "repository": "MatsuriDayo/NekoBoxForAndroid",
+  "topline": "NekoBox · Android 中文资料站",
+  "footerText": "分清平台、配置与连接方式。",
+  "categories": [
+    [
+      "recommend",
+      "机场推荐",
+      "从客户端适配与实际需求出发，了解订阅服务。"
+    ],
+    [
+      "ranking",
+      "机场榜单",
+      "先理解测试条件，再比较服务表现。"
+    ],
+    [
+      "downloads",
+      "NekoBox 下载",
+      "核对平台与架构，从原始项目下载。"
+    ],
+    [
+      "tutorials",
+      "NekoBox 教程",
+      "从安装到排错，按步骤理解客户端。"
+    ],
+    [
+      "reviews",
+      "机场测评",
+      "公开方法与样本，才有可参考的结果。"
+    ],
+    [
+      "coupons",
+      "机场优惠码",
+      "确认来源、期限与套餐限制后再使用。"
+    ]
+  ],
+  "previewPort": 4176,
+  "steps": [
+    [
+      "找到下载入口",
+      "核对系统、架构与项目来源"
+    ],
+    [
+      "导入并选择配置",
+      "理解订阅与代理策略"
+    ],
+    [
+      "检查实际连接",
+      "从日志和目标应用开始"
+    ]
+  ],
+  "featuredGuides": [
+    "nekobox-formats",
+    "nekobox-app-routing"
+  ],
+  "relatedSites": [
+    {
+      "domain": "v2rayngg.com.cn",
+      "name": "v2rayNG 下载指南",
+      "reason": "比较 Android 客户端下载与首次使用",
+      "port": 4179,
+      "published": false
+    }
+  ]
+}
