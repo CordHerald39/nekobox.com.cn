@@ -57,6 +57,33 @@ test('没有相关内容时省略继续阅读模块，保留返回分类入口',
  assert.match(html,/href="\/tutorials\/">返回NekoBox 教程/);
  assert.match(html,/<p>正文<\/p>/);
 });
+
+test('导入、平台与故障指南保留官方边界、隐私提示和已有专页入口',async()=>{
+ const config=JSON.parse(await readFile(path.join(root,'site.config.json'),'utf8'));
+ const articles=await loadArticles(path.join(root,'content/articles'),config.categories.map(c=>c[0]));
+ const get=slug=>articles.find(a=>a.slug===slug).html;
+ const formats=get('nekobox-formats');
+ assert.match(formats,/订阅解析只提取出站节点，分流规则等信息会被忽略/);
+ assert.match(formats,/GUI 路由等功能不生效/);
+ assert.match(formats,/VPN 相关配置仍由 GUI 控制/);
+ assert.match(formats,/href="https:\/\/github.com\/MatsuriDayo\/NekoBoxForAndroid/);
+ assert.match(formats,/href="https:\/\/matsuridayo.github.io\/nb4a-configuration\/"/);
+ assert.match(formats,/Android 设备尚未实测/);
+ const input=get('import-subscription');
+ assert.match(input,/二维码本身不决定配置类型/);
+ assert.match(input,/不要公开完整订阅 URL、二维码、UUID、密码或密钥/);
+ assert.match(input,/href="\/articles\/nekobox-formats\/"/);
+ const platform=get('choose-client');
+ assert.match(platform,/href="https:\/\/github.com\/MatsuriDayo\/nekoray"/);
+ assert.match(platform,/归档状态/);
+ for(const slug of ['nekobox-android','nekoray-history'])assert.ok(platform.includes(`href="/software/${slug}/"`));
+ assert.match(platform,/Android APK 不能用于 iOS/);
+ const symptoms=get('troubleshooting');
+ for(const slug of ['nekobox-app-routing','nekobox-dns-troubleshooting','nekobox-subscription-update-failed','nekobox-background-disconnect'])assert.ok(symptoms.includes(`href="/articles/${slug}/"`));
+ assert.match(symptoms,/Ping \/ URL Test 使用系统 DNS/);
+ assert.match(symptoms,/不要把关闭证书验证当作通用修复/);
+ assert.match(symptoms,/未在 Android 设备上实测/);
+});
 const fixture=`---
 title: "自动发布验证 & 标题"
 category: tutorials

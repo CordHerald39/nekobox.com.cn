@@ -2,7 +2,7 @@
 title: "NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链接"
 category: "tutorials"
 label: "实用指南"
-description: "区分 NekoBox for Android 的节点导入与完整自定义配置，解释格式选择、更新验证和迁移失败原因。"
+description: "说明 NekoBox 订阅怎么导入、Clash Meta 分流规则为何不会迁入，以及 sing-box JSON 自定义配置与 GUI 路由的区别。"
 date: "2026-09-19"
 updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
@@ -13,7 +13,7 @@ imageAlt: "NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链�
 <figure><img src="/images/nekobox-formats.svg" alt="NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链接的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
 
 
-> 核验日期：2026-09-19。已核对 Android 官方说明与发行资产；Android 设备尚未实测。
+> 内容更新与官方说明复核：2026-10-03。下方保留 2026-09-19 的发行核验基线；Android 设备尚未实测。
 
 ## 适用软件与版本基线
 
@@ -31,7 +31,25 @@ imageAlt: "NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链�
 
 “基于 sing-box”不表示可以随意粘贴任意版本的完整配置。官方文档区分了可解析的节点格式与完整自定义配置；完整配置下，GUI 路由等功能可能不再按普通方式生效。先明确你要的是一组节点还是完整接管核心配置。
 
-## 第二步：导入到单独测试分组
+## Clash Meta 订阅导入后，为什么分流规则没有导入？
+
+[NekoBox for Android README](https://github.com/MatsuriDayo/NekoBoxForAndroid)说明，订阅解析只提取出站节点，分流规则等信息会被忽略。因此，Clash Meta 订阅中出现节点，不代表原来的 `rules` 或代理组选择逻辑也已经迁入；换成同一份订阅重新导入，不能解决规则迁移问题。
+
+保留原客户端配置作对照，在 NekoBox 中按实际需求重新核对路由和 DNS。先验证一个节点与一个目标应用，再逐项恢复策略。规则处理见[官方 Android 路由说明](https://matsuridayo.github.io/nb4a-route/)，应用接管范围另见[分应用代理教程](/articles/nekobox-app-routing/)。
+
+## sing-box JSON 与 GUI 配置有什么区别？
+
+| 输入与模式 | 导入后的边界 |
+| --- | --- |
+| 订阅中的 sing-box 出站 | 解析成节点，不等于迁入完整路由或 DNS 配置 |
+| sing-box `.json` 文件 | 官方文档说明会导入为自定义配置，应先核对文件内容 |
+| 自定义配置中的完整 JSON | GUI 路由等功能不生效，出站 tag 需与 GUI 生成配置对应；VPN 相关配置仍由 GUI 控制 |
+
+完整配置、单个出站和用于混入配置的 JSON 片段不能互换。以上区别见[官方 Android 配置说明](https://matsuridayo.github.io/nb4a-configuration/)的“自定义 JSON 配置”“自定义配置”和“导入”章节。使用完整 JSON 时先向提供方确认适用的核心版本和模式，不要把桌面配置直接视为 Android 备份；迁移前检查见[NekoRay 迁移指南](/articles/nekobox-migration/)。
+
+## 第二步：NekoBox 订阅怎么导入？
+
+[官方 FAQ](https://matsuridayo.github.io/nb4a-faq/)给出的订阅入口是“分组 → 创建分组 → 分组类型：订阅”，一个订阅组只设置一个订阅链接。确认服务方提供的是受支持的节点订阅后，再建立单独测试分组；二维码或单节点分享链接先按[输入类型判断](/articles/import-subscription/)区分。
 
 保留已有分组，在订阅 / 分组入口新增一个测试条目，名称包含来源和日期。使用对应版本提供的链接导入或文件导入方式，执行更新后检查是否出现预期节点。界面名称可能变化，先确认对象类型，不按相似图标盲点。
 
@@ -51,6 +69,8 @@ imageAlt: "NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链�
 - 使用完整自定义 JSON 后 GUI 路由不生效：首先检查是否属于该配置模式的功能边界。
 
 ## 来源与核验记录
+
+2026-10-03 复读了项目 README、Android 配置说明与 FAQ，补充订阅解析和完整配置的边界。本次日期表示内容维护，不表示软件在当天发布，也不表示已经完成手机实测。
 
 [官方 Android 配置说明](https://matsuridayo.github.io/nb4a-configuration/)直接支持格式、内部分享链接和自定义配置的边界；[1.4.2 发行页](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.4.2)支持上述真实附件信息。核验日期为 2026-09-19，本站实际核对了发行清单，未在 Android 设备上安装、导入或建立 VPN。以上不是手机实测记录；补测需记录设备、Android 版本、APK、导入数量与脱敏日志。
 
