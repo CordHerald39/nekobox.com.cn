@@ -47,6 +47,20 @@ jobs:
           path: comparison-results/results.json
           if-no-files-found: ignore
           retention-days: 7
+  metadata-after-recovery:
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == 'c9abd80933800b4ff544cd878b1b52c640a99fc5' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: scripts/model-comparison
+      - name: Read sanitized model catalogue without inference or retries
+        env:
+          GROK_TEST_KEY: ${{ secrets.GROK_API_KEY }}
+        run: node scripts/model-comparison/inspect-catalogue.mjs
   transport-diagnostic:
     if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == 'a9eb6b32ebf8e1e2dc85b91b80a71dabc037e122' && github.run_attempt == 1
     runs-on: ubuntu-latest
