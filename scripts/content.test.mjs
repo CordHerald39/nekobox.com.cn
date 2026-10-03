@@ -5,7 +5,58 @@ import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {loadArticles} from './content.mjs';
+import {selectRelatedArticles,relatedArticleSlugs} from './article-related.mjs';
+import {createTemplates} from './site-template.mjs';
+import {enhancePage} from './enrichment.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
+test('相关文章按具体主题选择，排除自身与已删除页面',async()=>{
+ const config=JSON.parse(await readFile(path.join(root,'site.config.json'),'utf8'));
+ const articles=await loadArticles(path.join(root,'content/articles'),config.categories.map(c=>c[0]));
+ const curated=articles.filter(a=>relatedArticleSlugs[a.slug]);
+ for(const current of curated){
+  const related=selectRelatedArticles(current,articles);
+  assert.equal(related.length,3,current.slug);
+  assert.deepEqual(related.map(a=>a.slug),relatedArticleSlugs[current.slug]);
+  assert.ok(related.every(a=>a.slug!==current.slug));
+ }
+ const current=articles.find(a=>a.slug==='import-subscription');
+ assert.equal(selectRelatedArticles(current,articles.filter(a=>a.slug!=='nekobox-formats')).length,2);
+ assert.deepEqual(selectRelatedArticles(current,[current]),[]);
+ assert.deepEqual(selectRelatedArticles({slug:'new-unrelated-guide'},articles),[]);
+ assert.equal(new Set(curated.map(a=>selectRelatedArticles(a,articles).map(r=>r.slug).join(','))).size,curated.length);
+});
+
+test('文章仅有一条面包屑且结构化数据与实际路径一致',async()=>{
+ const config=JSON.parse(await readFile(path.join(root,'site.config.json'),'utf8'));
+ const articles=await loadArticles(path.join(root,'content/articles'),config.categories.map(c=>c[0]));
+ const templates=createTemplates(config,articles,[],{});
+ for(const current of articles){
+  const route='/articles/'+current.slug+'/';
+  const html=enhancePage(templates.shell(current.title,current.description,route,templates.article(current)),{route,config,articles,faq:[]});
+  assert.equal((html.match(/aria-label="文章路径"/g)||[]).length,1);
+  assert.doesNotMatch(html,/class="breadcrumb"/);
+  assert.match(html,/aria-current="page"/);
+  const schemas=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
+  const crumbs=schemas.filter(s=>s['@type']==='BreadcrumbList');
+  assert.equal(crumbs.length,1);
+  assert.deepEqual(crumbs[0].itemListElement.map(x=>[x.position,x.name,x.item]),[
+   [1,'首页','https://'+config.domain+'/'],
+   [2,config.categories.find(c=>c[0]===current.category)[1],'https://'+config.domain+'/'+current.category+'/'],
+   [3,current.title,'https://'+config.domain+route]
+  ]);
+ }
+});
+
+test('没有相关内容时省略继续阅读模块，保留返回分类入口',()=>{
+ const current={slug:'new-unrelated-guide',category:'tutorials',title:'独立主题 & 标题',description:'说明',author:'编辑',date:'2026-10-03',updated:'2026-10-03',reading:'1 分钟',html:'<p>正文</p>',toc:[]};
+ const config={domain:'nekobox.com.cn',name:'NekoBox',categories:[['tutorials','NekoBox 教程']]};
+ const templates=createTemplates(config,[current],[],{});
+ const route='/articles/'+current.slug+'/';
+ const html=enhancePage(templates.shell(current.title,current.description,route,templates.article(current)),{route,config,articles:[current],faq:[]});
+ assert.doesNotMatch(html,/继续阅读|related-section|knowledge-grid/);
+ assert.match(html,/href="\/tutorials\/">返回NekoBox 教程/);
+ assert.match(html,/<p>正文<\/p>/);
+});
 const fixture=`---
 title: "自动发布验证 & 标题"
 category: tutorials

@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import {escapeHtml as e} from './content.mjs';
+import {selectRelatedArticles} from './article-related.mjs';
 
 export async function loadFaq(){
  const data=JSON.parse(await readFile('content/faq.json','utf8'));
@@ -21,12 +22,13 @@ export function enhancePage(html,{route,config,articles,faq}){
  const current=articles.find(a=>route==='/articles/'+a.slug+'/');
  if(current){
   const category=config.categories.find(c=>c[0]===current.category);
-  const related=articles.filter(a=>a.slug!==current.slug&&a.category===current.category).slice(0,3);
+  const related=selectRelatedArticles(current,articles);
   const crumbs=[{name:'首页',item:'https://'+config.domain+'/'},{name:category[1],item:'https://'+config.domain+'/'+category[0]+'/'},{name:current.title,item:'https://'+config.domain+route}];
   const schema={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((x,i)=>({'@type':'ListItem',position:i+1,...x}))};
   html=html.replace('</head>',`<script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script></head>`);
-  html=html.replace('<main id="main">',`<main id="main"><nav class="wrap article-path" aria-label="文章路径"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/${category[0]}/">${e(category[1])}</a><span aria-hidden="true">/</span><span>正文</span></nav>`);
-  addition=`<section class="wrap section related-section"><h2>继续阅读</h2>${related.length?`<div class="knowledge-grid">${related.map(a=>`<a href="/articles/${a.slug}/"><h3>${e(a.title)}</h3><p>${e(a.description)}</p></a>`).join('')}</div>`:''}<a class="back-category" href="/${category[0]}/">返回${e(category[1])} →</a></section>`;
+  html=html.replace('<main id="main">',`<main id="main"><nav class="wrap article-path" aria-label="文章路径"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/${category[0]}/">${e(category[1])}</a><span aria-hidden="true">/</span><span aria-current="page">${e(current.title)}</span></nav>`);
+  const back=`<a class="back-category" href="/${category[0]}/">返回${e(category[1])} →</a>`;
+  addition=related.length?`<section class="wrap section related-section"><h2>继续阅读</h2><div class="knowledge-grid">${related.map(a=>`<a href="/articles/${a.slug}/"><h3>${e(a.title)}</h3><p>${e(a.description)}</p></a>`).join('')}</div>${back}</section>`:`<div class="wrap section">${back}</div>`;
  }
  return html.replace('</main>',addition+'</main>');
 }
