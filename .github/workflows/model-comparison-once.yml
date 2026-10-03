@@ -59,3 +59,32 @@ jobs:
           sparse-checkout: scripts/model-comparison
       - name: Diagnose public transport without credentials or inference
         run: node scripts/model-comparison/diagnose.mjs
+  family-diagnostic:
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '558ab20b64a53998f52680f777bd0d86b0e82927' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: scripts/model-comparison
+      - name: Test native transport restrictions without credentials
+        run: node --test scripts/model-comparison/run-once.test.mjs scripts/model-comparison/native-transport.test.mjs
+      - name: Distinguish address families and native HTTPS without credentials
+        id: network
+        run: node scripts/model-comparison/diagnose-families.mjs
+      - name: One authorized Claude retry only if public HTTPS succeeded
+        if: steps.network.outputs.ready == 'true'
+        env:
+          PUBLIC_HTTPS_READY: ${{ steps.network.outputs.ready }}
+          CLAUDE_TEST_KEY: ${{ secrets.claude_API_KEY }}
+        run: node scripts/model-comparison/claude-retry-once.mjs
+      - name: Retain sanitized retry result if produced
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: model-comparison-native-result
+          path: comparison-results/claude-native-result.json
+          if-no-files-found: ignore
+          retention-days: 7
