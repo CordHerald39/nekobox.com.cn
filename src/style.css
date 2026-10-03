@@ -8,3 +8,6 @@
 .prose blockquote{margin:0 0 26px;padding:16px 20px;border-left:3px solid var(--accent,var(--green,#245d4d));background:#f2f6f7;border-radius:0 8px 8px 0}.prose blockquote p{margin:0;font-size:14px;color:#42535a}.prose pre code{overflow-wrap:normal;word-break:normal}.prose h2{scroll-margin-top:24px}
 
 .detail-layout > *{min-width:0}.prose{min-width:0;width:100%}@media(max-width:760px){.detail-layout{grid-template-columns:minmax(0,1fr)}}
+
+/* Article illustrations: reserved dimensions prevent layout shifts. */
+.prose figure{margin:0 0 2rem}.prose img,.hero-cover,.download-cover img{display:block;max-width:100%;height:auto;border-radius:14px}.prose figcaption,.download-cover figcaption{font-size:.875rem;color:#625b72;margin-top:.6rem}.hero-cover{margin-bottom:1.4rem}.download-detail{max-width:1100px}.download-cover{max-width:640px;margin:0 0 2rem}.download-detail h2{margin-top:1.7rem}.table-scroll{overflow-x:auto}.download-detail table{border-collapse:collapse;width:100%;font-size:.95rem}.download-detail th,.download-detail td{padding:1rem;text-align:left;border-bottom:1px solid #ddd}.download-detail code{overflow-wrap:anywhere}.download-detail details{padding:1rem;background:#f5f0fc;border-radius:12px}.download-detail summary{cursor:pointer}.download-detail li{margin-bottom:.7rem}

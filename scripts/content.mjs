@@ -21,7 +21,7 @@ export async function loadArticles(directory,categories){
   if(document.errors.length)fail(document.errors.map(e=>e.message).join('; '));
   const data=document.toJS({maxAliasCount:20});
   if(!data||typeof data!=='object'||Array.isArray(data))fail('文章信息必须是字段列表');
-  const allowed=new Set(['title','category','label','description','date','updated','author','draft']);
+  const allowed=new Set(['title','category','label','description','date','updated','author','draft','image','imageAlt']);
   for(const key of Object.keys(data))if(!allowed.has(key))fail(`不支持的字段 ${key}`);
   for(const key of ['title','category','description','date'])if(typeof data[key]!=='string'||!data[key].trim())fail(`缺少或无效字段 ${key}`);
   if(!categories.includes(data.category))fail(`未知分类 ${data.category}`);
@@ -44,8 +44,10 @@ export async function loadArticles(directory,categories){
    }
   }});
   const html=sanitizeHtml(parser.parse(match[2]),{
-   allowedTags:['p','br','hr','h2','h3','h4','h5','h6','strong','em','del','blockquote','ul','ol','li','pre','code','a','table','thead','tbody','tr','th','td'],
-   allowedAttributes:{a:['href','title'],h2:['id'],h3:['id'],h4:['id'],h5:['id'],h6:['id'],ol:['start'],th:['align'],td:['align']},
+   allowedTags:['p','br','hr','h2','h3','h4','h5','h6','strong','em','del','blockquote','ul','ol','li','pre','code','a','table','thead','tbody','tr','th','td','figure','figcaption','img'],
+   allowedAttributes:{a:['href','title'],img:['src','alt','width','height','loading','decoding'],h2:['id'],h3:['id'],h4:['id'],h5:['id'],h6:['id'],ol:['start'],th:['align'],td:['align']},
+   transformTags:{img:(tag,attrs)=>({tagName:tag,attribs:{...attrs,loading:'lazy',decoding:'async'}})},
+   exclusiveFilter:frame=>frame.tag==='img'&&(!/^\/images\/[a-z0-9-]+\.(svg|webp|png|jpg)$/.test(frame.attribs.src||'')||!frame.attribs.alt),
    allowedSchemes:['https','http','mailto'],allowProtocolRelative:false
   });
   if(!sanitizeHtml(html,{allowedTags:[],allowedAttributes:{}}).trim())fail('正文没有可发布内容');

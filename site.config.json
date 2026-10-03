@@ -7,11 +7,11 @@
   "color": "#6540ab",
   "monogram": "N",
   "wordmark": "NekoBox",
-  "title": "NekoBox 安卓下载与使用教程",
+  "title": "NekoBox 安卓下载｜APK 安装与配置教程",
   "kicker": "NEKOBOX / ANDROID GUIDE",
   "hero": [
-    "认识 NekoBox，",
-    "从 Android 开始。"
+    "NekoBox 安卓下载，",
+    "安装与配置一步步来。"
   ],
   "description": "NekoBox 中文指南提供 NekoBox for Android 原始项目下载入口，介绍 APK 架构选择、Clash Meta 订阅与 sing-box 配置导入、Android VPN 和分应用代理，并说明 NekoRay 历史项目的区别。",
   "panelCaption": "Android 项目与桌面历史版本，不要混为一谈。",
@@ -79,8 +79,12 @@
     ]
   ],
   "featuredGuides": [
+    "import-subscription",
     "nekobox-formats",
-    "nekobox-app-routing"
+    "nekobox-app-routing",
+    "nekobox-install-failed",
+    "nekobox-dns-troubleshooting",
+    "nekobox-background-disconnect"
   ],
   "relatedSites": [
     {

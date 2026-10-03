@@ -3,10 +3,14 @@ title: "Android 应用场景的机场榜单应该记录哪些条件？"
 category: "ranking"
 description: "缺少测试环境的排名，很难复现或比较。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/ranking-method.svg"
+imageAlt: "Android 应用场景的机场榜单应该记录哪些条件？的四步判断流程示意图"
 ---
+<figure><img src="/images/ranking-method.svg" alt="Android 应用场景的机场榜单应该记录哪些条件？的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 ## 说明环境
 

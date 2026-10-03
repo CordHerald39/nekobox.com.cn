@@ -1,0 +1,32 @@
+{
+  "verified": "2026-10-03",
+  "version": "1.4.2",
+  "published": "2026-02-09",
+  "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.4.2",
+  "assets": [
+    {
+      "name": "NekoBox-1.4.2-arm64-v8a.apk",
+      "size": 15252519,
+      "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-arm64-v8a.apk",
+      "digest": "sha256:d01e76feeb05e4701f3ae382cb71c0a3ebb77039005e5893f8817e1051f8ac28"
+    },
+    {
+      "name": "NekoBox-1.4.2-armeabi-v7a.apk",
+      "size": 15509280,
+      "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-armeabi-v7a.apk",
+      "digest": "sha256:e21f4b1c09696e0fd8ff594db42fcec41d1ad1254b356e08c2fa6e9c5bfed10b"
+    },
+    {
+      "name": "NekoBox-1.4.2-x86.apk",
+      "size": 16222828,
+      "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-x86.apk",
+      "digest": "sha256:10b5e9ce5b569c06bb957ce88e57ecb3238b56f8aaf1a7ed50d1306aaec1cde3"
+    },
+    {
+      "name": "NekoBox-1.4.2-x86_64.apk",
+      "size": 15934699,
+      "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.4.2/NekoBox-1.4.2-x86_64.apk",
+      "digest": "sha256:aa3282a2736334c1cd810e42b36d94769ea1e33d6512a70d0fc90bcea4ef6935"
+    }
+  ]
+}

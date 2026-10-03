@@ -4,10 +4,14 @@ category: "tutorials"
 label: "实用指南"
 description: "区分 NekoBox for Android 的节点导入与完整自定义配置，解释格式选择、更新验证和迁移失败原因。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/nekobox-formats.svg"
+imageAlt: "NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链接的四步判断流程示意图"
 ---
+<figure><img src="/images/nekobox-formats.svg" alt="NekoBox 订阅导入教程：Clash Meta、sing-box JSON 与分享链接的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 > 核验日期：2026-09-19。已核对 Android 官方说明与发行资产；Android 设备尚未实测。
 
@@ -49,3 +53,7 @@ draft: false
 ## 来源与核验记录
 
 [官方 Android 配置说明](https://matsuridayo.github.io/nb4a-configuration/)直接支持格式、内部分享链接和自定义配置的边界；[1.4.2 发行页](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.4.2)支持上述真实附件信息。核验日期为 2026-09-19，本站实际核对了发行清单，未在 Android 设备上安装、导入或建立 VPN。以上不是手机实测记录；补测需记录设备、Android 版本、APK、导入数量与脱敏日志。
+
+## 导入后的下一步
+
+还没分清输入类型时，先读[格式判断](/articles/import-subscription/)。需要限定应用范围，阅读[分应用路由](/articles/nekobox-app-routing/)。发生异常时，按[订阅更新](/articles/nekobox-subscription-update-failed/)、[DNS 解析](/articles/nekobox-dns-troubleshooting/)或[后台断连](/articles/nekobox-background-disconnect/)的症状进入排查。

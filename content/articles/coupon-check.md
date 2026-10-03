@@ -3,10 +3,14 @@ title: "NekoBox 用户领取机场优惠前的核验步骤"
 category: "coupons"
 description: "确认适用套餐、续费限制和最终结算金额。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/coupon-check.svg"
+imageAlt: "NekoBox 用户领取机场优惠前的核验步骤的四步判断流程示意图"
 ---
+<figure><img src="/images/coupon-check.svg" alt="NekoBox 用户领取机场优惠前的核验步骤的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 ## 从服务方公告核对
 

@@ -3,10 +3,14 @@ title: "NekoBox 场景下如何阅读机场测评？"
 category: "reviews"
 description: "关注样本与限制，而不是孤立的测速截图。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/review-method.svg"
+imageAlt: "NekoBox 场景下如何阅读机场测评？的四步判断流程示意图"
 ---
+<figure><img src="/images/review-method.svg" alt="NekoBox 场景下如何阅读机场测评？的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 ## 先看测试是否匹配
 

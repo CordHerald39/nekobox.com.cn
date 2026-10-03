@@ -4,10 +4,14 @@ category: "tutorials"
 label: "实用指南"
 description: "保留原始资料，不把历史桌面配置当作 Android 的即用备份。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/nekobox-migration.svg"
+imageAlt: "从 NekoRay 迁移时，哪些内容需要重新检查？的四步判断流程示意图"
 ---
+<figure><img src="/images/nekobox-migration.svg" alt="从 NekoRay 迁移时，哪些内容需要重新检查？的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 ## 先确认维护状态
 

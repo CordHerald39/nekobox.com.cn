@@ -4,6 +4,7 @@ import {mkdtemp,cp,readFile,writeFile,rm,stat} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {loadArticles} from './content.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const fixture=`---
 title: "自动发布验证 & 标题"
@@ -23,6 +24,16 @@ draft: false
 
 <script>alert('test')</script>
 `;
+test('文章图片仅允许站内图片且过滤事件和危险网址',async()=>{
+ const sandbox=await mkdtemp(path.join(root,'.test-'));
+ try{
+  await writeFile(path.join(sandbox,'image-check.md'),fixture+'\n<figure><img src="/images/example.svg" alt="流程示意图" width="1200" height="630" onerror="alert(1)"><figcaption>说明图</figcaption></figure>\n<img src="https://external.invalid/x.png" alt="外部"><img src="javascript:alert(1)" alt="危险"><img src="/images/../../private.png" alt="越界">');
+  const [article]=await loadArticles(sandbox,['tutorials']);
+  assert.match(article.html,/<img src="\/images\/example.svg" alt="流程示意图" width="1200" height="630" loading="lazy" decoding="async"/);
+  assert.match(article.html,/<figcaption>说明图<\/figcaption>/);
+  assert.doesNotMatch(article.html,/onerror|external\.invalid|javascript:|private\.png/);
+ }finally{await rm(sandbox,{recursive:true,force:true});}
+});
 test('新增、修改、删除、草稿、错误保护与站内链接校验',async()=>{
  const sandbox=await mkdtemp(path.join(root,'.test-'));
  try{

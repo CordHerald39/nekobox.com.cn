@@ -3,10 +3,14 @@ title: "NekoBox Android 与 NekoRay 桌面版有什么区别？"
 category: "tutorials"
 description: "平台、维护状态与配置来源应当分别核对。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/choose-client.svg"
+imageAlt: "NekoBox Android 与 NekoRay 桌面版有什么区别？的四步判断流程示意图"
 ---
+<figure><img src="/images/choose-client.svg" alt="NekoBox Android 与 NekoRay 桌面版有什么区别？的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 ## Android 项目
 

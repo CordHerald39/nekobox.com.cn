@@ -4,10 +4,14 @@ category: "tutorials"
 label: "实用指南"
 description: "用两个应用的对照实验解释 NekoBox 分应用和路由的区别，提供结果判读、失败排查与恢复步骤。"
 date: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-03"
 author: "NekoBox 中文指南编辑部"
 draft: false
+image: "/images/nekobox-app-routing.svg"
+imageAlt: "NekoBox 分应用代理教程：VPN 接管范围与路由怎么验证的四步判断流程示意图"
 ---
+<figure><img src="/images/nekobox-app-routing.svg" alt="NekoBox 分应用代理教程：VPN 接管范围与路由怎么验证的四步判断流程示意图" width="1200" height="630"><figcaption>原创流程示意图：用于解释判断顺序，非软件界面截图。</figcaption></figure>
+
 
 > 核验日期：2026-09-19。已核对 Android 官方说明与发行资产；Android 设备尚未实测。
 

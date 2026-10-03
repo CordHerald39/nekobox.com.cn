@@ -1,6 +1,6 @@
 import {relatedBody} from './related.mjs';
 import {loadFaq,enhancePage,writeNotFound} from './enrichment.mjs';
-import {readFile,writeFile,mkdir,mkdtemp,copyFile,rm,rename} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,mkdtemp,copyFile,rm,rename,cp} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {loadArticles} from './content.mjs';
@@ -14,12 +14,14 @@ const faq=await loadFaq();
 const articles=await loadArticles('content/articles',config.categories.map(c=>c[0]));
 for(const a of articles){if(a.label===a.category)a.label=config.categories.find(c=>c[0]===a.category)[1];if(a.author==='Clash 大全编辑部')a.author=config.name+'编辑部';}
 const apps=JSON.parse(await readFile('content/software.json','utf8'));
-const templates=createTemplates(config,articles,apps);
+const release=JSON.parse(await readFile('content/release.json','utf8'));
+const templates=createTemplates(config,articles,apps,release);
 const output=await mkdtemp(path.join(root,'.build-'));
 const pages=[];
 async function page(route,title,description,body,extra={}){const folder=path.join(output,route);await mkdir(folder,{recursive:true});await writeFile(path.join(folder,'index.html'),enhancePage(templates.shell(title,description,route,body,extra),{route,config,articles,faq}));pages.push(route);}
 try{
  await copyFile('src/style.css',path.join(output,'style.css'));await copyFile('src/site.js',path.join(output,'site.js'));
+ await cp('src/images',path.join(output,'images'),{recursive:true});
  await writeFile(path.join(output,'favicon.svg'),`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="${config.color}"/><text x="20" y="28" text-anchor="middle" font-size="23" font-family="Arial" font-weight="bold" fill="white">${config.monogram}</text></svg>`);
  await page('/',config.title,config.description,templates.home());
  for(const c of config.categories)await page('/'+c[0]+'/',c[1],c[2],templates.category(c),{'@type':'CollectionPage'});
