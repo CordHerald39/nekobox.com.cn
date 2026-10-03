@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   prepare:
-    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.created == true && github.run_attempt == 1
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && (github.event.created == true || github.event.before == '0b0f9b6105d303c0c24800b6b5abd39a9e69123b') && github.run_attempt == 1
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
@@ -22,4 +22,3 @@ jobs:
         run: node --test scripts/model-comparison/prepare.test.mjs
       - name: Zero-call preflight
         run: node scripts/model-comparison/prepare.mjs --preflight
-
