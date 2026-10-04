@@ -8,6 +8,30 @@ concurrency:
   group: model-comparison-once-20261003
   cancel-in-progress: false
 jobs:
+  grok46-web-once:
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '196ff01d5fe4f1dcfbc4b21644cf7e642be0ac46' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: scripts/model-comparison
+      - name: Test actual search evidence requirements
+        run: node --test scripts/model-comparison/grok46-web-once.test.mjs scripts/model-comparison/native-transport.test.mjs
+      - name: One actual web-search compatibility request
+        env:
+          GROK_TEST_KEY: ${{ secrets.GROK_API_KEY }}
+        run: node scripts/model-comparison/grok46-web-once.mjs
+      - name: Retain sanitized actual tool evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: grok46-web-once
+          path: comparison-results/grok46-web-result.json
+          if-no-files-found: ignore
+          retention-days: 7
   grok46-long-stream-once:
     if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '9bac3cf1a734ed9c0423d585868d48c4fd3170d8' && github.run_attempt == 1
     runs-on: ubuntu-latest
