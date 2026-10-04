@@ -1,1 +1,48 @@
-{"version":1,"days":[{"day":"2026-10-04","slots":4,"operations":[]}],"request":null}
+{
+  "version": 2,
+  "legacy": {
+    "version": 1,
+    "days": [
+      {
+        "day": "2026-10-04",
+        "slots": 4,
+        "operations": []
+      }
+    ],
+    "request": null
+  },
+  "events": [
+    {
+      "type": "reconcile_initialization",
+      "day": "2026-10-04",
+      "knownTextReserveMicros": 35834,
+      "unknownReserveMicros": 50000000,
+      "olderSmallReserveMicros": 360298,
+      "costBasis": "conservative_public_reference_not_invoice",
+      "referenceInputPerMillion": 4.4,
+      "referenceOutputPerMillion": 13.2,
+      "reasoningDoubleCounted": true,
+      "cacheDiscountApplied": false,
+      "knownUsage": [
+        {
+          "input": 207,
+          "output": 153,
+          "reasoning": 142,
+          "source": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/37191342991"
+        },
+        {
+          "input": 560,
+          "output": 1653,
+          "reasoning": 511,
+          "source": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/37192248708"
+        }
+      ],
+      "sources": [
+        "https://booltoken.com/",
+        "https://booltoken.com/recharge-info",
+        "https://docs.x.ai/developers/pricing"
+      ]
+    }
+  ],
+  "request": null
+}

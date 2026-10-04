@@ -8,8 +8,12 @@ import {execute as webExecute} from './grok46-web-once.mjs';
 import {nativeRequest} from './native-transport.mjs';
 import {evidence} from './prepare.mjs';
 import {safeText} from './run-once.mjs';
+import {verifyReconciledTransition} from './append-only-budget.mjs';
+import {executeSeoNoTools} from './ceping-seo-once.mjs';
 export function context(env){if(env.GITHUB_ACTIONS!=='true'||env.GITHUB_REPOSITORY!=='CordHerald39/nekobox.com.cn'||env.GITHUB_REF!=='refs/heads/comparison/grok-claude-once-20261003'||env.GITHUB_RUN_ATTEMPT!=='1')throw Error('UNTRUSTED_CONTEXT');}
 export function verifyTransition(previous,current,now=new Date()){
+  if(current.version===2)return verifyReconciledTransition(previous,current,now);
+  if(previous?.version===2)throw Error('LEGACY_DOWNGRADE_REJECTED');
   if(current.request===null)return null;
   const request=validateRunnerLedger(current,{day:beijingDay(now),operationId:current.request?.operationId});
   const expected=prepareDailyRequest(previous,{operationId:request.operationId,kind:request.kind,publicInput:request.publicInput,now});
@@ -26,6 +30,7 @@ export function boundedPublicInput(input){
 const chinese=text=>(text.match(/[\u3400-\u9fff]/g)??[]).length;
 const sound=r=>r?.completionStatus==='completed'&&r.deltaMatchesCompleted===true&&typeof r.text==='string';
 export async function runReserved(request,key,{transport=nativeRequest,wait=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
+  if(request.kind==='seo'){if(request.reservedCalls!==1)throw Error('INVALID_SEO_RESERVATION');return executeSeoNoTools(key,transport);}
   let used=0;const reports=[];const input=boundedPublicInput(request.publicInput);
   const prompt=input?'Write a complete Chinese tutorial of 1200 to 1600 Chinese characters about '+input.topic+'. Use ONLY this verified public evidence. Cite each source next to supported claims; distinguish suggested checks from documented facts. Do not invent interfaces or browse. EVIDENCE='+JSON.stringify(input.evidence):PROMPT;
   async function call(customPrompt){if(++used>request.reservedCalls)throw Error('RESERVED_CALL_LIMIT');const adapter=(url,options)=>{if(request.kind==='web'&&input){const b=JSON.parse(options.body);b.input='Use web_search to verify the following public topic against ONLY the listed official URLs, give a short Chinese evidence summary with exact source citations. No images or other tools. TOPIC='+input.topic+' SOURCES='+JSON.stringify(input.evidence.map(x=>x.url));b.tools[0].filters.allowed_domains=[...new Set(input.evidence.map(x=>new URL(x.url).hostname))];options={...options,body:JSON.stringify(b)};}if(customPrompt){const b=JSON.parse(options.body);b.input=customPrompt;b.max_output_tokens=4096;options={...options,body:JSON.stringify(b)};}return transport(url,options);};const report=request.kind==='web'?await webExecute(key,adapter,input?.evidence.map(x=>x.url)):await longExecute(key,adapter);reports.push(report.result);return report.result;}

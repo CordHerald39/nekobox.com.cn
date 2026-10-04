@@ -1,8 +1,10 @@
 import {createHash} from 'node:crypto';
 import {beijingDay} from './grok-daily-budget-gate.mjs';
+import {reserveReconciled} from './append-only-budget.mjs';
 export const RESERVE_USD=25,MAX_DAILY_CALLS=4,MAX_BATCH_CALLS=2;
 export const REQUEST_PATH='scripts/model-comparison/daily-request.json';
 export function prepareDailyRequest(previous,{operationId,kind,publicInput,now=new Date()}) {
+  if(previous?.version===2)return reserveReconciled(previous,{operationId,kind,publicInput,now});
   if(!/^[a-f0-9]{32}$/.test(operationId)||!['long','web'].includes(kind))throw Error('INVALID_PUBLIC_REQUEST');
   const day=beijingDay(now);
   if(previous?.version!==1||!Array.isArray(previous?.days))throw Error('INVALID_LEDGER');
