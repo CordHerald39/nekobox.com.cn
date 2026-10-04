@@ -8,6 +8,35 @@ concurrency:
   group: model-comparison-once-20261003
   cancel-in-progress: false
 jobs:
+  daily-unified-adapter:
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          fetch-depth: 2
+          sparse-checkout: scripts/model-comparison
+      - name: Validate central quota, replay prevention and bounded completion
+        run: node --test scripts/model-comparison/daily-controller.test.mjs scripts/model-comparison/daily-runner.test.mjs scripts/model-comparison/github-ledger-backend.test.mjs scripts/model-comparison/grok46-web-once.test.mjs scripts/model-comparison/persistent-budget-store.test.mjs scripts/model-comparison/grok-daily-budget-gate.test.mjs
+      - name: Validate persisted reservation without credentials
+        id: reservation
+        run: node scripts/model-comparison/daily-runner.mjs --preflight
+      - name: Execute only the centrally reserved request
+        if: steps.reservation.outputs.ready == 'true'
+        env:
+          GROK_TEST_KEY: ${{ secrets.GROK_API_KEY }}
+        run: node scripts/model-comparison/daily-runner.mjs
+      - name: Retain public generation and sanitized usage only
+        if: steps.reservation.outputs.ready == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: daily-public-result
+          path: comparison-results/daily-public-result.json
+          if-no-files-found: ignore
+          retention-days: 7
   grok46-web-once:
     if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '196ff01d5fe4f1dcfbc4b21644cf7e642be0ac46' && github.run_attempt == 1
     runs-on: ubuntu-latest

@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {prepareDailyRequest,submitDailyRequest,operationId,validateRunnerLedger} from './daily-controller.mjs';
+const empty={version:1,days:[],request:null},now=new Date('2026-10-05T01:00:00Z');
+const args=(id,kind='long')=>({operationId:operationId('unified-1',id),kind,now});
+test('all sites consume one day and failures never release slots',()=>{let l=prepareDailyRequest(empty,args('a'));l=prepareDailyRequest(l,args('b'));assert.equal(l.days[0].slots,4);assert.throws(()=>prepareDailyRequest(l,args('c','web')),/BUDGET_EXCEEDED/);assert.throws(()=>prepareDailyRequest(l,args('a')),/DUPLICATE/);});
+test('Beijing day resets without resetting duplicate protection',()=>{const a=args('a');const l=prepareDailyRequest(empty,a);const next=prepareDailyRequest(l,{...args('b'),now:new Date('2026-10-05T16:00:00Z')});assert.equal(next.days[1].slots,2);assert.throws(()=>validateRunnerLedger(l,{day:'2026-10-06',operationId:a.operationId}),/STALE/);});
+test('failed non-fast-forward CAS does not submit or retry',async()=>{let writes=0;await assert.rejects(submitDailyRequest({read:async()=>({sha:'x',ledger:empty}),commitIfHead:async()=>{writes++;return false;}},args('a')),/CAS_CONFLICT/);assert.equal(writes,1);});
+test('runner requires persisted matching reservation',()=>{const a=args('a'),l=prepareDailyRequest(empty,a);assert.equal(validateRunnerLedger(l,{day:'2026-10-05',operationId:a.operationId}).reservedCalls,2);l.days[0].operations=[];assert.throws(()=>validateRunnerLedger(l,{day:'2026-10-05',operationId:a.operationId}),/UNRESERVED/);});

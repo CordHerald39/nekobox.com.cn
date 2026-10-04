@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {persistentAtomicStore} from './persistent-budget-store.mjs';
+import {reserve,GLOBAL_LEDGER} from './grok-daily-budget-gate.mjs';
+function durableDouble(){let version=0,entries={};return {read:async()=>({version:String(version),entries:structuredClone(entries)}),compareAndSwap:async(expected,next)=>{if(expected!==String(version))return false;entries=structuredClone(next);version++;return true;}};}
+test('two independent clients share one persistent ceiling',async()=>{const backend=durableDouble();const config=()=>({ledgerNamespace:GLOBAL_LEDGER,billingBoundsVerified:true,atomicStore:persistentAtomicStore(backend)});const attempt=id=>({operationId:id,siteId:id,hardMaximumUsd:60,allChargesBounded:true});const results=await Promise.allSettled([reserve(config(),attempt('a')),reserve(config(),attempt('b'))]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);assert.match(results.find(x=>x.status==='rejected').reason.message,/GLOBAL_DAILY_BUDGET_EXCEEDED/);await assert.rejects(reserve(config(),attempt('c')),/GLOBAL_DAILY_BUDGET_EXCEEDED/);});
+test('conflicts stop before any paid callback',async()=>{let calls=0;const store=persistentAtomicStore({read:async()=>({version:'x',entries:{}}),compareAndSwap:async()=>false});await assert.rejects(store.transaction(async tx=>{await tx.put('x',1);return 1;}),/LEDGER_CONFLICT_LIMIT_REACHED/);assert.equal(calls,0);});
