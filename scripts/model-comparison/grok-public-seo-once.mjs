@@ -4,9 +4,9 @@ import { MODEL, grokBody, grokMaximum, parseGrok } from './grok-nonreason-once.m
 import { nativeRequest, errorCodes } from './native-transport.mjs';
 import { safeText } from './run-once.mjs';
 
-export const PRIOR_RESERVED_USD = 0.1943776;
+export const PRIOR_RESERVED_USD = 0.2358576;
 export const NEXT_RESERVED_USD = 0.04148;
-export const CUMULATIVE_RESERVED_USD = 0.2358576;
+export const CUMULATIVE_RESERVED_USD = 0.2773376;
 // All supplied evidence below was extracted only from public HTTPS responses.
 // No repository sources, account data, private diagnosis, or credentials.
 export const PUBLIC_EVIDENCE = {
