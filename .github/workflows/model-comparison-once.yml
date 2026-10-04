@@ -85,6 +85,30 @@ jobs:
           path: comparison-results/grok-nonreason-result.json
           if-no-files-found: ignore
           retention-days: 7
+  public-seo-once:
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '6504d880df8fcdd88e11a9bbbc0dc9ee59460b62' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: scripts/model-comparison
+      - name: Check bounded public SEO review without credentials
+        run: node --test scripts/model-comparison/grok-public-seo-once.test.mjs scripts/model-comparison/native-transport.test.mjs
+      - name: One budgeted public-page SEO review without retries
+        env:
+          GROK_TEST_KEY: ${{ secrets.GROK_API_KEY }}
+        run: node scripts/model-comparison/grok-public-seo-once.mjs
+      - name: Retain sanitized public recommendations and usage
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: grok-public-seo-review-once
+          path: comparison-results/grok-public-seo-result.json
+          if-no-files-found: ignore
+          retention-days: 7
   transport-diagnostic:
     if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == 'a9eb6b32ebf8e1e2dc85b91b80a71dabc037e122' && github.run_attempt == 1
     runs-on: ubuntu-latest
