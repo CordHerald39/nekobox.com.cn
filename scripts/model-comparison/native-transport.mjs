@@ -4,7 +4,7 @@ export const allowedCodes = new Set(['ENOTFOUND','EAI_AGAIN','ECONNREFUSED','ECO
 export function errorCodes(error) { return [...new Set([error?.code,error?.cause?.code,...(error?.cause?.errors??[]).map(e=>e.code)].filter(c=>allowedCodes.has(c)))]; }
 export function nativeRequest(url, options = {}) {
   const target = new URL(url), method = options.method ?? 'GET';
-  if (target.origin !== 'https://booltoken.com' || !['/','/recharge-info','/v1/models','/v1/messages','/v1/responses'].includes(target.pathname) || target.search || target.username || target.password || !['GET','POST'].includes(method) || (method === 'POST' && !['/v1/messages','/v1/responses'].includes(target.pathname))) throw new Error('DISALLOWED_TARGET');
+  if (target.origin !== 'https://booltoken.com' || !['/','/recharge-info','/v1/models','/v1/messages','/v1/responses','/v1/chat/completions'].includes(target.pathname) || target.search || target.username || target.password || !['GET','POST'].includes(method) || (method === 'POST' && !['/v1/messages','/v1/responses','/v1/chat/completions'].includes(target.pathname))) throw new Error('DISALLOWED_TARGET');
   const family = options.family ?? 4;
   if (![4,6].includes(family)) throw new Error('DISALLOWED_FAMILY');
   // Per-request address-family selection only; default certificate validation
