@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   grok46-connect-once:
-    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == 'd3806408932fa1189ec641b6c328ec8dd8256003' && github.run_attempt == 1
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '4b2361bf2e8452f40a4da2708548f9881bf1e86d' && github.run_attempt == 1
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
@@ -28,7 +28,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: grok46-connect-once
+          name: grok46-connect-diagnostic-once
           path: comparison-results/grok46-connect-result.json
           if-no-files-found: ignore
           retention-days: 7
