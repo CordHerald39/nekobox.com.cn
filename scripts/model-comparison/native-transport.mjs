@@ -7,6 +7,8 @@ export function nativeRequest(url, options = {}) {
   if (target.origin !== 'https://booltoken.com' || !['/','/recharge-info','/v1/models','/v1/messages','/v1/responses','/v1/chat/completions'].includes(target.pathname) || target.search || target.username || target.password || !['GET','POST'].includes(method) || (method === 'POST' && !['/v1/messages','/v1/responses','/v1/chat/completions'].includes(target.pathname))) throw new Error('DISALLOWED_TARGET');
   const family = options.family ?? 4;
   if (![4,6].includes(family)) throw new Error('DISALLOWED_FAMILY');
+  const maxResponseBytes=options.maxResponseBytes??100000;
+  if(!Number.isSafeInteger(maxResponseBytes)||maxResponseBytes<1||maxResponseBytes>2000000)throw new Error('DISALLOWED_RESPONSE_BOUND');
   // Per-request address-family selection only; default certificate validation
   // stays enabled. No system DNS, network, proxy, or TLS configuration changes.
   return new Promise((resolve,reject)=> {
@@ -16,7 +18,7 @@ export function nativeRequest(url, options = {}) {
       const status = response.statusCode;
       if (options.headersOnly) { clearTimeout(timer); completed=true; resolve({status,contentType:typeof response.headers['content-type']==='string'?response.headers['content-type'].split(';')[0]:null}); response.destroy(); return; }
       let bytes=0; const chunks=[];
-      response.on('data',chunk=>{bytes+=chunk.length;if(bytes>100000){response.destroy(new Error('RESPONSE_TOO_LARGE'));return;}chunks.push(chunk);});
+      response.on('data',chunk=>{bytes+=chunk.length;if(bytes>maxResponseBytes){response.destroy(new Error('RESPONSE_TOO_LARGE'));return;}chunks.push(chunk);});
       response.on('error',error=>{clearTimeout(timer);if(!completed){completed=true;reject(error);}});
       response.on('end',()=>{clearTimeout(timer);if(!completed){completed=true;const body=Buffer.concat(chunks).toString('utf8');resolve({ok:status>=200&&status<300,status,text:async()=>body});}});
     });
