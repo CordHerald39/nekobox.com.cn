@@ -30,7 +30,7 @@ jobs:
           GROK_TEST_KEY: ${{ secrets.GROK_API_KEY }}
         run: node scripts/model-comparison/daily-runner.mjs
       - name: Retain public generation and sanitized usage only
-        if: steps.reservation.outputs.ready == 'true'
+        if: always() && steps.reservation.outputs.ready == 'true'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: daily-public-result

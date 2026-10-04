@@ -7,7 +7,7 @@ export function githubLedgerBackend(api){let commit;
     const ref=unwrap(await api.fetch({url:'https://api.github.com/repos/'+REPO+'/git/ref/heads/'+BRANCH}));
     commit=unwrap(await api.fetch({url:'https://api.github.com/repos/'+REPO+'/git/commits/'+ref.object.sha}));
     const file=unwrap(await api.fetch({url:'https://api.github.com/repos/'+REPO+'/contents/'+REQUEST_PATH+'?ref='+ref.object.sha}));
-    const ledger=JSON.parse(Buffer.from(file.content.replace(/\s/g,''),'base64').toString('utf8').replace(/^\uFEFF/,''));
+    const ledger=file.version===1&&Array.isArray(file.days)?file:JSON.parse(Buffer.from(file.content.replace(/\s/g,''),'base64').toString('utf8').replace(/^\uFEFF/,''));
     return {sha:ref.object.sha,ledger};
   },async commitIfHead(expected,path,content){
     if(!commit||commit.sha!==expected||path!==REQUEST_PATH)throw Error('INVALID_CAS_BASE');

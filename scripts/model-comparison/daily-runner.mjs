@@ -20,6 +20,7 @@ export function boundedPublicInput(input){
   if(input===undefined)return undefined;
   if(typeof input?.topic!=='string'||input.topic.length>200||!Array.isArray(input.evidence)||input.evidence.length<1||input.evidence.length>8)throw Error('INVALID_PUBLIC_EVIDENCE');
   for(const item of input.evidence){const url=new URL(item.url);if(url.protocol!=='https:'||url.username||url.password||url.search||url.hash||!/[a-z]/i.test(url.hostname)||url.hostname==='localhost'||!Array.isArray(item.facts)||item.facts.some(x=>typeof x!=='string'))throw Error('INVALID_PUBLIC_EVIDENCE');}
+  if(new Set(input.evidence.map(x=>new URL(x.url).hostname)).size>5)throw Error('TOO_MANY_SOURCE_DOMAINS');
   const encoded=safeText(JSON.stringify(input),[]);if(Buffer.byteLength(encoded)>12000)throw Error('PUBLIC_INPUT_TOO_LARGE');return JSON.parse(encoded);
 }
 const chinese=text=>(text.match(/[\u3400-\u9fff]/g)??[]).length;
@@ -45,6 +46,6 @@ export async function main(){context(process.env);const current=JSON.parse((awai
   const request=verifyTransition(previous,current);
   if(process.argv.includes('--preflight')){if(process.env.GITHUB_OUTPUT)await writeFile(process.env.GITHUB_OUTPUT,'ready='+Boolean(request)+'\n',{flag:'a'});console.log(request?'RESERVATION_VALID':'NO_PAID_REQUEST');return;}
   if(!request)throw Error('NO_RESERVED_REQUEST');const key=process.env.GROK_TEST_KEY?.trim();if(!key)throw Error('MISSING_SECRET');
-  const report=await runReserved(request,key),encoded=safeText(JSON.stringify(report,null,2),[key]);await mkdir('comparison-results',{recursive:true});await writeFile('comparison-results/daily-public-result.json',encoded);console.log(encoded);if(report.status!=='completed')process.exitCode=1;
+  const report={operationId:request.operationId,...await runReserved(request,key)},encoded=safeText(JSON.stringify(report,null,2),[key]);await mkdir('comparison-results',{recursive:true});await writeFile('comparison-results/daily-public-result.json',encoded);console.log('DAILY_PUBLIC_RESULT='+safeText(JSON.stringify(report),[key]));if(report.status!=='completed')process.exitCode=1;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)main().catch(()=>{console.error('CONTROLLED_DAILY_REQUEST_STOPPED');process.exitCode=1;});
