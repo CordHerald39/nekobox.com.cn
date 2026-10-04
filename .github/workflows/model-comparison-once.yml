@@ -86,7 +86,7 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
   public-seo-once:
-    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == '6504d880df8fcdd88e11a9bbbc0dc9ee59460b62' && github.run_attempt == 1
+    if: github.repository == 'CordHerald39/nekobox.com.cn' && github.ref == 'refs/heads/comparison/grok-claude-once-20261003' && github.event.before == 'ee5d69e1a3544f17194dc1b09c1a9f46fb2e028d' && github.run_attempt == 1
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
@@ -105,7 +105,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: grok-public-seo-review-once
+          name: grok-public-article-seo-review-once
           path: comparison-results/grok-public-seo-result.json
           if-no-files-found: ignore
           retention-days: 7
