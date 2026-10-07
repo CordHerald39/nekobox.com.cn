@@ -8,7 +8,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/v2rayng-android-download/",
       "source": "https://github.com/2dust/v2rayNG",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "v2rayng-android-download"
     },
@@ -18,7 +18,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/clash-meta-android-download/",
       "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-meta-android-download"
     },
@@ -28,7 +28,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/sing-box-android-download/",
       "source": "https://github.com/SagerNet/sing-box",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "sing-box-android-download"
     },
@@ -38,7 +38,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/v2rayn-windows-download/",
       "source": "https://github.com/2dust/v2rayN",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "v2rayn-windows-download"
     },
@@ -48,11 +48,13 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/clash-verge-rev-windows-download/",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-verge-rev-windows-download"
     }
   ],
-  "publishStatus": "blocked",
-  "publishNote": "Local tests/build passed; git push failed because github.com:443 was unreachable. GitHub API read endpoint returned 200, but no authenticated write path was available."
+  "publishStatus": "published",
+  "publishNote": "Local tests/build passed; git push failed because github.com:443 was unreachable. GitHub API read endpoint returned 200, but no authenticated write path was available.",
+  "publishedCommit": "1d7678c94966b4cb5f22db8e7b78877c155cb922",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/37572406006"
 }
