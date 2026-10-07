@@ -18,5 +18,55 @@
     "description": "桌面历史项目，开发者文档标记为已存档、不再维护。",
     "guidance": "此入口用于历史资料核对，不作为当前维护版本推荐。参阅开发者文档中的迁移与替代项。",
     "tag": "历史资料"
+  },
+  {
+    "slug": "v2rayng-android",
+    "title": "v2rayNG",
+    "icon": "V",
+    "platform": "Android",
+    "repository": "2dust/v2rayNG",
+    "description": "Android 代理客户端，下载入口与发行资产以原始仓库为准。",
+    "guidance": "进入项目 Releases 核对当前安装包、发行标签和设备架构，不把第三方重打包页面当作官方入口。",
+    "tag": "Android 项目"
+  },
+  {
+    "slug": "clash-meta-android",
+    "title": "Clash Meta for Android",
+    "icon": "M",
+    "platform": "Android",
+    "repository": "MetaCubeX/ClashMetaForAndroid",
+    "description": "基于 Clash Meta 内核的 Android 客户端项目，按原始仓库核对下载与配置。",
+    "guidance": "项目发行页和 README 的平台说明可能随版本变化，先确认当前资产与配置格式，再导入订阅。",
+    "tag": "Android 项目"
+  },
+  {
+    "slug": "sing-box-android",
+    "title": "sing-box",
+    "icon": "S",
+    "platform": "Android · 多平台",
+    "repository": "SagerNet/sing-box",
+    "description": "支持多平台的代理核心项目，使用时需区分核心、客户端和配置文件。",
+    "guidance": "下载前阅读官方文档和 Releases，确认目标平台、构建类型与配置版本，不把核心压缩包当成完整图形客户端。",
+    "tag": "跨平台项目"
+  },
+  {
+    "slug": "v2rayn-windows",
+    "title": "v2rayN",
+    "icon": "N",
+    "platform": "Windows",
+    "repository": "2dust/v2rayN",
+    "description": "Windows 代理客户端项目，安装包与发行通道由原始仓库维护。",
+    "guidance": "先在 Releases 核对 Windows 资产和运行要求，再按项目说明导入配置；升级前保留旧配置。",
+    "tag": "Windows 项目"
+  },
+  {
+    "slug": "clash-verge-rev-windows",
+    "title": "Clash Verge Rev",
+    "icon": "C",
+    "platform": "Windows · macOS · Linux",
+    "repository": "clash-verge-rev/clash-verge-rev",
+    "description": "桌面代理客户端项目，按官方仓库和发行页选择平台资产。",
+    "guidance": "发行页可能同时包含多个系统和测试通道，先确认平台、架构和是否为预发布版本。",
+    "tag": "桌面项目"
   }
 ]

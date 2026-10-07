@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "site": "nekobox.com.cn",
+  "entries": [
+    {
+      "keyword": "v2rayNG 安卓下载",
+      "intent": "下载",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/v2rayng-android-download/",
+      "source": "https://github.com/2dust/v2rayNG",
+      "status": "built-local-push-blocked",
+      "publishedDate": "2026-10-07",
+      "article": "v2rayng-android-download"
+    },
+    {
+      "keyword": "Clash Meta for Android 下载",
+      "intent": "下载",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/clash-meta-android-download/",
+      "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "status": "built-local-push-blocked",
+      "publishedDate": "2026-10-07",
+      "article": "clash-meta-android-download"
+    },
+    {
+      "keyword": "sing-box 安卓下载",
+      "intent": "下载与配置",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-android-download/",
+      "source": "https://github.com/SagerNet/sing-box",
+      "status": "built-local-push-blocked",
+      "publishedDate": "2026-10-07",
+      "article": "sing-box-android-download"
+    },
+    {
+      "keyword": "v2rayN Windows 下载",
+      "intent": "下载与安装",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/v2rayn-windows-download/",
+      "source": "https://github.com/2dust/v2rayN",
+      "status": "built-local-push-blocked",
+      "publishedDate": "2026-10-07",
+      "article": "v2rayn-windows-download"
+    },
+    {
+      "keyword": "Clash Verge Rev Windows 下载",
+      "intent": "下载与安装",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/clash-verge-rev-windows-download/",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "status": "built-local-push-blocked",
+      "publishedDate": "2026-10-07",
+      "article": "clash-verge-rev-windows-download"
+    }
+  ],
+  "publishStatus": "blocked",
+  "publishNote": "Local tests/build passed; git push failed because github.com:443 was unreachable. GitHub API read endpoint returned 200, but no authenticated write path was available."
+}
