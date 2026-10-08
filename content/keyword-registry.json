@@ -54,7 +54,7 @@
     },
     {
       "url": "/articles/v2rayng-android-subscription-update-failed/",
-      "status": "pending",
+      "status": "published",
       "keyword": "v2rayNG 安卓订阅更新失败",
       "article": "v2rayng-android-subscription-update-failed",
       "targetSite": "nekobox.com.cn",
@@ -64,7 +64,7 @@
     },
     {
       "url": "/articles/clash-meta-android-vpn-permission/",
-      "status": "pending",
+      "status": "published",
       "keyword": "Clash Meta for Android VPN 权限",
       "article": "clash-meta-android-vpn-permission",
       "targetSite": "nekobox.com.cn",
@@ -74,7 +74,7 @@
     },
     {
       "url": "/articles/sing-box-config-migration/",
-      "status": "pending",
+      "status": "published",
       "keyword": "sing-box 配置迁移",
       "article": "sing-box-config-migration",
       "targetSite": "nekobox.com.cn",
@@ -84,7 +84,7 @@
     },
     {
       "url": "/articles/xray-core-windows-download/",
-      "status": "pending",
+      "status": "published",
       "keyword": "Xray-core Windows 下载",
       "article": "xray-core-windows-download",
       "targetSite": "nekobox.com.cn",
@@ -94,7 +94,7 @@
     },
     {
       "url": "/articles/mihomo-config-version-migration/",
-      "status": "pending",
+      "status": "published",
       "keyword": "mihomo 配置版本迁移",
       "article": "mihomo-config-version-migration",
       "targetSite": "nekobox.com.cn",
@@ -103,8 +103,8 @@
       "publishedDate": "2026-10-08"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "本轮内容已生成并待部署核验。",
-  "publishedCommit": "1d7678c94966b4cb5f22db8e7b78877c155cb922",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/37572406006"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 已提交，Actions/Pages 成功，线上页面已核验。",
+  "publishedCommit": "7c58f344e8b68590ae6f02781f8c67a8210b084f",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/37711795753"
 }
