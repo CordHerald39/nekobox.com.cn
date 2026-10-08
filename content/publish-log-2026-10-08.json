@@ -11,16 +11,60 @@
   ],
   "allocationReason": "NekoBox 已覆盖上一轮下载主词，本轮补充 Android 订阅故障、VPN 权限、配置迁移、Xray-core Windows 下载和 mihomo 版本迁移意图。",
   "sourceChecks": [
-    {"url":"https://github.com/2dust/v2rayNG","status":200},
-    {"url":"https://github.com/MetaCubeX/ClashMetaForAndroid","status":200},
-    {"url":"https://github.com/SagerNet/sing-box","status":200},
-    {"url":"https://github.com/XTLS/Xray-core","status":200},
-    {"url":"https://github.com/MetaCubeX/mihomo","status":200}
+    {
+      "url": "https://github.com/2dust/v2rayNG",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SagerNet/sing-box",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/XTLS/Xray-core",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/MetaCubeX/mihomo",
+      "status": 200
+    }
   ],
-  "tests": {"command":"pnpm test","status":"passed"},
-  "audit": {"command":"pnpm run audit","status":"passed","note":"Lighthouse reports generated for home, downloads and article routes."},
-  "build": {"command":"pnpm build","status":"passed","sitemapUrls":52,"articleCount":35},
-  "publish": {"status":"pending","reason":"待检查远端 ancestry、凭据和 GitHub API 写权限。"},
-  "liveVerification": {"status":"pending","reason":"尚未发布。"},
-  "nextTodo": ["检查 origin/main 与本地新增文件的 ancestry", "通过 GitHub Data API 或安全 Git 入口提交", "等待 Actions/Pages 成功后核对 5 个新 URL、sitemap、canonical、robots 和 CSS"]
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "note": "Lighthouse reports generated for home, downloads and article routes."
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "sitemapUrls": 52,
+    "articleCount": 35
+  },
+  "publish": {
+    "status": "published-via-git-data-api",
+    "remoteSha": "7c58f344e8b68590ae6f02781f8c67a8210b084f",
+    "workflowRun": 37711795753,
+    "conclusion": "success"
+  },
+  "liveVerification": {
+    "home": 200,
+    "css": 200,
+    "robots": 200,
+    "sitemap": 200,
+    "newArticleSamples": 200,
+    "canonical": "verified",
+    "sitemapUrls": 52,
+    "articleCount": 35
+  },
+  "nextTodo": [
+    "下一轮继续读取远端 10 条登记，跳过本轮已发布 URL",
+    "保留两站 API-first 发布与线上核验流程"
+  ]
 }
