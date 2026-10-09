@@ -12,9 +12,9 @@
       "sources": [
         "https://raw.githubusercontent.com/2dust/v2rayNG/master/README.md"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "v2rayng-rules-dat-update-failed",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -28,9 +28,9 @@
         "https://raw.githubusercontent.com/2dust/v2rayNG/master/README.md",
         "https://www.gnupg.org/documentation/manuals/gnupg/Operational-GPG-Commands.html"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "v2rayng-apk-signature-check",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -43,9 +43,9 @@
       "sources": [
         "https://wiki.metacubex.one/config/rules/"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "mihomo-rule-order",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -58,9 +58,9 @@
       "sources": [
         "https://xtls.github.io/document/command.html"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "xray-core-config-test",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -75,9 +75,9 @@
         "https://sing-box.sagernet.org/configuration/dns/",
         "https://sing-box.sagernet.org/configuration/"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "sing-box-dns-server-migration",
       "sourceVerifiedDate": "2026-10-09"
     }
@@ -254,10 +254,91 @@
     "existingArticleBodiesUnchanged": true
   },
   "publish": {
-    "status": "pending",
-    "base": "7c5a820198d427664a449f8b7a834b7c65947b08"
+    "status": "published-via-git-data-api",
+    "remoteSha": "a9ed46d1baeb6375e4b289c87e2ce6d55fa9a208",
+    "workflowRuns": [
+      {
+        "id": 37868627142,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/37868627142",
+        "head_sha": "a9ed46d1baeb6375e4b289c87e2ce6d55fa9a208"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-09T01:14:32.954136+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/v2rayng-rules-dat-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/v2rayng-apk-signature-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-rule-order/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-config-test/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-dns-server-migration/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/software/mihomo/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/software/xray-core/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 59,
+    "articleCount": 40,
+    "status": "passed"
+  }
 }
