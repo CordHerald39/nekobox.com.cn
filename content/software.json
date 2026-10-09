@@ -68,5 +68,25 @@
     "description": "桌面代理客户端项目，按官方仓库和发行页选择平台资产。",
     "guidance": "发行页可能同时包含多个系统和测试通道，先确认平台、架构和是否为预发布版本。",
     "tag": "桌面项目"
+  },
+  {
+    "slug": "mihomo",
+    "title": "mihomo",
+    "icon": "M",
+    "platform": "Windows · macOS · Linux",
+    "repository": "MetaCubeX/mihomo",
+    "description": "mihomo 代理核心的原始仓库、下载入口与规则配置资料。",
+    "guidance": "按 Releases 核对平台与架构；核心不是图形客户端，规则语法以官方文档为准。",
+    "tag": "代理核心"
+  },
+  {
+    "slug": "xray-core",
+    "title": "Xray-core",
+    "icon": "X",
+    "platform": "Windows · macOS · Linux",
+    "repository": "XTLS/Xray-core",
+    "description": "Xray-core 原始发行入口与配置校验资料。",
+    "guidance": "核对资产平台、架构与发行说明；下载核心后先在配置副本上执行校验。",
+    "tag": "代理核心"
   }
 ]
