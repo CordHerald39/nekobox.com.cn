@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-10",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "allocationReason": "默认各 5 篇；本轮补充 Android 配置导入、TUN、DNS 与 Linux 下载缺口。",
+  "articles": [
+    {"keyword":"v2rayNG 安卓配置导入","intent":"配置导入","targetSite":"nekobox.com.cn","url":"/articles/v2rayng-android-profile-import/","source":"https://github.com/2dust/v2rayNG","status":"pending","plannedDate":"2026-10-10","article":"v2rayng-android-profile-import","sourceVerifiedDate":"2026-10-10"},
+    {"keyword":"Clash Meta for Android 配置链接导入","intent":"配置导入","targetSite":"nekobox.com.cn","url":"/articles/clash-meta-android-profile-link/","source":"https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/master/README.md","status":"pending","plannedDate":"2026-10-10","article":"clash-meta-android-profile-link","sourceVerifiedDate":"2026-10-10"},
+    {"keyword":"sing-box TUN 入站配置","intent":"TUN 配置","targetSite":"nekobox.com.cn","url":"/articles/sing-box-tun-inbound-config/","source":"https://sing-box.sagernet.org/configuration/inbound/tun/","status":"pending","plannedDate":"2026-10-10","article":"sing-box-tun-inbound-config","sourceVerifiedDate":"2026-10-10"},
+    {"keyword":"mihomo DNS 配置检查","intent":"DNS 配置与排错","targetSite":"nekobox.com.cn","url":"/articles/mihomo-dns-config-check/","source":"https://wiki.metacubex.one/config/dns/","status":"pending","plannedDate":"2026-10-10","article":"mihomo-dns-config-check","sourceVerifiedDate":"2026-10-10"},
+    {"keyword":"Xray-core Linux 下载","intent":"Linux 下载与安装","targetSite":"nekobox.com.cn","url":"/articles/xray-core-linux-download/","source":"https://github.com/XTLS/Xray-core/releases","status":"pending","plannedDate":"2026-10-10","article":"xray-core-linux-download","sourceVerifiedDate":"2026-10-10"}
+  ],
+  "sourceChecks": [
+    {"url":"https://github.com/2dust/v2rayNG","status":200},
+    {"url":"https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/master/README.md","status":200},
+    {"url":"https://sing-box.sagernet.org/configuration/inbound/tun/","status":"official-source"},
+    {"url":"https://wiki.metacubex.one/config/dns/","status":200},
+    {"url":"https://github.com/XTLS/Xray-core/releases","status":200}
+  ],
+  "tests":{"command":"pnpm test","status":"passed"},
+  "audit":{"command":"pnpm run audit","status":"passed","scores":{"home-mobile":100,"home-desktop":100,"downloads-mobile":100,"article-mobile":100}},
+  "build":{"command":"pnpm build","status":"passed","articleCount":45,"sitemapUrls":64},
+  "publishStatus":"pending",
+  "publishNote":"内容与登记已生成，待 Git Data API 提交、Actions/Pages 和正式页面核验。",
+  "nextTodo":["以 origin/main 为父提交发布本轮新增文件与登记。","部署成功后回写 published 状态并核对 5 个新文章 URL。"]
+}
