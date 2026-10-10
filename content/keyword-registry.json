@@ -189,10 +189,11 @@
       "sources": [
         "https://github.com/2dust/v2rayNG"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-10",
       "article": "v2rayng-android-profile-import",
-      "sourceVerifiedDate": "2026-10-10"
+      "sourceVerifiedDate": "2026-10-10",
+      "publishedDate": "2026-10-10"
     },
     {
       "keyword": "Clash Meta for Android 配置链接导入",
@@ -203,10 +204,11 @@
       "sources": [
         "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/master/README.md"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-10",
       "article": "clash-meta-android-profile-link",
-      "sourceVerifiedDate": "2026-10-10"
+      "sourceVerifiedDate": "2026-10-10",
+      "publishedDate": "2026-10-10"
     },
     {
       "keyword": "sing-box TUN 入站配置",
@@ -218,10 +220,11 @@
         "https://sing-box.sagernet.org/configuration/inbound/tun/",
         "https://sing-box.sagernet.org/configuration/"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-10",
       "article": "sing-box-tun-inbound-config",
-      "sourceVerifiedDate": "2026-10-10"
+      "sourceVerifiedDate": "2026-10-10",
+      "publishedDate": "2026-10-10"
     },
     {
       "keyword": "mihomo DNS 配置检查",
@@ -232,10 +235,11 @@
       "sources": [
         "https://wiki.metacubex.one/config/dns/"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-10",
       "article": "mihomo-dns-config-check",
-      "sourceVerifiedDate": "2026-10-10"
+      "sourceVerifiedDate": "2026-10-10",
+      "publishedDate": "2026-10-10"
     },
     {
       "keyword": "Xray-core Linux 下载",
@@ -246,14 +250,15 @@
       "sources": [
         "https://github.com/XTLS/Xray-core/releases"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-10",
       "article": "xray-core-linux-download",
-      "sourceVerifiedDate": "2026-10-10"
+      "sourceVerifiedDate": "2026-10-10",
+      "publishedDate": "2026-10-10"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "本轮内容已生成，待 Git Data API、Actions/Pages 与正式页面核验。",
-  "publishedCommit": null,
-  "deploymentUrl": null
-}`n
+  "publishStatus": "published",
+  "publishNote": "Git Data API 内容提交、Actions/Pages 成功，5 篇新文章及正式页面已验证。",
+  "publishedCommit": "7d16f966f69f370acab70919b1896b0d49c286ed",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38012898922"
+}
