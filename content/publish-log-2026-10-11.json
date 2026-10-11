@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-11",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box 规则集更新失败",
+      "intent": "规则集下载与更新故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-rule-set-update-failed/",
+      "article": "sing-box-rule-set-update-failed",
+      "source": "https://sing-box.sagernet.org/configuration/rule-set/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/rule-set/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box urltest 自动选节点",
+      "intent": "自动选择出站配置与切换验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-urltest-auto-select/",
+      "article": "sing-box-urltest-auto-select",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/urltest/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/urltest/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo 代理集合更新失败",
+      "intent": "代理集合下载与健康检查故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-provider-update-failed/",
+      "article": "mihomo-proxy-provider-update-failed",
+      "source": "https://wiki.metacubex.one/config/proxy-providers/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-providers/",
+        "https://wiki.metacubex.one/api/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo 控制接口连接失败",
+      "intent": "控制API监听与认证故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-controller-connect-failed/",
+      "article": "mihomo-controller-connect-failed",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/",
+        "https://wiki.metacubex.one/api/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 日志配置",
+      "intent": "日志配置与连接故障定位",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-log-config/",
+      "article": "xray-core-log-config",
+      "source": "https://xtls.github.io/config/log.html",
+      "sources": [
+        "https://xtls.github.io/config/log.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "保留默认5篇：NekoBox主软件下载、订阅、DNS、权限、迁移等已覆盖，本轮补充已建独立软件专题的规则集、自动选择、代理集合、控制接口和日志需求。无搜索量或排名推断。",
+  "sourceChecks": [
+    {
+      "key": "neko-singbox-ruleset",
+      "url": "https://sing-box.sagernet.org/configuration/rule-set/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/rule-set/",
+      "status": 200,
+      "sha256": "318a3548fa0162998061e4b59d4366e677777ac4bc35db6b187836c775f4a4b8",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-singbox-urltest",
+      "url": "https://sing-box.sagernet.org/configuration/outbound/urltest/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/urltest/",
+      "status": 200,
+      "sha256": "66fc6838366e085ce48b8221ae35e4f2018390b18ea4d4b90c9dd0c2254f7a08",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-singbox-config",
+      "url": "https://sing-box.sagernet.org/configuration/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/",
+      "status": 200,
+      "sha256": "4e9aaadb1961e883b378e2e4123cbf1f3bdd98fa88350ec57354860c544950d5",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-mihomo-provider",
+      "url": "https://wiki.metacubex.one/config/proxy-providers/",
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-providers/",
+      "status": 200,
+      "sha256": "ed04b770f07b1693e3ea542abdf1d2a36b61cdc2e2fa6e7cf3f33ff16fabe195",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-mihomo-general",
+      "url": "https://wiki.metacubex.one/config/general/",
+      "finalUrl": "https://wiki.metacubex.one/config/general/",
+      "status": 200,
+      "sha256": "b8835551c4e1ae27d16c1663cc989816a6d6340bd86b68b34be1718f10dd5427",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-mihomo-api",
+      "url": "https://wiki.metacubex.one/api/",
+      "finalUrl": "https://wiki.metacubex.one/api/",
+      "status": 200,
+      "sha256": "916dc3c0c899d6041b09dee9a167579e612d43984905ca0f66983c6bdaa192c8",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-xray-log",
+      "url": "https://xtls.github.io/config/log.html",
+      "finalUrl": "https://xtls.github.io/config/log.html",
+      "status": 200,
+      "sha256": "177dc91ab7fdc9b7f1040faf905593a8a5afdd56d65b620a7c4ca4e7a8cd199a",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    },
+    {
+      "key": "neko-xray-command",
+      "url": "https://xtls.github.io/document/command.html",
+      "finalUrl": "https://xtls.github.io/document/command.html",
+      "status": 200,
+      "sha256": "ab801f1c388e7a662d2b6a8170a6b20585ccd199fad943a7c69959efcb81aa68",
+      "checkedAt": "2026-10-11T01:11:39.148979+00:00"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 50
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-11T01:15:04.047932+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-rule-set-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-urltest-auto-select/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-proxy-provider-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-controller-connect-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-log-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 69,
+    "articleCount": 50,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 113,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "f62368caa104bfce6099a59d48866da6d4890b7e"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

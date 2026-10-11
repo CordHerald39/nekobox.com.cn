@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -255,10 +255,88 @@
       "article": "xray-core-linux-download",
       "sourceVerifiedDate": "2026-10-10",
       "publishedDate": "2026-10-10"
+    },
+    {
+      "keyword": "sing-box 规则集更新失败",
+      "intent": "规则集下载与更新故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-rule-set-update-failed/",
+      "article": "sing-box-rule-set-update-failed",
+      "source": "https://sing-box.sagernet.org/configuration/rule-set/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/rule-set/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box urltest 自动选节点",
+      "intent": "自动选择出站配置与切换验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-urltest-auto-select/",
+      "article": "sing-box-urltest-auto-select",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/urltest/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/urltest/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo 代理集合更新失败",
+      "intent": "代理集合下载与健康检查故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-provider-update-failed/",
+      "article": "mihomo-proxy-provider-update-failed",
+      "source": "https://wiki.metacubex.one/config/proxy-providers/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-providers/",
+        "https://wiki.metacubex.one/api/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo 控制接口连接失败",
+      "intent": "控制API监听与认证故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-controller-connect-failed/",
+      "article": "mihomo-controller-connect-failed",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/",
+        "https://wiki.metacubex.one/api/"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 日志配置",
+      "intent": "日志配置与连接故障定位",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-log-config/",
+      "article": "xray-core-log-config",
+      "source": "https://xtls.github.io/config/log.html",
+      "sources": [
+        "https://xtls.github.io/config/log.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-11",
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 内容提交、Actions/Pages 成功，5 篇新文章及正式页面已验证。",
-  "publishedCommit": "7d16f966f69f370acab70919b1896b0d49c286ed",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38012898922"
+  "publishStatus": "pending",
+  "publishNote": "新增5篇已生成并登记，待质量门与API提交、Actions/Pages和正式页面验证。"
 }
