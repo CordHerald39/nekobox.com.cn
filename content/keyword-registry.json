@@ -268,9 +268,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "sing-box urltest 自动选节点",
@@ -284,9 +284,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "mihomo 代理集合更新失败",
@@ -300,9 +300,9 @@
         "https://wiki.metacubex.one/api/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "mihomo 控制接口连接失败",
@@ -316,9 +316,9 @@
         "https://wiki.metacubex.one/api/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "Xray-core 日志配置",
@@ -332,11 +332,13 @@
         "https://xtls.github.io/document/command.html"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "新增5篇已生成并登记，待质量门与API提交、Actions/Pages和正式页面验证。"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "40f1fd1b6e2dc899235fb331dbfdb7a3c518890e",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38101214208"
 }

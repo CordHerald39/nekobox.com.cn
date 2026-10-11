@@ -15,9 +15,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "sing-box urltest 自动选节点",
@@ -31,9 +31,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "mihomo 代理集合更新失败",
@@ -47,9 +47,9 @@
         "https://wiki.metacubex.one/api/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "mihomo 控制接口连接失败",
@@ -63,9 +63,9 @@
         "https://wiki.metacubex.one/api/"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     },
     {
       "keyword": "Xray-core 日志配置",
@@ -79,9 +79,9 @@
         "https://xtls.github.io/document/command.html"
       ],
       "sourceVerifiedDate": "2026-10-11",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null
+      "publishedDate": "2026-10-11"
     }
   ],
   "allocationReason": "保留默认5篇：NekoBox主软件下载、订阅、DNS、权限、迁移等已覆盖，本轮补充已建独立软件专题的规则集、自动选择、代理集合、控制接口和日志需求。无搜索量或排名推断。",
@@ -264,10 +264,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "f62368caa104bfce6099a59d48866da6d4890b7e"
+    "status": "published-via-git-data-api",
+    "remoteSha": "40f1fd1b6e2dc899235fb331dbfdb7a3c518890e",
+    "workflowRuns": [
+      {
+        "id": 38101214208,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38101214208",
+        "head_sha": "40f1fd1b6e2dc899235fb331dbfdb7a3c518890e"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-11T01:17:42.091127+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-rule-set-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-urltest-auto-select/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-proxy-provider-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-controller-connect-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-log-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 69,
+    "articleCount": 50,
+    "status": "passed"
+  }
 }
