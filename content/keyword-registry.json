@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -335,10 +335,93 @@
       "status": "published",
       "plannedDate": "2026-10-11",
       "publishedDate": "2026-10-11"
+    },
+    {
+      "keyword": "mihomo mixed-port 局域网连接",
+      "intent": "局域网代理入口配置与认证故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-mixed-port-lan-connect/",
+      "article": "mihomo-mixed-port-lan-connect",
+      "source": "https://wiki.metacubex.one/config/inbound/port/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/port/",
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box SOCKS 入站配置",
+      "intent": "本机 SOCKS 监听、认证与应用接入",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-socks-inbound-config/",
+      "article": "sing-box-socks-inbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/socks/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/socks/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://curl.se/docs/manpage.html"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 路由规则",
+      "intent": "域名分流、入站标签与默认出站排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-rules/",
+      "article": "xray-core-routing-rules",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box HTTP 出站配置",
+      "intent": "上游 HTTP CONNECT 代理认证与 TLS 配置",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-http-outbound-config/",
+      "article": "sing-box-http-outbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/http/",
+        "https://sing-box.sagernet.org/configuration/shared/tls/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo 嗅探配置",
+      "intent": "协议端口、域名恢复与目标覆盖验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-sniffer-config-check/",
+      "article": "mihomo-sniffer-config-check",
+      "source": "https://wiki.metacubex.one/config/sniff/",
+      "sources": [
+        "https://wiki.metacubex.one/config/sniff/",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "draft",
+  "publishNote": "2026-10-12 新增5篇内容及唯一关键词已完成来源核验，待质量检查与发布；旧25条published登记保留。",
   "publishedCommit": "40f1fd1b6e2dc899235fb331dbfdb7a3c518890e",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38101214208"
 }

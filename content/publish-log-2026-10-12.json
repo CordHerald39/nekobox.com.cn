@@ -1,0 +1,308 @@
+{
+  "date": "2026-10-12",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo mixed-port 局域网连接",
+      "intent": "局域网代理入口配置与认证故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-mixed-port-lan-connect/",
+      "article": "mihomo-mixed-port-lan-connect",
+      "source": "https://wiki.metacubex.one/config/inbound/port/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/port/",
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box SOCKS 入站配置",
+      "intent": "本机 SOCKS 监听、认证与应用接入",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-socks-inbound-config/",
+      "article": "sing-box-socks-inbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/socks/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/socks/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://curl.se/docs/manpage.html"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 路由规则",
+      "intent": "域名分流、入站标签与默认出站排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-rules/",
+      "article": "xray-core-routing-rules",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box HTTP 出站配置",
+      "intent": "上游 HTTP CONNECT 代理认证与 TLS 配置",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-http-outbound-config/",
+      "article": "sing-box-http-outbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/http/",
+        "https://sing-box.sagernet.org/configuration/shared/tls/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo 嗅探配置",
+      "intent": "协议端口、域名恢复与目标覆盖验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-sniffer-config-check/",
+      "article": "mihomo-sniffer-config-check",
+      "source": "https://wiki.metacubex.one/config/sniff/",
+      "sources": [
+        "https://wiki.metacubex.one/config/sniff/",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-10-12",
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各站 5 篇；本轮补充已有软件的显式代理入口、上游出站、域名分流与嗅探缺口。与50篇既有文章及25条关键词登记核对，无同URL或相同主题，不新增软件目录。",
+  "sourceChecks": [
+    {
+      "url": "https://wiki.metacubex.one/config/inbound/port/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/inbound/port/",
+      "checkedAt": "2026-10-12T01:13:03.653Z",
+      "sha256": "c95d89d5e956d5a74cf8c4edcc4a2cb5f0849e4a64aa76e5d1cfdf23e40a4513",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\01.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/general/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/general/",
+      "checkedAt": "2026-10-12T01:13:03.583Z",
+      "sha256": "b8835551c4e1ae27d16c1663cc989816a6d6340bd86b68b34be1718f10dd5427",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\02.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/inbound/socks/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/inbound/socks/",
+      "checkedAt": "2026-10-12T01:13:03.752Z",
+      "sha256": "448bbe10a21ce7fb214bf72b2ada1342ac47e242a7581d70e9bf7ba8f7029455",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\03.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "checkedAt": "2026-10-12T01:13:03.756Z",
+      "sha256": "ecd06566d668c8ed47d52cfbed70a25fa16cb02d7f59960315ffcb06585a832e",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\04.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/",
+      "checkedAt": "2026-10-12T01:13:03.651Z",
+      "sha256": "a49e0daf66c16b9a67a7fbad4945ef1d85189b1ba09aa6835d5f3a6a195143ff",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\05.html"
+    },
+    {
+      "url": "https://curl.se/docs/manpage.html",
+      "status": 200,
+      "finalUrl": "https://curl.se/docs/manpage.html",
+      "checkedAt": "2026-10-12T01:13:04.002Z",
+      "sha256": "0ef77bad12997946fd2663bb2222b4201ab5cf3b2d724595cb099ca2ef58283d",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\06.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "checkedAt": "2026-10-12T01:13:03.653Z",
+      "sha256": "e0fc16026124b8dee15b607cdea1ff1769aea48d11dd1475acd1fcd75fbb43f6",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\07.html"
+    },
+    {
+      "url": "https://xtls.github.io/document/command.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/document/command.html",
+      "checkedAt": "2026-10-12T01:13:05.254Z",
+      "sha256": "911764f660df82511a04dc3440bd492035950a7f50946698919f5ddad45da7d3",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\08.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/outbound/http/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/http/",
+      "checkedAt": "2026-10-12T01:13:03.754Z",
+      "sha256": "10bb6c44409d0cefb9066dc549a96367088999ed7d46bc87f78412c49dc1d961",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\09.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "checkedAt": "2026-10-12T01:13:04.745Z",
+      "sha256": "edc7ebb8fe87d18ba584f61c04ac3676e5b1aac9a2d22bb578d7050f0ba40b68",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\10.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/sniff/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/sniff/",
+      "checkedAt": "2026-10-12T01:13:03.654Z",
+      "sha256": "8d0a51fb05450decea25689373e9ca6e2af1943636395c18acec0f5fcba9f476",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\11.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/rules/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/rules/",
+      "checkedAt": "2026-10-12T01:13:03.547Z",
+      "sha256": "f6b835012ca9ddbf06149ea69ab52575226e07da3ac7ac35ea101d549b97e1b7",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\nekobox.com.cn\\12.html"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 55
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-12T01:29:48.477708+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-mixed-port-lan-connect/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-socks-inbound-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-routing-rules/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-http-outbound-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-sniffer-config-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 74,
+    "articleCount": 55,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 119,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "1abb1c997934019230b87e1769f54bbc7b8b0bbc"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
