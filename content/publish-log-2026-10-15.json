@@ -15,9 +15,9 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "mihomo load-balance 策略",
@@ -31,9 +31,9 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "mihomo rule-providers 格式",
@@ -48,9 +48,9 @@
         "https://wiki.metacubex.one/config/rules/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "Xray-core HTTP 入站配置",
@@ -65,9 +65,9 @@
         "https://xtls.github.io/document/command.html"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "Xray-core DNS hosts",
@@ -81,9 +81,9 @@
         "https://xtls.github.io/document/command.html"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     }
   ],
   "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
@@ -282,10 +282,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "fa04863eeb7c47c6f94a602f13f6aabcb46f8485"
+    "status": "published-via-git-data-api",
+    "remoteSha": "66ffff843b0669030c37eec7439657cfafdc18f0",
+    "workflowRuns": [
+      {
+        "id": 38632416061,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38632416061",
+        "head_sha": "66ffff843b0669030c37eec7439657cfafdc18f0"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-14T20:30:31.650973+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-url-test-tolerance/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-load-balance-strategy/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-rule-provider-format/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-http-inbound-local/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-hosts-mapping/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 84,
+    "articleCount": 65,
+    "status": "passed"
+  }
 }
