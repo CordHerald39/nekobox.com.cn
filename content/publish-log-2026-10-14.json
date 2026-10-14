@@ -15,9 +15,9 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "mihomo store-selected",
@@ -31,9 +31,9 @@
         "https://wiki.metacubex.one/config/proxy-groups/select/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "sing-box SOCKS 出站配置",
@@ -48,9 +48,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "sing-box 日志配置",
@@ -64,9 +64,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "Xray-core SOCKS 入站配置",
@@ -83,9 +83,9 @@
         "https://curl.se/docs/httpscripting.html"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     }
   ],
   "allocationReason": "默认各5篇；承接10月13日已审核但未提交的10篇草稿，远端和正式站均确认尚无这些URL，刷新来源和日期后计入10月14日批次，不叠加补发。",
@@ -321,10 +321,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "9c851536e7df2858b5a2f1efab1ffab44e4dd945"
+    "status": "published-via-git-data-api",
+    "remoteSha": "878af9bc16a5a6be9ba8643d4a0b971a5af41141",
+    "workflowRuns": [
+      {
+        "id": 38515256173,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38515256173",
+        "head_sha": "878af9bc16a5a6be9ba8643d4a0b971a5af41141"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-14T05:12:02.554595+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-fallback-auto-switch/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-store-selected-persist/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-socks-outbound-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-log-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-socks-inbound-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 79,
+    "articleCount": 60,
+    "status": "passed"
+  }
 }
