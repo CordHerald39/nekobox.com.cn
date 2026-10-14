@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-15",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo url-test 自动选择",
+      "intent": "延迟探测、切换容差与实际选路验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-url-test-tolerance/",
+      "article": "mihomo-url-test-tolerance",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/url-test/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/url-test/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo load-balance 策略",
+      "intent": "多连接分配策略选择和会话路径检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-load-balance-strategy/",
+      "article": "mihomo-load-balance-strategy",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/load-balance/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/load-balance/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo rule-providers 格式",
+      "intent": "规则集合behavior/format不匹配与引用检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-rule-provider-format/",
+      "article": "mihomo-rule-provider-format",
+      "source": "https://wiki.metacubex.one/config/rule-providers/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rule-providers/",
+        "https://wiki.metacubex.one/config/rule-providers/content/",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core HTTP 入站配置",
+      "intent": "本机HTTP代理监听认证与应用接入验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-http-inbound-local/",
+      "article": "xray-core-http-inbound-local",
+      "source": "https://xtls.github.io/config/inbounds/http.html",
+      "sources": [
+        "https://xtls.github.io/config/inbounds/http.html",
+        "https://xtls.github.io/config/inbound.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS hosts",
+      "intent": "内置DNS静态映射范围与解析路径验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-hosts-mapping/",
+      "article": "xray-core-dns-hosts-mapping",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
+  "sourceChecks": [
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/",
+      "checkedAt": "2026-10-14T20:18:14.270068+00:00",
+      "sha256": "3b20f776631e52ebe289d62cd4249ae1a00369b06e77cd32cfc3c5e66e431299",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-03.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/load-balance/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/load-balance/",
+      "checkedAt": "2026-10-14T20:18:13.644664+00:00",
+      "sha256": "ba5ebbba172820925c0914b29d1cf6af014a05bfd7127470d4a28156faa9de4c",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-01.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/url-test/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/url-test/",
+      "checkedAt": "2026-10-14T20:18:13.808673+00:00",
+      "sha256": "6a55cabb37f43d8b02b244d73189e8a12950ffe35c4b8444b8333f0c68efc7f4",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-00.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/rule-providers/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/rule-providers/",
+      "checkedAt": "2026-10-14T20:18:14.399634+00:00",
+      "sha256": "139c31d40fc5d4d18c88a6f4f9ac35fec6cbabfac3f34686ac69d55db972566d",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-04.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/rule-providers/content/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/rule-providers/content/",
+      "checkedAt": "2026-10-14T20:19:11.077574+00:00",
+      "sha256": "76e9da921cf37e285023cd4ae72a4428fa423297ca5f4c86dacf51c105d25a30",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-21.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/rules/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/rules/",
+      "checkedAt": "2026-10-14T20:18:14.675269+00:00",
+      "sha256": "d01c116f5ccb6ea8fce2b1e8e0585eb5ca8f21e1ea0d82ac1d85c17b2781022b",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-05.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/dns.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/dns.html",
+      "checkedAt": "2026-10-14T20:18:14.985582+00:00",
+      "sha256": "b43819bf5b4e7f348102f061899547496bfbcc2d6bf8bba093d7801453c063be",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-07.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/inbound.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/inbound.html",
+      "checkedAt": "2026-10-14T20:19:09.955085+00:00",
+      "sha256": "7b81b6b2392755a62b342a62be84c04857c1a9ebc23db1c7da32d8f5ddb418b4",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-20.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/inbounds/http.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/inbounds/http.html",
+      "checkedAt": "2026-10-14T20:18:14.579595+00:00",
+      "sha256": "9202d79cf86fee4d96b0ac8a31b629e2fe7642c305dafd43abb75645030e2712",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-06.html"
+    },
+    {
+      "url": "https://xtls.github.io/document/command.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/document/command.html",
+      "checkedAt": "2026-10-14T20:18:14.980871+00:00",
+      "sha256": "6e06fbaba94e41d4be71727656d1c1c58f04934d332d3486856dd553b5a78bff",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-08.html"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 65
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-14T20:28:39.476444+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-url-test-tolerance/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-load-balance-strategy/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-rule-provider-format/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-http-inbound-local/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-hosts-mapping/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 84,
+    "articleCount": 65,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 131,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "fa04863eeb7c47c6f94a602f13f6aabcb46f8485"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

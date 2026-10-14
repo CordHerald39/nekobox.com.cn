@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -502,9 +502,91 @@
       "status": "published",
       "plannedDate": "2026-10-14",
       "publishedDate": "2026-10-14"
+    },
+    {
+      "keyword": "mihomo url-test 自动选择",
+      "intent": "延迟探测、切换容差与实际选路验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-url-test-tolerance/",
+      "article": "mihomo-url-test-tolerance",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/url-test/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/url-test/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo load-balance 策略",
+      "intent": "多连接分配策略选择和会话路径检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-load-balance-strategy/",
+      "article": "mihomo-load-balance-strategy",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/load-balance/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/load-balance/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo rule-providers 格式",
+      "intent": "规则集合behavior/format不匹配与引用检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-rule-provider-format/",
+      "article": "mihomo-rule-provider-format",
+      "source": "https://wiki.metacubex.one/config/rule-providers/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rule-providers/",
+        "https://wiki.metacubex.one/config/rule-providers/content/",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core HTTP 入站配置",
+      "intent": "本机HTTP代理监听认证与应用接入验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-http-inbound-local/",
+      "article": "xray-core-http-inbound-local",
+      "source": "https://xtls.github.io/config/inbounds/http.html",
+      "sources": [
+        "https://xtls.github.io/config/inbounds/http.html",
+        "https://xtls.github.io/config/inbound.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS hosts",
+      "intent": "内置DNS静态映射范围与解析路径验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-hosts-mapping/",
+      "article": "xray-core-dns-hosts-mapping",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
+  "publishStatus": "pending",
   "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
   "publishedCommit": "878af9bc16a5a6be9ba8643d4a0b971a5af41141",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38515256173"
