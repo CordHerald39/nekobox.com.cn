@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-14",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo fallback 自动回退",
+      "intent": "代理组备用顺序、健康检查与回退验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-fallback-auto-switch/",
+      "article": "mihomo-fallback-auto-switch",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/fallback/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/fallback/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo store-selected",
+      "intent": "策略组API选择持久化与重启重置排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-store-selected-persist/",
+      "article": "mihomo-store-selected-persist",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/",
+        "https://wiki.metacubex.one/config/proxy-groups/select/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box SOCKS 出站配置",
+      "intent": "上游SOCKS代理地址、认证与TCP路径验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-socks-outbound-config/",
+      "article": "sing-box-socks-outbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/socks/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/socks/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box 日志配置",
+      "intent": "日志等级、控制台与文件输出排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-log-config/",
+      "article": "sing-box-log-config",
+      "source": "https://sing-box.sagernet.org/configuration/log/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/log/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core SOCKS 入站配置",
+      "intent": "本机监听、密码认证与应用连接验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-socks-inbound-config/",
+      "article": "xray-core-socks-inbound-config",
+      "source": "https://xtls.github.io/config/inbounds/socks.html",
+      "sources": [
+        "https://xtls.github.io/config/inbounds/socks.html",
+        "https://xtls.github.io/config/inbound.html",
+        "https://xtls.github.io/document/command.html",
+        "https://curl.se/docs/manpage.html",
+        "https://curl.se/docs/httpscripting.html"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各5篇；承接10月13日已审核但未提交的10篇草稿，远端和正式站均确认尚无这些URL，刷新来源和日期后计入10月14日批次，不叠加补发。",
+  "sourceChecks": [
+    {
+      "url": "https://curl.se/docs/httpscripting.html",
+      "status": 200,
+      "finalUrl": "https://curl.se/docs/httpscripting.html",
+      "checkedAt": "2026-10-14T05:06:14.719770+00:00",
+      "sha256": "d384ceab05ebcee89da87846d8fcb13b03cfd3cce55a2745024bacef8f8013a3",
+      "bytes": 42447,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\00.txt"
+    },
+    {
+      "url": "https://curl.se/docs/manpage.html",
+      "status": 200,
+      "finalUrl": "https://curl.se/docs/manpage.html",
+      "checkedAt": "2026-10-14T05:06:15.727457+00:00",
+      "sha256": "0ef77bad12997946fd2663bb2222b4201ab5cf3b2d724595cb099ca2ef58283d",
+      "bytes": 465220,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\01.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/",
+      "checkedAt": "2026-10-14T05:06:20.466039+00:00",
+      "sha256": "4e9aaadb1961e883b378e2e4123cbf1f3bdd98fa88350ec57354860c544950d5",
+      "bytes": 127810,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\07.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/log/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/log/",
+      "checkedAt": "2026-10-14T05:06:23.610356+00:00",
+      "sha256": "d154bcdadb37c7d683ff1413d5f1d1dd84ae628cd869bd3eb705b82272ac3c1d",
+      "bytes": 124808,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\11.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/outbound/socks/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/socks/",
+      "checkedAt": "2026-10-14T05:06:25.976328+00:00",
+      "sha256": "2849caff2db2b3971bb9de6c458774ffe3fb4c25d10d3b9f7bd303f69d214a47",
+      "bytes": 130213,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\14.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "checkedAt": "2026-10-14T05:06:27.544478+00:00",
+      "sha256": "1b692279b89c7fe1a83301e71526e113fc9d3e01ac5c2bb3851d4baee5508305",
+      "bytes": 149170,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\16.txt"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/general/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/general/",
+      "checkedAt": "2026-10-14T05:06:29.074606+00:00",
+      "sha256": "b8835551c4e1ae27d16c1663cc989816a6d6340bd86b68b34be1718f10dd5427",
+      "bytes": 101728,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\18.txt"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/",
+      "checkedAt": "2026-10-14T05:06:29.766038+00:00",
+      "sha256": "84b34bb2a97143290d9906e0277da66333af728bd14bd926feb9a44d32a299ff",
+      "bytes": 80902,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\19.txt"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/fallback/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/fallback/",
+      "checkedAt": "2026-10-14T05:06:30.463435+00:00",
+      "sha256": "6408dd69d5a171fe7251f45604c2a98f1fc40b0e7f3f7693b4b7069970b3f32b",
+      "bytes": 63112,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\20.txt"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/select/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/select/",
+      "checkedAt": "2026-10-14T05:06:31.173120+00:00",
+      "sha256": "1b7ad9e68b2770a3c50c59cebb254ea3e2e923de67788aaaabbbf7ede3e35632",
+      "bytes": 62923,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\21.txt"
+    },
+    {
+      "url": "https://xtls.github.io/config/inbound.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/inbound.html",
+      "checkedAt": "2026-10-14T05:06:33.151199+00:00",
+      "sha256": "f48c1dc3427f1456452a718de461606b395727c3974672996ae35cde34a7791f",
+      "bytes": 66508,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\24.txt"
+    },
+    {
+      "url": "https://xtls.github.io/config/inbounds/socks.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/inbounds/socks.html",
+      "checkedAt": "2026-10-14T05:06:33.860089+00:00",
+      "sha256": "85df26fad745643fce79c135f4a6418a2e4a3695e23563ac8db4afab0609d7db",
+      "bytes": 52748,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\25.txt"
+    },
+    {
+      "url": "https://xtls.github.io/document/command.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/document/command.html",
+      "checkedAt": "2026-10-14T05:06:34.565341+00:00",
+      "sha256": "911764f660df82511a04dc3440bd492035950a7f50946698919f5ddad45da7d3",
+      "bytes": 85308,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\26.txt"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 60
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-14T05:10:42.808792+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-fallback-auto-switch/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-store-selected-persist/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-socks-outbound-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-log-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-socks-inbound-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 79,
+    "articleCount": 60,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 125,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "9c851536e7df2858b5a2f1efab1ffab44e4dd945"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-14",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -418,10 +418,94 @@
       "status": "published",
       "plannedDate": "2026-10-12",
       "publishedDate": "2026-10-12"
+    },
+    {
+      "keyword": "mihomo fallback 自动回退",
+      "intent": "代理组备用顺序、健康检查与回退验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-fallback-auto-switch/",
+      "article": "mihomo-fallback-auto-switch",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/fallback/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/fallback/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo store-selected",
+      "intent": "策略组API选择持久化与重启重置排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-store-selected-persist/",
+      "article": "mihomo-store-selected-persist",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/",
+        "https://wiki.metacubex.one/config/proxy-groups/select/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box SOCKS 出站配置",
+      "intent": "上游SOCKS代理地址、认证与TCP路径验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-socks-outbound-config/",
+      "article": "sing-box-socks-outbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/socks/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/socks/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box 日志配置",
+      "intent": "日志等级、控制台与文件输出排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-log-config/",
+      "article": "sing-box-log-config",
+      "source": "https://sing-box.sagernet.org/configuration/log/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/log/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core SOCKS 入站配置",
+      "intent": "本机监听、密码认证与应用连接验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-socks-inbound-config/",
+      "article": "xray-core-socks-inbound-config",
+      "source": "https://xtls.github.io/config/inbounds/socks.html",
+      "sources": [
+        "https://xtls.github.io/config/inbounds/socks.html",
+        "https://xtls.github.io/config/inbound.html",
+        "https://xtls.github.io/document/command.html",
+        "https://curl.se/docs/manpage.html",
+        "https://curl.se/docs/httpscripting.html"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "来源与草稿已刷新，待本轮质量门和正式部署。",
   "publishedCommit": "3c55574e5342b0def33fc609d6d7b2dd989cdf39",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38192123855"
 }
