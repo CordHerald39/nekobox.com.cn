@@ -14,9 +14,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-16",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-16",
-      "publishedDate": null
+      "publishedDate": "2026-10-16"
     },
     {
       "keyword": "mihomo TUN auto-route 检查",
@@ -29,9 +29,9 @@
         "https://wiki.metacubex.one/config/inbound/tun/"
       ],
       "sourceVerifiedDate": "2026-10-16",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-16",
-      "publishedDate": null
+      "publishedDate": "2026-10-16"
     },
     {
       "keyword": "Xray-core 路由 domainStrategy",
@@ -44,9 +44,9 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-16",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-16",
-      "publishedDate": null
+      "publishedDate": "2026-10-16"
     },
     {
       "keyword": "Xray-core freedom 直连出站",
@@ -59,9 +59,9 @@
         "https://xtls.github.io/config/outbounds/freedom.html"
       ],
       "sourceVerifiedDate": "2026-10-16",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-16",
-      "publishedDate": null
+      "publishedDate": "2026-10-16"
     },
     {
       "keyword": "mihomo DNS fallback-filter",
@@ -74,9 +74,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-16",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-16",
-      "publishedDate": null
+      "publishedDate": "2026-10-16"
     }
   ],
   "allocationReason": "默认每站5篇；按远端已覆盖关键词与真实配置缺口分配。",
@@ -226,10 +226,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "b663fb6a04c5c80bfe97c7aeaab7b76ed24ba962"
+    "status": "published-via-git-data-api",
+    "remoteSha": "43dcaa33c3c2b56738b050ca21f134ce0a1c2cdc",
+    "workflowRuns": [
+      {
+        "id": 38837227116,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38837227116",
+        "head_sha": "43dcaa33c3c2b56738b050ca21f134ce0a1c2cdc"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-16T01:51:56.362218+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-nameserver-policy/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-tun-auto-route-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-routing-domain-strategy-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-freedom-outbound-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-fallback-filter-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 89,
+    "articleCount": 70,
+    "status": "passed"
+  }
 }
