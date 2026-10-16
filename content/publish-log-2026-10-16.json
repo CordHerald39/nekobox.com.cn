@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-16",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo DNS nameserver-policy",
+      "intent": "按域名分流 DNS 请求",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-nameserver-policy/",
+      "article": "mihomo-dns-nameserver-policy",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo TUN auto-route 检查",
+      "intent": "创建 TUN 入口并验收自动路由",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tun-auto-route-check/",
+      "article": "mihomo-tun-auto-route-check",
+      "source": "https://wiki.metacubex.one/config/inbound/tun/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 路由 domainStrategy",
+      "intent": "按域名解析策略排查路由不命中",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-routing-domain-strategy-check/",
+      "article": "xray-routing-domain-strategy-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core freedom 直连出站",
+      "intent": "设置直连出站并检查限定路由",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-freedom-outbound-check/",
+      "article": "xray-core-freedom-outbound-check",
+      "source": "https://xtls.github.io/config/outbounds/freedom.html",
+      "sources": [
+        "https://xtls.github.io/config/outbounds/freedom.html"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS fallback-filter",
+      "intent": "区分 fallback 触发条件与解析失败",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-fallback-filter-check/",
+      "article": "mihomo-dns-fallback-filter-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认每站5篇；按远端已覆盖关键词与真实配置缺口分配。",
+  "sourceChecks": [
+    {
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "checkedAt": "2026-10-16T01:19:51.044718+00:00",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-16\\sources\\official-00.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/inbound/tun/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/inbound/tun/",
+      "checkedAt": "2026-10-16T01:19:51.455771+00:00",
+      "sha256": "1628c54c5026f90317ce1e91f0fa1d4b4e7caa7097ccd0c9f01f4da3bbf2cc3f",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-16\\sources\\official-01.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/outbounds/freedom.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/outbounds/freedom.html",
+      "checkedAt": "2026-10-16T01:19:52.545839+00:00",
+      "sha256": "9b14a2528363499f5b904e8f9d797468bdedebc8c5fac32eed9091a672ade0d5",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-16\\sources\\official-03.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "checkedAt": "2026-10-16T01:19:52.002250+00:00",
+      "sha256": "e0fc16026124b8dee15b607cdea1ff1769aea48d11dd1475acd1fcd75fbb43f6",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-16\\sources\\official-02.html"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 70
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-16T01:49:50.485496+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-nameserver-policy/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-tun-auto-route-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-routing-domain-strategy-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-freedom-outbound-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-fallback-filter-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 89,
+    "articleCount": 70,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 137,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "b663fb6a04c5c80bfe97c7aeaab7b76ed24ba962"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -584,9 +584,84 @@
       "status": "published",
       "plannedDate": "2026-10-15",
       "publishedDate": "2026-10-15"
+    },
+    {
+      "keyword": "mihomo DNS nameserver-policy",
+      "intent": "按域名分流 DNS 请求",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-nameserver-policy/",
+      "article": "mihomo-dns-nameserver-policy",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo TUN auto-route 检查",
+      "intent": "创建 TUN 入口并验收自动路由",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tun-auto-route-check/",
+      "article": "mihomo-tun-auto-route-check",
+      "source": "https://wiki.metacubex.one/config/inbound/tun/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 路由 domainStrategy",
+      "intent": "按域名解析策略排查路由不命中",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-routing-domain-strategy-check/",
+      "article": "xray-routing-domain-strategy-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core freedom 直连出站",
+      "intent": "设置直连出站并检查限定路由",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-freedom-outbound-check/",
+      "article": "xray-core-freedom-outbound-check",
+      "source": "https://xtls.github.io/config/outbounds/freedom.html",
+      "sources": [
+        "https://xtls.github.io/config/outbounds/freedom.html"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS fallback-filter",
+      "intent": "区分 fallback 触发条件与解析失败",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-fallback-filter-check/",
+      "article": "mihomo-dns-fallback-filter-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
+  "publishStatus": "pending",
   "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
   "publishedCommit": "66ffff843b0669030c37eec7439657cfafdc18f0",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38632416061"
