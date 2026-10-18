@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-18",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo relay 代理组",
+      "intent": "链式代理配置与排错",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-relay-proxy-group/",
+      "article": "mihomo-relay-proxy-group",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/relay/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/relay/"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "mihomo fake-ip-filter",
+      "intent": "fake-ip 排除域名与 DNS 核验",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-fake-ip-filter/",
+      "article": "mihomo-dns-fake-ip-filter",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "sing-box route final",
+      "intent": "默认出站与规则未命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-final-action/",
+      "article": "sing-box-route-final-action",
+      "source": "https://sing-box.sagernet.org/configuration/route/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "sing-box HTTP 入站配置",
+      "intent": "HTTP 监听认证与应用接入",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-http-inbound-config/",
+      "article": "sing-box-http-inbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "Xray-core DNS queryStrategy",
+      "intent": "DNS 解析策略与路由结果检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-query-strategy/",
+      "article": "xray-core-dns-query-strategy",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    }
+  ],
+  "allocationReason": "默认每站5篇；按远端已覆盖关键词与真实配置缺口分配。",
+  "sourceChecks": [
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/relay/",
+      "status": 200
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "status": 200
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/route/",
+      "status": 200
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "status": 200
+    },
+    {
+      "url": "https://xtls.github.io/config/dns.html",
+      "status": 200
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 75
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed"
+  },
+  "publish": {
+    "status": "published-via-git-data-api",
+    "remoteSha": "bd0889eb8a6b9d4e79e467b01b7eceff85c4a671",
+    "workflowRuns": [
+      {
+        "id": 39085531253,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "nextTodo": [
+    "下一轮先读取远端登记，跳过本轮10个关键词与URL。",
+    "继续覆盖原软件真实配置、规则、DNS、连接和迁移缺口。"
+  ],
+  "liveVerification": {
+    "status": "passed",
+    "pages": "HTTPS 200 for homepage, assets, robots, sitemap and all five new articles"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-18",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -667,11 +667,13 @@
       "url": "/articles/mihomo-relay-proxy-group/",
       "article": "mihomo-relay-proxy-group",
       "source": "https://wiki.metacubex.one/config/proxy-groups/relay/",
-      "sources": ["https://wiki.metacubex.one/config/proxy-groups/relay/"],
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/relay/"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "mihomo fake-ip-filter",
@@ -680,11 +682,13 @@
       "url": "/articles/mihomo-dns-fake-ip-filter/",
       "article": "mihomo-dns-fake-ip-filter",
       "source": "https://wiki.metacubex.one/config/dns/",
-      "sources": ["https://wiki.metacubex.one/config/dns/"],
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "sing-box route final",
@@ -693,11 +697,13 @@
       "url": "/articles/sing-box-route-final-action/",
       "article": "sing-box-route-final-action",
       "source": "https://sing-box.sagernet.org/configuration/route/",
-      "sources": ["https://sing-box.sagernet.org/configuration/route/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "sing-box HTTP 入站配置",
@@ -706,11 +712,13 @@
       "url": "/articles/sing-box-http-inbound-config/",
       "article": "sing-box-http-inbound-config",
       "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
-      "sources": ["https://sing-box.sagernet.org/configuration/inbound/http/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "Xray-core DNS queryStrategy",
@@ -719,15 +727,17 @@
       "url": "/articles/xray-core-dns-query-strategy/",
       "article": "xray-core-dns-query-strategy",
       "source": "https://xtls.github.io/config/dns.html",
-      "sources": ["https://xtls.github.io/config/dns.html"],
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     }
   ],
   "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
-  "publishedCommit": "43dcaa33c3c2b56738b050ca21f134ce0a1c2cdc",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/38837227116"
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
+  "publishedCommit": "bd0889eb8a6b9d4e79e467b01b7eceff85c4a671",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39085531253"
 }
