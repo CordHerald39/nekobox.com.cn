@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-19",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {"keyword":"mihomo DNS prefer-h3","intent":"DNS 协议选择与回退排查","targetSite":"nekobox.com.cn","url":"/articles/mihomo-dns-prefer-h3-check/","article":"mihomo-dns-prefer-h3-check","source":"https://wiki.metacubex.one/config/dns/","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"mihomo TUN dns-hijack","intent":"TUN DNS 接管与连接故障","targetSite":"nekobox.com.cn","url":"/articles/mihomo-tun-dns-hijack-check/","article":"mihomo-tun-dns-hijack-check","source":"https://wiki.metacubex.one/config/inbound/tun/","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"sing-box auto_detect_interface","intent":"路由网卡与透明代理回环排查","targetSite":"nekobox.com.cn","url":"/articles/sing-box-route-auto-detect-interface/","article":"sing-box-route-auto-detect-interface","source":"https://sing-box.sagernet.org/configuration/route/","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"sing-box independent_cache","intent":"DNS 缓存隔离与解析验证","targetSite":"nekobox.com.cn","url":"/articles/sing-box-dns-independent-cache-check/","article":"sing-box-dns-independent-cache-check","source":"https://sing-box.sagernet.org/configuration/dns/","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"Xray-core DNS clientIp","intent":"DNS 结果与路由故障区分","targetSite":"nekobox.com.cn","url":"/articles/xray-core-dns-client-ip-check/","article":"xray-core-dns-client-ip-check","source":"https://xtls.github.io/config/dns.html","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"}
+  ],
+  "allocationReason":"默认每站5篇；按已覆盖关键词和原软件配置缺口分配。",
+  "sourceChecks":[
+    {"url":"https://wiki.metacubex.one/config/dns/","status":200},
+    {"url":"https://wiki.metacubex.one/config/inbound/tun/","status":200},
+    {"url":"https://sing-box.sagernet.org/configuration/route/","status":200},
+    {"url":"https://sing-box.sagernet.org/configuration/dns/","status":200},
+    {"url":"https://xtls.github.io/config/dns.html","status":200}
+  ],
+  "tests":{"command":"pnpm test","status":"passed"},
+  "build":{"command":"pnpm build","status":"passed","articleCount":80},
+  "audit":{"command":"pnpm run audit","status":"passed","scores":{"homeMobile":100,"homeDesktop":100,"downloadsMobile":100,"articleMobile":100}},
+  "publish":{"status":"pending"},
+  "nextTodo":["提交后等待 Actions/Pages 完成，再核验正式页面并回写 published。"]
+}

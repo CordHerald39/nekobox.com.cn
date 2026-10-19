@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -734,10 +734,75 @@
       "status": "published",
       "plannedDate": "2026-10-18",
       "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "mihomo DNS prefer-h3",
+      "intent": "DNS 协议选择与回退排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-prefer-h3-check/",
+      "article": "mihomo-dns-prefer-h3-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": ["https://wiki.metacubex.one/config/dns/"],
+      "sourceVerifiedDate": "2026-10-19",
+      "status": "draft",
+      "plannedDate": "2026-10-19",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo TUN dns-hijack",
+      "intent": "TUN DNS 接管与连接故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tun-dns-hijack-check/",
+      "article": "mihomo-tun-dns-hijack-check",
+      "source": "https://wiki.metacubex.one/config/inbound/tun/",
+      "sources": ["https://wiki.metacubex.one/config/inbound/tun/"],
+      "sourceVerifiedDate": "2026-10-19",
+      "status": "draft",
+      "plannedDate": "2026-10-19",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box auto_detect_interface",
+      "intent": "路由网卡与透明代理回环排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-auto-detect-interface/",
+      "article": "sing-box-route-auto-detect-interface",
+      "source": "https://sing-box.sagernet.org/configuration/route/",
+      "sources": ["https://sing-box.sagernet.org/configuration/route/"],
+      "sourceVerifiedDate": "2026-10-19",
+      "status": "draft",
+      "plannedDate": "2026-10-19",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box independent_cache",
+      "intent": "DNS 缓存隔离与解析验证",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-independent-cache-check/",
+      "article": "sing-box-dns-independent-cache-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": ["https://sing-box.sagernet.org/configuration/dns/"],
+      "sourceVerifiedDate": "2026-10-19",
+      "status": "draft",
+      "plannedDate": "2026-10-19",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS clientIp",
+      "intent": "DNS 结果与路由故障区分",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-client-ip-check/",
+      "article": "xray-core-dns-client-ip-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": ["https://xtls.github.io/config/dns.html"],
+      "sourceVerifiedDate": "2026-10-19",
+      "status": "draft",
+      "plannedDate": "2026-10-19",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
-  "publishedCommit": "bd0889eb8a6b9d4e79e467b01b7eceff85c4a671",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39085531253"
+  "publishStatus": "draft",
+  "publishNote": "2026-10-19 新增5篇内容已完成来源核验、测试、构建和审计，等待 Git Data API 发布。",
+  "publishedCommit": null,
+  "deploymentUrl": null
 }
