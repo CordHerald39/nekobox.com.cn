@@ -742,11 +742,13 @@
       "url": "/articles/mihomo-dns-prefer-h3-check/",
       "article": "mihomo-dns-prefer-h3-check",
       "source": "https://wiki.metacubex.one/config/dns/",
-      "sources": ["https://wiki.metacubex.one/config/dns/"],
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "mihomo TUN dns-hijack",
@@ -755,11 +757,13 @@
       "url": "/articles/mihomo-tun-dns-hijack-check/",
       "article": "mihomo-tun-dns-hijack-check",
       "source": "https://wiki.metacubex.one/config/inbound/tun/",
-      "sources": ["https://wiki.metacubex.one/config/inbound/tun/"],
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/tun/"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "sing-box auto_detect_interface",
@@ -768,11 +772,13 @@
       "url": "/articles/sing-box-route-auto-detect-interface/",
       "article": "sing-box-route-auto-detect-interface",
       "source": "https://sing-box.sagernet.org/configuration/route/",
-      "sources": ["https://sing-box.sagernet.org/configuration/route/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "sing-box independent_cache",
@@ -781,11 +787,13 @@
       "url": "/articles/sing-box-dns-independent-cache-check/",
       "article": "sing-box-dns-independent-cache-check",
       "source": "https://sing-box.sagernet.org/configuration/dns/",
-      "sources": ["https://sing-box.sagernet.org/configuration/dns/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "Xray-core DNS clientIp",
@@ -794,15 +802,17 @@
       "url": "/articles/xray-core-dns-client-ip-check/",
       "article": "xray-core-dns-client-ip-check",
       "source": "https://xtls.github.io/config/dns.html",
-      "sources": ["https://xtls.github.io/config/dns.html"],
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     }
   ],
-  "publishStatus": "draft",
-  "publishNote": "2026-10-19 新增5篇内容已完成来源核验、测试、构建和审计，等待 Git Data API 发布。",
-  "publishedCommit": null,
-  "deploymentUrl": null
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
+  "publishedCommit": "e97c5988a0ca558734341fb4a4d60a5f32fde544",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39184055312"
 }
