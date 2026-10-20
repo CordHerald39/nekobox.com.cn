@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-20",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo unified-delay",
+      "intent": "统一延迟与测速结果解释",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-unified-delay-rtt/",
+      "article": "mihomo-unified-delay-rtt",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo tcp-concurrent",
+      "intent": "多地址连接缓慢排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tcp-concurrent-connect/",
+      "article": "mihomo-tcp-concurrent-connect",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS respect-rules",
+      "intent": "DNS 连接规则与节点解析循环",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-respect-rules-bootstrap/",
+      "article": "mihomo-dns-respect-rules-bootstrap",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box Clash API 连接失败",
+      "intent": "本机控制接口监听与认证故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-clash-api-listen-auth/",
+      "article": "sing-box-clash-api-listen-auth",
+      "source": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/experimental/clash-api/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core balancer selector",
+      "intent": "负载均衡候选与规则引用排错",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-balancer-selector-prefix/",
+      "article": "xray-core-balancer-selector-prefix",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "两站默认各5篇，按现有主题缺口分配；NekoBox补充mihomo、sing-box与Xray配置，FlyClash补充桌面sing-box路由、DNS与入站故障。",
+  "sourceChecks": [
+    {
+      "id": "mihomo-general",
+      "url": "https://wiki.metacubex.one/config/general/",
+      "finalUrl": "https://wiki.metacubex.one/config/general/",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:35.212927+00:00",
+      "sha256": "b8835551c4e1ae27d16c1663cc989816a6d6340bd86b68b34be1718f10dd5427"
+    },
+    {
+      "id": "mihomo-dns",
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:35.603410+00:00",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0"
+    },
+    {
+      "id": "sing-clash-api",
+      "url": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:35.703618+00:00",
+      "sha256": "058d071d8f2f93dc6abb24682370afe00e207ee42e575aec62a4391bdb925319"
+    },
+    {
+      "id": "xray-routing",
+      "url": "https://xtls.github.io/config/routing.html",
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:35.556199+00:00",
+      "sha256": "e0fc16026124b8dee15b607cdea1ff1769aea48d11dd1475acd1fcd75fbb43f6"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 85
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-20T11:30:02.659923+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-unified-delay-rtt/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-tcp-concurrent-connect/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-respect-rules-bootstrap/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-clash-api-listen-auth/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-balancer-selector-prefix/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 104,
+    "articleCount": 85,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 155,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "97461711be517ce8750de7940afcf4a788eb5309"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

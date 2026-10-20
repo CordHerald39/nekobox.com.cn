@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -809,10 +809,85 @@
       "status": "published",
       "plannedDate": "2026-10-19",
       "publishedDate": "2026-10-19"
+    },
+    {
+      "keyword": "mihomo unified-delay",
+      "intent": "统一延迟与测速结果解释",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-unified-delay-rtt/",
+      "article": "mihomo-unified-delay-rtt",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo tcp-concurrent",
+      "intent": "多地址连接缓慢排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tcp-concurrent-connect/",
+      "article": "mihomo-tcp-concurrent-connect",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS respect-rules",
+      "intent": "DNS 连接规则与节点解析循环",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-respect-rules-bootstrap/",
+      "article": "mihomo-dns-respect-rules-bootstrap",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box Clash API 连接失败",
+      "intent": "本机控制接口监听与认证故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-clash-api-listen-auth/",
+      "article": "sing-box-clash-api-listen-auth",
+      "source": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/experimental/clash-api/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core balancer selector",
+      "intent": "负载均衡候选与规则引用排错",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-balancer-selector-prefix/",
+      "article": "xray-core-balancer-selector-prefix",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
+  "publishStatus": "pending",
+  "publishNote": "本轮待测试、构建、审核与正式发布验证。",
   "publishedCommit": "e97c5988a0ca558734341fb4a4d60a5f32fde544",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39184055312"
 }
