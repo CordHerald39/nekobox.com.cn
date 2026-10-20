@@ -821,9 +821,9 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "mihomo tcp-concurrent",
@@ -836,9 +836,9 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "mihomo DNS respect-rules",
@@ -851,9 +851,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "sing-box Clash API 连接失败",
@@ -866,9 +866,9 @@
         "https://sing-box.sagernet.org/configuration/experimental/clash-api/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "Xray-core balancer selector",
@@ -881,13 +881,13 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "本轮待测试、构建、审核与正式发布验证。",
-  "publishedCommit": "e97c5988a0ca558734341fb4a4d60a5f32fde544",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39184055312"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "47d6f6e1d3acebcdae203bc97dfc279883b05292",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39415411831"
 }

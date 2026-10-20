@@ -14,9 +14,9 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "mihomo tcp-concurrent",
@@ -29,9 +29,9 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "mihomo DNS respect-rules",
@@ -44,9 +44,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "sing-box Clash API 连接失败",
@@ -59,9 +59,9 @@
         "https://sing-box.sagernet.org/configuration/experimental/clash-api/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "Xray-core balancer selector",
@@ -74,9 +74,9 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     }
   ],
   "allocationReason": "两站默认各5篇，按现有主题缺口分配；NekoBox补充mihomo、sing-box与Xray配置，FlyClash补充桌面sing-box路由、DNS与入站故障。",
@@ -227,10 +227,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "97461711be517ce8750de7940afcf4a788eb5309"
+    "status": "published-via-git-data-api",
+    "remoteSha": "47d6f6e1d3acebcdae203bc97dfc279883b05292",
+    "workflowRuns": [
+      {
+        "id": 39415411831,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39415411831",
+        "head_sha": "47d6f6e1d3acebcdae203bc97dfc279883b05292"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-20T11:32:09.337904+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-unified-delay-rtt/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-tcp-concurrent-connect/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-respect-rules-bootstrap/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-clash-api-listen-auth/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-balancer-selector-prefix/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 104,
+    "articleCount": 85,
+    "status": "passed"
+  }
 }
