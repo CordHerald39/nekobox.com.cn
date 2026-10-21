@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -884,10 +884,86 @@
       "status": "published",
       "plannedDate": "2026-10-20",
       "publishedDate": "2026-10-20"
+    },
+    {
+      "keyword": "mihomo direct-nameserver 配置",
+      "intent": "直连出口域名解析与策略优先级排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-direct-nameserver-check/",
+      "article": "mihomo-dns-direct-nameserver-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo cache-algorithm 配置",
+      "intent": "DNS 缓存算法选择与对照验证",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-cache-algorithm-check/",
+      "article": "mihomo-dns-cache-algorithm-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box rewrite_ttl 配置",
+      "intent": "DNS 响应 TTL 改写与缓存观察",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-rewrite-ttl-check/",
+      "article": "sing-box-dns-rewrite-ttl-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core expectedIPs 配置",
+      "intent": "DNS 返回地址过滤与后备查询排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-expected-ips-check/",
+      "article": "xray-core-dns-expected-ips-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html",
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core port 路由规则",
+      "intent": "目标端口范围与来源端口混淆排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-port-range-check/",
+      "article": "xray-core-routing-port-range-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "待测试、构建、独立编辑审核与正式发布验证。",
   "publishedCommit": "47d6f6e1d3acebcdae203bc97dfc279883b05292",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39415411831"
 }

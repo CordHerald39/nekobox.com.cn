@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-21",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo direct-nameserver 配置",
+      "intent": "直连出口域名解析与策略优先级排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-direct-nameserver-check/",
+      "article": "mihomo-dns-direct-nameserver-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo cache-algorithm 配置",
+      "intent": "DNS 缓存算法选择与对照验证",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-cache-algorithm-check/",
+      "article": "mihomo-dns-cache-algorithm-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box rewrite_ttl 配置",
+      "intent": "DNS 响应 TTL 改写与缓存观察",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-rewrite-ttl-check/",
+      "article": "sing-box-dns-rewrite-ttl-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core expectedIPs 配置",
+      "intent": "DNS 返回地址过滤与后备查询排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-expected-ips-check/",
+      "article": "xray-core-dns-expected-ips-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html",
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core port 路由规则",
+      "intent": "目标端口范围与来源端口混淆排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-port-range-check/",
+      "article": "xray-core-routing-port-range-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各5篇；根据双站历史覆盖缺口补充核心配置与客户端故障，未声称实时搜索量或排名。",
+  "sourceChecks": [
+    {
+      "id": "neko-mihomo-dns",
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:02:10.141697+00:00",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0"
+    },
+    {
+      "id": "neko-singbox-dns-action",
+      "url": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:02:09.703681+00:00",
+      "sha256": "c29347f2b9d98b1d0c2a236b7e7f8699968ecba9cfd06c1fb6105050fdab0db2"
+    },
+    {
+      "id": "neko-xray-dns",
+      "url": "https://xtls.github.io/config/dns.html",
+      "finalUrl": "https://xtls.github.io/config/dns.html",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:02:10.211799+00:00",
+      "sha256": "5f13557fd9306e4c5b0ce03472b9726b0830f1d41662c50995293803eb7d9b50"
+    },
+    {
+      "id": "neko-xray-routing",
+      "url": "https://xtls.github.io/config/routing.html",
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:02:09.779469+00:00",
+      "sha256": "e0fc16026124b8dee15b607cdea1ff1769aea48d11dd1475acd1fcd75fbb43f6"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 90
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-21T01:14:32.109579+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-direct-nameserver-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-cache-algorithm-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-dns-rewrite-ttl-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-expected-ips-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-routing-port-range-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 109,
+    "articleCount": 90,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 161,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "b125b79f6d992108bdce0552856ba068f979e83f"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
