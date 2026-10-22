@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-22",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo proxy-server-nameserver 配置",
+      "intent": "节点域名解析失败与引导解析路径排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-proxy-server-nameserver-check/",
+      "article": "mihomo-dns-proxy-server-nameserver-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS ipv6 配置",
+      "intent": "AAAA 空响应与 IPv6 解析路径排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-ipv6-aaaa-empty-check/",
+      "article": "mihomo-dns-ipv6-aaaa-empty-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box client_subnet 配置",
+      "intent": "限定域名的 ECS 前缀、覆盖与移除检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-client-subnet-check/",
+      "article": "sing-box-dns-client-subnet-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core sourceIP 路由规则",
+      "intent": "来源地址分流、端口混淆与规则命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-source-ip-check/",
+      "article": "xray-core-routing-source-ip-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS timeoutMs 配置",
+      "intent": "单台解析服务器超时、系统 DNS 例外与等待时间排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-timeout-ms-check/",
+      "article": "xray-core-dns-timeout-ms-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各5篇；根据双站历史覆盖缺口补充核心配置与客户端故障，未声称实时搜索量或排名。",
+  "sourceChecks": [
+    {
+      "id": "neko-mihomo-dns",
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "checkedAt": "2026-10-22T01:02:27.774351+00:00",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0"
+    },
+    {
+      "id": "neko-sing-dns-actions",
+      "url": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "checkedAt": "2026-10-22T01:02:29.641806+00:00",
+      "sha256": "c29347f2b9d98b1d0c2a236b7e7f8699968ecba9cfd06c1fb6105050fdab0db2"
+    },
+    {
+      "id": "neko-xray-routing",
+      "url": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "checkedAt": "2026-10-22T01:02:32.223574+00:00",
+      "sha256": "d7d2d7451842e8dca303e708ff6900aaf681de80eb48d94d62c1d4a6b501a6e1"
+    },
+    {
+      "id": "neko-xray-dns",
+      "url": "https://xtls.github.io/config/dns.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/dns.html",
+      "checkedAt": "2026-10-22T01:02:33.887761+00:00",
+      "sha256": "9cf523b55635f7337d42e8a0703f674e6d0d6ea10ab490a955d76a5814cba523"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 95
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-22T01:16:50.779900+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-proxy-server-nameserver-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-ipv6-aaaa-empty-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-dns-client-subnet-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-routing-source-ip-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-timeout-ms-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 114,
+    "articleCount": 95,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 167,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "1b4875dd13dc2f4dabc147c6a22749ac6bc3e8f6"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

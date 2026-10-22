@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -960,10 +960,85 @@
       "status": "published",
       "plannedDate": "2026-10-21",
       "publishedDate": "2026-10-21"
+    },
+    {
+      "keyword": "mihomo proxy-server-nameserver 配置",
+      "intent": "节点域名解析失败与引导解析路径排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-proxy-server-nameserver-check/",
+      "article": "mihomo-dns-proxy-server-nameserver-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS ipv6 配置",
+      "intent": "AAAA 空响应与 IPv6 解析路径排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-ipv6-aaaa-empty-check/",
+      "article": "mihomo-dns-ipv6-aaaa-empty-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box client_subnet 配置",
+      "intent": "限定域名的 ECS 前缀、覆盖与移除检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-client-subnet-check/",
+      "article": "sing-box-dns-client-subnet-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core sourceIP 路由规则",
+      "intent": "来源地址分流、端口混淆与规则命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-source-ip-check/",
+      "article": "xray-core-routing-source-ip-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS timeoutMs 配置",
+      "intent": "单台解析服务器超时、系统 DNS 例外与等待时间排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-timeout-ms-check/",
+      "article": "xray-core-dns-timeout-ms-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "待测试、构建、独立编辑审核与正式发布验证。",
   "publishedCommit": "58d7374a660f467da97f982b0b05da22f7a86128",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39526178174"
 }
