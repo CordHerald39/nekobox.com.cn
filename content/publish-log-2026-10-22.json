@@ -14,9 +14,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "mihomo DNS ipv6 配置",
@@ -29,9 +29,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "sing-box client_subnet 配置",
@@ -44,9 +44,9 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "Xray-core sourceIP 路由规则",
@@ -59,9 +59,9 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "Xray-core DNS timeoutMs 配置",
@@ -74,9 +74,9 @@
         "https://xtls.github.io/config/dns.html"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     }
   ],
   "allocationReason": "默认各5篇；根据双站历史覆盖缺口补充核心配置与客户端故障，未声称实时搜索量或排名。",
@@ -227,10 +227,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "1b4875dd13dc2f4dabc147c6a22749ac6bc3e8f6"
+    "status": "published-via-git-data-api",
+    "remoteSha": "c354a0cd072f2f2548e883075873b0de18ef2bff",
+    "workflowRuns": [
+      {
+        "id": 39704788942,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39704788942",
+        "head_sha": "c354a0cd072f2f2548e883075873b0de18ef2bff"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-22T01:19:08.520005+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-proxy-server-nameserver-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-ipv6-aaaa-empty-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-dns-client-subnet-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-routing-source-ip-check/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-timeout-ms-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 114,
+    "articleCount": 95,
+    "status": "passed"
+  }
 }
