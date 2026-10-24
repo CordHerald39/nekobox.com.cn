@@ -14,9 +14,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "sing-box default_domain_resolver 配置",
@@ -29,9 +29,9 @@
         "https://sing-box.sagernet.org/configuration/route/"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "Xray-core DNS disableCache 配置",
@@ -44,9 +44,9 @@
         "https://xtls.github.io/config/dns.html"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "Xray-core 路由 network tcp udp 配置",
@@ -59,9 +59,9 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "mihomo DNS hosts 与 nameserver-policy 顺序",
@@ -74,9 +74,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     }
   ],
   "allocationReason": "默认各5篇；根据已覆盖主题缺口补充 DNS、路由、TLS 与透明代理排查，未声称实时搜索量或排名。",
@@ -155,9 +155,76 @@
     ]
   },
   "publish": {
-    "status": "pending"
+    "status": "published-via-git-data-api",
+    "remoteSha": "26834c3bb9fe4eb33175ffeb2c387275ba2391dd",
+    "workflowRuns": [
+      {
+        "id": 40049295749,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40049295749",
+        "head_sha": "26834c3bb9fe4eb33175ffeb2c387275ba2391dd"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API、Actions/Pages 与正式 HTTPS 核验后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续覆盖已有软件的真实下载、配置、DNS、规则、连接与迁移缺口。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "bytes": 14281
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 67
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 12392
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "bytes": 19782
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "bytes": 2759
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-use-hosts-check/",
+        "status": 200,
+        "bytes": 7472
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-route-default-domain-resolver-check/",
+        "status": 200,
+        "bytes": 7583
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-disable-cache-check/",
+        "status": 200,
+        "bytes": 7362
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-routing-network-check/",
+        "status": 200,
+        "bytes": 7340
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-hosts-policy-order-check/",
+        "status": 200,
+        "bytes": 7394
+      }
+    ]
+  }
 }
