@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -1035,10 +1035,85 @@
       "status": "published",
       "plannedDate": "2026-10-22",
       "publishedDate": "2026-10-22"
+    },
+    {
+      "keyword": "mihomo DNS use-hosts 配置",
+      "intent": "系统 hosts 文件参与解析与覆盖顺序排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-use-hosts-check/",
+      "article": "mihomo-dns-use-hosts-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box default_domain_resolver 配置",
+      "intent": "路由域名解析器选择与规则命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-default-domain-resolver-check/",
+      "article": "sing-box-route-default-domain-resolver-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS disableCache 配置",
+      "intent": "DNS 缓存开关与重复查询结果排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-disable-cache-check/",
+      "article": "xray-core-dns-disable-cache-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 路由 network tcp udp 配置",
+      "intent": "按 TCP/UDP 流量类型分流与规则顺序排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-network-check/",
+      "article": "xray-core-routing-network-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS hosts 与 nameserver-policy 顺序",
+      "intent": "hosts 映射与域名策略同时存在时的排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-hosts-policy-order-check/",
+      "article": "mihomo-dns-hosts-policy-order-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "待测试、构建、链接校验与正式部署。",
   "publishedCommit": "c354a0cd072f2f2548e883075873b0de18ef2bff",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/39704788942"
 }

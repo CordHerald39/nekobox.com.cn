@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-24",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo DNS use-hosts 配置",
+      "intent": "系统 hosts 文件参与解析与覆盖顺序排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-use-hosts-check/",
+      "article": "mihomo-dns-use-hosts-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box default_domain_resolver 配置",
+      "intent": "路由域名解析器选择与规则命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-default-domain-resolver-check/",
+      "article": "sing-box-route-default-domain-resolver-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS disableCache 配置",
+      "intent": "DNS 缓存开关与重复查询结果排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-disable-cache-check/",
+      "article": "xray-core-dns-disable-cache-check",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core 路由 network tcp udp 配置",
+      "intent": "按 TCP/UDP 流量类型分流与规则顺序排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-network-check/",
+      "article": "xray-core-routing-network-check",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo DNS hosts 与 nameserver-policy 顺序",
+      "intent": "hosts 映射与域名策略同时存在时的排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-hosts-policy-order-check/",
+      "article": "mihomo-dns-hosts-policy-order-check",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各5篇；根据已覆盖主题缺口补充 DNS、路由、TLS 与透明代理排查，未声称实时搜索量或排名。",
+  "sourceChecks": [
+    {
+      "id": "nekobox-mihomo-dns-use-hosts-check",
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "checkedAt": "2026-10-24",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0"
+    },
+    {
+      "id": "nekobox-sing-box-route-default-domain-resolver-check",
+      "url": "https://sing-box.sagernet.org/configuration/route/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/",
+      "checkedAt": "2026-10-24",
+      "sha256": "955562c4b2ae8d12a5346b24158011bdf1f841390925667087bbb5a4f59a6377"
+    },
+    {
+      "id": "nekobox-xray-core-dns-disable-cache-check",
+      "url": "https://xtls.github.io/config/dns.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/dns.html",
+      "checkedAt": "2026-10-24",
+      "sha256": "d2d80a0ce525cc1ca58dbb2ae9d525f58cd550e6bd9937fd68bfb5ebdf392e0b"
+    },
+    {
+      "id": "nekobox-xray-core-routing-network-check",
+      "url": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "checkedAt": "2026-10-24",
+      "sha256": "f9e9ab5f1013766fdc62b33826d997ec0ad5bbcf33533ebb7b3d3703191fc0e8"
+    },
+    {
+      "id": "nekobox-mihomo-dns-hosts-policy-order-check",
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "checkedAt": "2026-10-24",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 100
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "home-mobile": 100,
+      "home-desktop": 100,
+      "downloads-mobile": 100,
+      "article-mobile": 100
+    }
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "status": "passed",
+    "articleCount": 100,
+    "sitemapUrls": 119,
+    "newArticles": [
+      "mihomo-dns-use-hosts-check",
+      "sing-box-route-default-domain-resolver-check",
+      "xray-core-dns-disable-cache-check",
+      "xray-core-routing-network-check",
+      "mihomo-dns-hosts-policy-order-check"
+    ]
+  },
+  "publish": {
+    "status": "pending"
+  },
+  "nextTodo": [
+    "等待 Git Data API、Actions/Pages 与正式 HTTPS 核验后回写 published。"
+  ]
+}
