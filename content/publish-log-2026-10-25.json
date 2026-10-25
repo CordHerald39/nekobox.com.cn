@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-25",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "allocationReason": "默认各5篇；NekoBox 补充 Android 分应用、Windows/Linux/macOS 下载与二维码订阅意图。",
+  "articles": [
+    {"keyword":"Clash Meta for Android 分应用代理","intent":"Android 分应用代理与 VPN 接管排查","url":"/articles/clash-meta-android-app-routing/","article":"clash-meta-android-app-routing","source":"https://github.com/MetaCubeX/ClashMetaForAndroid","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"sing-box Linux 安装","intent":"Linux 下载、安装与配置校验","url":"/articles/sing-box-linux-install/","article":"sing-box-linux-install","source":"https://github.com/SagerNet/sing-box/releases","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"sing-box Windows 下载","intent":"Windows 下载、解压与配置检查","url":"/articles/sing-box-windows-download/","article":"sing-box-windows-download","source":"https://github.com/SagerNet/sing-box/releases","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"Xray-core macOS 下载","intent":"macOS 架构选择、下载与启动检查","url":"/articles/xray-core-macos-download/","article":"xray-core-macos-download","source":"https://github.com/XTLS/Xray-core/releases","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"v2rayNG 安卓订阅二维码导入","intent":"二维码导入、订阅更新与连接检查","url":"/articles/v2rayng-android-subscription-qr/","article":"v2rayng-android-subscription-qr","source":"https://github.com/2dust/v2rayNG","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"}
+  ],
+  "sourceChecks": [
+    {"url":"https://github.com/MetaCubeX/ClashMetaForAndroid","status":200,"checkedAt":"2026-10-25"},
+    {"url":"https://github.com/SagerNet/sing-box/releases","status":200,"checkedAt":"2026-10-25"},
+    {"url":"https://github.com/XTLS/Xray-core/releases","status":200,"checkedAt":"2026-10-25"},
+    {"url":"https://github.com/2dust/v2rayNG","status":200,"checkedAt":"2026-10-25"}
+  ],
+  "status": "blocked",
+  "publishAttempt": {"method":"git push via 127.0.0.1:7897","status":"failed","reason":"Git credential helper had no credential; push requested interactive username, then User cancelled dialog. No remote write confirmed.","commit":"49cee33"},
+  "nextTodo": ["配置可用 GitHub API 或 Git 凭据后，从提交 49cee33 继续发布。","发布后等待 Actions 并核验正式页面。"]
+}

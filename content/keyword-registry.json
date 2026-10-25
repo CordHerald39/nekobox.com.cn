@@ -8,7 +8,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/v2rayng-android-download/",
       "source": "https://github.com/2dust/v2rayNG",
-      "status": "published",
+      "status": "planned",
       "publishedDate": "2026-10-07",
       "article": "v2rayng-android-download"
     },
@@ -18,7 +18,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/clash-meta-android-download/",
       "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
-      "status": "published",
+      "status": "planned",
       "publishedDate": "2026-10-07",
       "article": "clash-meta-android-download"
     },
@@ -28,7 +28,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/sing-box-android-download/",
       "source": "https://github.com/SagerNet/sing-box",
-      "status": "published",
+      "status": "planned",
       "publishedDate": "2026-10-07",
       "article": "sing-box-android-download"
     },
@@ -38,7 +38,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/v2rayn-windows-download/",
       "source": "https://github.com/2dust/v2rayN",
-      "status": "published",
+      "status": "planned",
       "publishedDate": "2026-10-07",
       "article": "v2rayn-windows-download"
     },
@@ -48,7 +48,7 @@
       "targetSite": "nekobox.com.cn",
       "url": "/articles/clash-verge-rev-windows-download/",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "status": "published",
+      "status": "planned",
       "publishedDate": "2026-10-07",
       "article": "clash-verge-rev-windows-download"
     },
@@ -1110,10 +1110,73 @@
       "status": "published",
       "plannedDate": "2026-10-24",
       "publishedDate": "2026-10-24"
+    },
+    {
+      "keyword": "Clash Meta for Android 分应用代理",
+      "intent": "Android 分应用代理与 VPN 接管排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/clash-meta-android-app-routing/",
+      "article": "clash-meta-android-app-routing",
+      "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "sources": ["https://github.com/MetaCubeX/ClashMetaForAndroid"],
+      "sourceVerifiedDate": "2026-10-25",
+      "status": "planned",
+      "plannedDate": "2026-10-25",
+      "publishedDate": "2026-10-25"
+    },
+    {
+      "keyword": "sing-box Linux 安装",
+      "intent": "Linux 下载、安装与配置校验",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-linux-install/",
+      "article": "sing-box-linux-install",
+      "source": "https://github.com/SagerNet/sing-box/releases",
+      "sources": ["https://github.com/SagerNet/sing-box/releases","https://sing-box.sagernet.org/"],
+      "sourceVerifiedDate": "2026-10-25",
+      "status": "planned",
+      "plannedDate": "2026-10-25",
+      "publishedDate": "2026-10-25"
+    },
+    {
+      "keyword": "sing-box Windows 下载",
+      "intent": "Windows 下载、解压与配置检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-windows-download/",
+      "article": "sing-box-windows-download",
+      "source": "https://github.com/SagerNet/sing-box/releases",
+      "sources": ["https://github.com/SagerNet/sing-box/releases","https://sing-box.sagernet.org/"],
+      "sourceVerifiedDate": "2026-10-25",
+      "status": "planned",
+      "plannedDate": "2026-10-25",
+      "publishedDate": "2026-10-25"
+    },
+    {
+      "keyword": "Xray-core macOS 下载",
+      "intent": "macOS 架构选择、下载与启动检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-macos-download/",
+      "article": "xray-core-macos-download",
+      "source": "https://github.com/XTLS/Xray-core/releases",
+      "sources": ["https://github.com/XTLS/Xray-core/releases","https://xtls.github.io/"],
+      "sourceVerifiedDate": "2026-10-25",
+      "status": "planned",
+      "plannedDate": "2026-10-25",
+      "publishedDate": "2026-10-25"
+    },
+    {
+      "keyword": "v2rayNG 安卓订阅二维码导入",
+      "intent": "二维码导入、订阅更新与连接检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/v2rayng-android-subscription-qr/",
+      "article": "v2rayng-android-subscription-qr",
+      "source": "https://github.com/2dust/v2rayNG",
+      "sources": ["https://github.com/2dust/v2rayNG"],
+      "sourceVerifiedDate": "2026-10-25",
+      "status": "planned",
+      "plannedDate": "2026-10-25",
+      "publishedDate": "2026-10-25"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点页面已验证。",
-  "publishedCommit": "26834c3bb9fe4eb33175ffeb2c387275ba2391dd",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40049295749"
+  "publishStatus": "blocked",
+  "publishNote": "本地构建已通过；GitHub API/推送未执行成功，因无可用凭据触发交互式用户名提示后取消。保留提交 49cee33，未确认线上发布。"
 }
