@@ -3,28 +3,5 @@ function apply(platform){if(!filters.some(b=>b.dataset.platform===platform))plat
 filters.forEach(b=>b.addEventListener('click',()=>{apply(b.dataset.platform);const url=new URL(location.href);if(b.dataset.platform==='全部')url.searchParams.delete('platform');else url.searchParams.set('platform',b.dataset.platform);history.replaceState(null,'',url);}));if(filters.length)apply(new URLSearchParams(location.search).get('platform')||'全部');
 
 if(['localhost','127.0.0.1'].includes(location.hostname)){document.querySelectorAll('[data-preview-port]').forEach(el=>{const a=document.createElement('a');a.href='http://127.0.0.1:'+el.dataset.previewPort+'/';a.textContent='打开本地预览 →';el.append(a);});}
-
-/* 广告弹窗：3 秒后弹出，可关闭 */
-(function(){
-  if(localStorage.getItem("popup-seen")) return;
-  setTimeout(function(){
-    var o=document.createElement("div");
-    o.className="popup-overlay";
-    o.setAttribute("role","dialog");
-    o.setAttribute("aria-modal","true");
-    o.setAttribute("aria-labelledby","popup-title");
-    o.innerHTML='<div class="popup-content"><span class="popup-ad-label">\u5e7f\u544a</span><div class="popup-stack"><a href="https://xn--9kqs58iq4c.com/" target="_blank" rel="sponsored noopener noreferrer" class="popup-link"><p class="popup-title" id="popup-title">Clash \u673a\u573a\u63a8\u8350</p><img src="https://free.picui.cn/free/2026/06/05/6a229370bf0c1.png" alt="Clash \u673a\u573a\u63a8\u8350\u5e7f\u544a" class="popup-image"></a><div class="popup-shop-wrap"><a href="https://xn--9kqs58iq4c.com/" target="_blank" rel="sponsored noopener noreferrer" class="popup-shop-btn">\u52a0\u901f\u5668\u4e0b\u8f7d</a></div></div></div>';
-    document.body.appendChild(o);
-    localStorage.setItem("popup-seen","1");
-    o.addEventListener("click",function(e){
-      if(e.target===o){o.remove();}
-    });
-    var close=document.createElement("button");
-    close.textContent="\u00d7";
-    close.style.cssText="position:absolute;top:12px;right:14px;border:none;background:none;font-size:28px;cursor:pointer;color:#68757a;line-height:1;padding:0 6px";
-    close.setAttribute("aria-label","\u5173\u95ed\u5e7f\u544a");
-    close.addEventListener("click",function(e){e.stopPropagation();o.remove();});
-    o.querySelector(".popup-content").appendChild(close);
-  },3000);
-})();
-
+(()=>{const KEY='proxy-promo-popup-seen-v1',URL='https://189.24.66.76/register?aff=DjVQGjJK';if(location.hostname==='localhost'||location.hostname==='127.0.0.1')return;const seen=Number(localStorage.getItem(KEY)||0);if(Date.now()-seen<864e5)return;const show=()=>{if(document.getElementById('proxy-promo-popup'))return;const style=document.createElement('style');style.textContent='#proxy-promo-popup{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:20px;background:rgba(15,23,42,.58)}#proxy-promo-popup .promo-card{width:min(420px,100%);padding:28px;border:1px solid rgba(148,163,184,.35);border-radius:18px;background:#fff;color:#172033;box-shadow:0 24px 70px rgba(15,23,42,.25)}#proxy-promo-popup .promo-label{margin:0 0 10px;color:#b45309;font-size:12px;font-weight:700;letter-spacing:.12em}#proxy-promo-popup h2{margin:0 0 10px;font-size:24px;line-height:1.25}#proxy-promo-popup p{margin:0 0 20px;line-height:1.7;color:#475569}#proxy-promo-popup .promo-actions{display:flex;gap:10px;align-items:center}#proxy-promo-popup a,#proxy-promo-popup button{font:inherit;cursor:pointer}#proxy-promo-popup a{padding:11px 16px;border-radius:10px;background:#172033;color:#fff;text-decoration:none}#proxy-promo-popup button{border:0;background:transparent;color:#64748b;padding:10px}';document.head.append(style);const el=document.createElement('div');el.id='proxy-promo-popup';el.setAttribute('role','dialog');el.setAttribute('aria-modal','true');el.setAttribute('aria-labelledby','proxy-promo-title');el.innerHTML='<div class="promo-card"><p class="promo-label">推广信息</p><h2 id="proxy-promo-title">需要稳定的订阅服务？</h2><p>可前往服务方页面查看当前套餐、线路与注册条件。价格和服务条款以对方页面为准。</p><div class="promo-actions"><a href="'+URL+'" target="_blank" rel="sponsored noopener noreferrer">查看服务方页面 ↗</a><button type="button" aria-label="关闭推广弹窗">暂不查看</button></div></div>';document.body.append(el);const close=()=>{localStorage.setItem(KEY,String(Date.now()));el.remove();style.remove()};el.querySelector('button').addEventListener('click',close);el.addEventListener('click',e=>{if(e.target===el)close()});};window.setTimeout(show,2500)})();
+(()=>{const footer=document.querySelector('footer');if(!footer||footer.querySelector('.site-cooperation'))return;const p=document.createElement('p');p.className='site-cooperation';p.innerHTML='站长合作：<a href="https://t.me/bewater678" target="_blank" rel="noopener noreferrer">@bewater678</a>';footer.firstElementChild?.append(p)})();
