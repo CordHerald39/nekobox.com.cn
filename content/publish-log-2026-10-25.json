@@ -16,7 +16,7 @@
     {"url":"https://github.com/XTLS/Xray-core/releases","status":200,"checkedAt":"2026-10-25"},
     {"url":"https://github.com/2dust/v2rayNG","status":200,"checkedAt":"2026-10-25"}
   ],
-  "status": "blocked",
-  "publishAttempt": {"method":"git push via 127.0.0.1:7897","status":"failed","reason":"Git credential helper had no credential; push requested interactive username, then User cancelled dialog. No remote write confirmed.","commit":"49cee33"},
-  "nextTodo": ["配置可用 GitHub API 或 Git 凭据后，从提交 49cee33 继续发布。","发布后等待 Actions 并核验正式页面。"]
+  "status": "published",
+  "publishAttempt": {"method":"Git Data API","status":"success","commit":"87de185b506c40bdac09ff42c2064cb522b488cf"},
+  "liveVerification": {"status":"passed","newArticleUrls": 5,"httpsStatus": 200}
 }
