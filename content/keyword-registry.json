@@ -1122,7 +1122,7 @@
         "https://github.com/MetaCubeX/ClashMetaForAndroid"
       ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1138,7 +1138,7 @@
         "https://sing-box.sagernet.org/"
       ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1154,7 +1154,7 @@
         "https://sing-box.sagernet.org/"
       ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1170,7 +1170,7 @@
         "https://xtls.github.io/"
       ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1185,7 +1185,7 @@
         "https://github.com/2dust/v2rayNG"
       ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1200,9 +1200,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "mihomo geodata-mode",
@@ -1215,9 +1215,9 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box DNS cache_capacity",
@@ -1230,9 +1230,9 @@
         "https://sing-box.sagernet.org/configuration/dns/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "Xray-core DNS disableFallback",
@@ -1245,9 +1245,9 @@
         "https://xtls.github.io/config/dns.html"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "Xray-core mux concurrency",
@@ -1260,11 +1260,13 @@
         "https://xtls.github.io/config/outbound.html"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "本轮 5 篇 NekoBox 文章已生成并完成官方来源核验，等待主线程集成与发布。"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "6db76b13c5ffdfa0b35c6492df06d5065cf5bcec",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40431214851"
 }

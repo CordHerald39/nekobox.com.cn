@@ -14,9 +14,9 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "mihomo geodata-mode",
@@ -29,9 +29,9 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box DNS cache_capacity",
@@ -44,9 +44,9 @@
         "https://sing-box.sagernet.org/configuration/dns/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "Xray-core DNS disableFallback",
@@ -59,9 +59,9 @@
         "https://xtls.github.io/config/dns.html"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "Xray-core mux concurrency",
@@ -74,9 +74,9 @@
         "https://xtls.github.io/config/outbound.html"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     }
   ],
   "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
@@ -235,10 +235,93 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "3811b7eb664fe45eb11129954ea8654aae65884d"
+    "status": "published-via-git-data-api",
+    "remoteSha": "6db76b13c5ffdfa0b35c6492df06d5065cf5bcec",
+    "workflowRuns": [
+      {
+        "id": 40431214851,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40431214851",
+        "head_sha": "6db76b13c5ffdfa0b35c6492df06d5065cf5bcec"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-27T01:16:55.600025+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-use-system-hosts/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-geodata-mode/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-dns-cache-capacity/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-disable-fallback/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-mux-concurrency/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 129,
+    "articleCount": 110,
+    "status": "passed"
+  },
+  "registryReconciliation": {
+    "date": "2026-10-25",
+    "verifiedLiveArticles": 5,
+    "articles": [
+      "clash-meta-android-app-routing",
+      "sing-box-linux-install",
+      "sing-box-windows-download",
+      "v2rayng-android-subscription-qr",
+      "xray-core-macos-download"
+    ],
+    "change": "planned to published; existing article contents unchanged"
+  }
 }
