@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -1118,7 +1118,9 @@
       "url": "/articles/clash-meta-android-app-routing/",
       "article": "clash-meta-android-app-routing",
       "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
-      "sources": ["https://github.com/MetaCubeX/ClashMetaForAndroid"],
+      "sources": [
+        "https://github.com/MetaCubeX/ClashMetaForAndroid"
+      ],
       "sourceVerifiedDate": "2026-10-25",
       "status": "planned",
       "plannedDate": "2026-10-25",
@@ -1131,7 +1133,10 @@
       "url": "/articles/sing-box-linux-install/",
       "article": "sing-box-linux-install",
       "source": "https://github.com/SagerNet/sing-box/releases",
-      "sources": ["https://github.com/SagerNet/sing-box/releases","https://sing-box.sagernet.org/"],
+      "sources": [
+        "https://github.com/SagerNet/sing-box/releases",
+        "https://sing-box.sagernet.org/"
+      ],
       "sourceVerifiedDate": "2026-10-25",
       "status": "planned",
       "plannedDate": "2026-10-25",
@@ -1144,7 +1149,10 @@
       "url": "/articles/sing-box-windows-download/",
       "article": "sing-box-windows-download",
       "source": "https://github.com/SagerNet/sing-box/releases",
-      "sources": ["https://github.com/SagerNet/sing-box/releases","https://sing-box.sagernet.org/"],
+      "sources": [
+        "https://github.com/SagerNet/sing-box/releases",
+        "https://sing-box.sagernet.org/"
+      ],
       "sourceVerifiedDate": "2026-10-25",
       "status": "planned",
       "plannedDate": "2026-10-25",
@@ -1157,7 +1165,10 @@
       "url": "/articles/xray-core-macos-download/",
       "article": "xray-core-macos-download",
       "source": "https://github.com/XTLS/Xray-core/releases",
-      "sources": ["https://github.com/XTLS/Xray-core/releases","https://xtls.github.io/"],
+      "sources": [
+        "https://github.com/XTLS/Xray-core/releases",
+        "https://xtls.github.io/"
+      ],
       "sourceVerifiedDate": "2026-10-25",
       "status": "planned",
       "plannedDate": "2026-10-25",
@@ -1170,14 +1181,90 @@
       "url": "/articles/v2rayng-android-subscription-qr/",
       "article": "v2rayng-android-subscription-qr",
       "source": "https://github.com/2dust/v2rayNG",
-      "sources": ["https://github.com/2dust/v2rayNG"],
+      "sources": [
+        "https://github.com/2dust/v2rayNG"
+      ],
       "sourceVerifiedDate": "2026-10-25",
       "status": "planned",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
+    },
+    {
+      "keyword": "mihomo DNS use-system-hosts",
+      "intent": "系统 hosts 参与解析与结果排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-use-system-hosts/",
+      "article": "mihomo-dns-use-system-hosts",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo geodata-mode",
+      "intent": "GEOIP 文件格式切换与规则命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-geodata-mode/",
+      "article": "mihomo-geodata-mode",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box DNS cache_capacity",
+      "intent": "DNS 缓存容量设置与命中观察",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-cache-capacity/",
+      "article": "sing-box-dns-cache-capacity",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS disableFallback",
+      "intent": "DNS 回退查询开关与故障排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-disable-fallback/",
+      "article": "xray-core-dns-disable-fallback",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core mux concurrency",
+      "intent": "Mux TCP 子连接并发上限与连接观察",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-mux-concurrency/",
+      "article": "xray-core-mux-concurrency",
+      "source": "https://xtls.github.io/config/outbound.html",
+      "sources": [
+        "https://xtls.github.io/config/outbound.html"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "2026-10-25 五篇文章已通过 Git Data API 提交并完成正式 URL 核验。",
-  "publishedCommit": "87de185b506c40bdac09ff42c2064cb522b488cf"
+  "publishStatus": "pending",
+  "publishNote": "本轮 5 篇 NekoBox 文章已生成并完成官方来源核验，等待主线程集成与发布。"
 }

@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-26",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo DNS use-system-hosts",
+      "intent": "系统 hosts 参与解析与结果排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-use-system-hosts/",
+      "article": "mihomo-dns-use-system-hosts",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "mihomo geodata-mode",
+      "intent": "GEOIP 文件格式切换与规则命中排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-geodata-mode/",
+      "article": "mihomo-geodata-mode",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box DNS cache_capacity",
+      "intent": "DNS 缓存容量设置与命中观察",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-cache-capacity/",
+      "article": "sing-box-dns-cache-capacity",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core DNS disableFallback",
+      "intent": "DNS 回退查询开关与故障排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-dns-disable-fallback/",
+      "article": "xray-core-dns-disable-fallback",
+      "source": "https://xtls.github.io/config/dns.html",
+      "sources": [
+        "https://xtls.github.io/config/dns.html"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Xray-core mux concurrency",
+      "intent": "Mux TCP 子连接并发上限与连接观察",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-mux-concurrency/",
+      "article": "xray-core-mux-concurrency",
+      "source": "https://xtls.github.io/config/outbound.html",
+      "sources": [
+        "https://xtls.github.io/config/outbound.html"
+      ],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
+  "sourceChecks": [
+    {
+      "url": "https://wiki.metacubex.one/config/dns/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/dns/",
+      "checkedAt": "2026-10-26T01:06:12.6501786Z",
+      "sha256": "88f9186188eefa4226e059c0aaafb87f4dd525100a72cfc39211006b608aa7f0",
+      "localSnapshot": "reports/daily-content-2026-10-26/nekobox.com.cn/official-sources/mihomo-dns-use-system-hosts.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/general/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/general/",
+      "checkedAt": "2026-10-26T01:06:13.7928526Z",
+      "sha256": "b8835551c4e1ae27d16c1663cc989816a6d6340bd86b68b34be1718f10dd5427",
+      "localSnapshot": "reports/daily-content-2026-10-26/nekobox.com.cn/official-sources/mihomo-geodata-mode.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/dns/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/dns/",
+      "checkedAt": "2026-10-26T01:06:15.549702Z",
+      "sha256": "8455ad466f62840bdae924d75b13d8b7af0c94bf52c5f11211c6d910d6e34633",
+      "localSnapshot": "reports/daily-content-2026-10-26/nekobox.com.cn/official-sources/sing-box-dns-cache-capacity.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/dns.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/dns.html",
+      "checkedAt": "2026-10-26T01:06:16.655565Z",
+      "sha256": "2e5114a54daa6d6c6394f2cea782a73239ebfdd23f6f9a2388ac4f981383695a",
+      "localSnapshot": "reports/daily-content-2026-10-26/nekobox.com.cn/official-sources/xray-core-dns-disable-fallback.html"
+    },
+    {
+      "url": "https://xtls.github.io/config/outbound.html",
+      "status": 200,
+      "finalUrl": "https://xtls.github.io/config/outbound.html",
+      "checkedAt": "2026-10-26T01:06:17.647287Z",
+      "sha256": "054434f93a8e82d29071855d8750bb2425e0bcc7c14ce4ee2bb63035543a9c3e",
+      "localSnapshot": "reports/daily-content-2026-10-26/nekobox.com.cn/official-sources/xray-core-mux-concurrency.html"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 110
+  },
+  "localVerification": {
+    "site": "nekobox.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-26T01:34:20.063424+00:00",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-dns-use-system-hosts/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-geodata-mode/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/sing-box-dns-cache-capacity/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-dns-disable-fallback/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-mux-concurrency/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 129,
+    "articleCount": 110,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 185,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "3811b7eb664fe45eb11129954ea8654aae65884d"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
