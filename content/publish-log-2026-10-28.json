@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-28",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo fallback-lazy-query",
+      "intent": "DNS 回退查询与连接故障排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-fallback-lazy-query/",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "mihomo-dns-fallback-lazy-query"
+    },
+    {
+      "keyword": "mihomo proxy-group lazy 配置",
+      "intent": "代理组启动行为与节点加载排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-group-lazy/",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "mihomo-proxy-group-lazy"
+    },
+    {
+      "keyword": "sing-box DNS reverse_mapping 配置",
+      "intent": "DNS 反向映射与域名恢复",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-reverse-mapping/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "sing-box-dns-reverse-mapping"
+    },
+    {
+      "keyword": "sing-box route sniff 规则",
+      "intent": "路由协议嗅探与分流验证",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-sniff-action/",
+      "source": "https://sing-box.sagernet.org/configuration/route/sniff/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/sniff/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "sing-box-route-sniff-action"
+    },
+    {
+      "keyword": "Xray-core sendThrough 出站绑定",
+      "intent": "多网卡出站与绑定地址排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-outbound-send-through/",
+      "source": "https://xtls.github.io/config/outbound.html",
+      "sources": [
+        "https://xtls.github.io/config/outbound.html"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "xray-core-outbound-send-through"
+    }
+  ],
+  "allocationReason": "默认每站 5 篇；依据已发布关键词与 URL 补充原软件 DNS、路由、TLS、版本和故障意图。"
+}
