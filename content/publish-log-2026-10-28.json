@@ -13,9 +13,10 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "mihomo-dns-fallback-lazy-query"
+      "article": "mihomo-dns-fallback-lazy-query",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "mihomo proxy-group lazy 配置",
@@ -27,9 +28,10 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "mihomo-proxy-group-lazy"
+      "article": "mihomo-proxy-group-lazy",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "sing-box DNS reverse_mapping 配置",
@@ -41,9 +43,10 @@
         "https://sing-box.sagernet.org/configuration/dns/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-dns-reverse-mapping"
+      "article": "sing-box-dns-reverse-mapping",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "sing-box route sniff 规则",
@@ -55,9 +58,10 @@
         "https://sing-box.sagernet.org/configuration/route/sniff/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-route-sniff-action"
+      "article": "sing-box-route-sniff-action",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "Xray-core sendThrough 出站绑定",
@@ -69,10 +73,24 @@
         "https://xtls.github.io/config/outbound.html"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "xray-core-outbound-send-through"
+      "article": "xray-core-outbound-send-through",
+      "publishedDate": "2026-10-28"
     }
   ],
-  "allocationReason": "默认每站 5 篇；依据已发布关键词与 URL 补充原软件 DNS、路由、TLS、版本和故障意图。"
+  "allocationReason": "默认每站 5 篇；依据已发布关键词与 URL 补充原软件 DNS、路由、TLS、版本和故障意图。",
+  "publish": {
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "c55b4fc4367c30ec08a348f9793d112132b33c68",
+      "52a4fe555c6a7f60eea976e57ba4f66331e725ef",
+      "325da4003bf665c417426cecf2c50cfb26a2293c",
+      "7adbc79208b05c622c79c6bec43bb54fef34060f",
+      "3af6829a7e867ab77a5d94f66b725b2b8ecca37d",
+      "9ee89836fe19654f7b05bfc761bb3831eb6a733d",
+      "60e74e847e7b125f79a6c7c23c53e3a0f3121f82"
+    ],
+    "statusCommit": "777138129f3a1e3294413b460aa87726cf0ef904"
+  }
 }
