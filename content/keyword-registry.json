@@ -1349,9 +1349,10 @@
         "https://wiki.metacubex.one/config/proxy-providers/"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "mihomo-proxy-provider-health-check"
+      "article": "mihomo-proxy-provider-health-check",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "mihomo proxy-group filter 配置",
@@ -1363,9 +1364,10 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "mihomo-proxy-group-filter"
+      "article": "mihomo-proxy-group-filter",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "Xray-core balancer fallback 回退",
@@ -1377,9 +1379,10 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "xray-core-routing-balancer-fallback"
+      "article": "xray-core-routing-balancer-fallback",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "v2rayNG 安卓分享链接导入",
@@ -1391,9 +1394,10 @@
         "https://github.com/2dust/v2rayNG"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "v2rayng-android-share-link-import"
+      "article": "v2rayng-android-share-link-import",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "Clash Meta for Android 配置备份恢复",
@@ -1405,13 +1409,14 @@
         "https://github.com/MetaCubeX/ClashMetaForAndroid"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "clash-meta-android-backup-restore"
+      "article": "clash-meta-android-backup-restore",
+      "publishedDate": "2026-10-29"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮文章已生成并完成官方来源核验，待测试、构建和发布。",
-  "publishedCommit": "60e74e847e7b125f79a6c7c23c53e3a0f3121f82",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40431214851"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API 逐文件提交、Actions 成功；正式页面 HTTPS、canonical、robots、sitemap 和代表文章已核验。",
+  "publishedCommit": "7b9ba83fec1dac4751ce6e35a4e5b9807a04ae09",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40800018855"
 }
