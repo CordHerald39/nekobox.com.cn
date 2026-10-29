@@ -13,9 +13,10 @@
         "https://wiki.metacubex.one/config/proxy-providers/"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "mihomo-proxy-provider-health-check"
+      "article": "mihomo-proxy-provider-health-check",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "mihomo proxy-group filter 配置",
@@ -27,9 +28,10 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "mihomo-proxy-group-filter"
+      "article": "mihomo-proxy-group-filter",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "Xray-core balancer fallback 回退",
@@ -41,9 +43,10 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "xray-core-routing-balancer-fallback"
+      "article": "xray-core-routing-balancer-fallback",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "v2rayNG 安卓分享链接导入",
@@ -55,9 +58,10 @@
         "https://github.com/2dust/v2rayNG"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "v2rayng-android-share-link-import"
+      "article": "v2rayng-android-share-link-import",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "Clash Meta for Android 配置备份恢复",
@@ -69,14 +73,88 @@
         "https://github.com/MetaCubeX/ClashMetaForAndroid"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "clash-meta-android-backup-restore"
+      "article": "clash-meta-android-backup-restore",
+      "publishedDate": "2026-10-29"
     }
   ],
   "allocationReason": "默认每站 5 篇；两站远端各 90 条已发布登记，按未覆盖的下载、配置、故障和迁移意图分配。",
   "publish": {
-    "status": "planned",
-    "next": "完成测试、构建、API 发布和 HTTPS/Actions/Pages 核验。"
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "5d37a58f697b351c40f20f3a94baba6e5b8b10cc",
+      "2c1c1479036d54bb209b30a993779e92afe14e1c",
+      "139ff34c25f2da272c960cb37fb47f0b9d175a1a",
+      "a36c9dc1504976b6d0c1c719cac861860958bf82",
+      "91098cedddef720a25e6244862a89184bc1270f6",
+      "824ae7651a931743022382a7bbc29bdb5a976800",
+      "7b9ba83fec1dac4751ce6e35a4e5b9807a04ae09"
+    ],
+    "statusCommit": "665c1370972f690a8dfd67665b54454eb1c4db52",
+    "actions": [
+      {
+        "id": 40800018855,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40800018855",
+        "head_sha": "7b9ba83fec1dac4751ce6e35a4e5b9807a04ae09"
+      }
+    ]
+  },
+  "liveVerification": {
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "bytes": 14237
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "bytes": 21695
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "bytes": 2907
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 67
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 14631
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-proxy-provider-health-check/",
+        "status": 200,
+        "bytes": 7258
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-proxy-group-filter/",
+        "status": 200,
+        "bytes": 7175
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-routing-balancer-fallback/",
+        "status": 200,
+        "bytes": 7489
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/v2rayng-android-share-link-import/",
+        "status": 200,
+        "bytes": 6947
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/clash-meta-android-backup-restore/",
+        "status": 200,
+        "bytes": 7248
+      }
+    ]
   }
 }
