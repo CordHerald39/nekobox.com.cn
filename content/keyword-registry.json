@@ -1338,10 +1338,80 @@
       "plannedDate": "2026-10-28",
       "article": "xray-core-outbound-send-through",
       "publishedDate": "2026-10-28"
+    },
+    {
+      "keyword": "mihomo proxy-provider 健康检查",
+      "intent": "代理提供者更新后节点健康检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-provider-health-check/",
+      "source": "https://wiki.metacubex.one/config/proxy-providers/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-providers/"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "mihomo-proxy-provider-health-check"
+    },
+    {
+      "keyword": "mihomo proxy-group filter 配置",
+      "intent": "代理组筛选节点与规则匹配排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-group-filter/",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "mihomo-proxy-group-filter"
+    },
+    {
+      "keyword": "Xray-core balancer fallback 回退",
+      "intent": "Xray 路由负载均衡无可用标签时的回退排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-balancer-fallback/",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "xray-core-routing-balancer-fallback"
+    },
+    {
+      "keyword": "v2rayNG 安卓分享链接导入",
+      "intent": "Android 分享链接导入与协议识别",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/v2rayng-android-share-link-import/",
+      "source": "https://github.com/2dust/v2rayNG",
+      "sources": [
+        "https://github.com/2dust/v2rayNG"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "v2rayng-android-share-link-import"
+    },
+    {
+      "keyword": "Clash Meta for Android 配置备份恢复",
+      "intent": "Android 客户端升级前配置备份与恢复",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/clash-meta-android-backup-restore/",
+      "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "sources": [
+        "https://github.com/MetaCubeX/ClashMetaForAndroid"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "clash-meta-android-backup-restore"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API 逐文件提交、Actions 成功；正式页面待最终核验。",
+  "publishStatus": "planned",
+  "publishNote": "本轮文章已生成并完成官方来源核验，待测试、构建和发布。",
   "publishedCommit": "60e74e847e7b125f79a6c7c23c53e3a0f3121f82",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40431214851"
 }
