@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-30",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo TUN route-exclude-address",
+      "intent": "TUN开启后局域网与内网地址无法访问时排除目标网段",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tun-route-exclude-address/",
+      "source": "https://wiki.metacubex.one/config/inbound/tun/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "mihomo-tun-route-exclude-address"
+    },
+    {
+      "keyword": "mihomo fake-ip 切换 redir-host",
+      "intent": "DNS增强模式迁移后旧解析缓存和连接异常排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-enhanced-mode-migration/",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "mihomo-dns-enhanced-mode-migration"
+    },
+    {
+      "keyword": "mihomo proxy-provider header 请求头",
+      "intent": "订阅请求返回鉴权或格式错误时检查provider请求头",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-provider-request-header/",
+      "source": "https://wiki.metacubex.one/config/proxy-providers/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-providers/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "mihomo-proxy-provider-request-header"
+    },
+    {
+      "keyword": "Xray-core sniffing routeOnly 配置",
+      "intent": "嗅探域名用于路由但保留原始IP目标地址",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-sniffing-route-only/",
+      "source": "https://xtls.github.io/config/inbound.html",
+      "sources": [
+        "https://xtls.github.io/config/inbound.html"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "xray-core-sniffing-route-only"
+    },
+    {
+      "keyword": "sing-box local DNS 服务器配置",
+      "intent": "使用系统本地解析器处理DNS请求并核对平台差异",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-local-dns-server/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/local/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/local/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "sing-box-local-dns-server"
+    }
+  ],
+  "allocationReason": "默认两站各5篇，依据既有文章清单补齐TUN排除、DNS模式迁移、订阅请求头、嗅探和本地DNS意图；未据此宣称搜索量。",
+  "publish": {
+    "status": "planned",
+    "next": "test、构建前链接校验、build、API与Actions/HTTPS验证"
+  }
+}
