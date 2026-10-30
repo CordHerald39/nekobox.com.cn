@@ -1424,9 +1424,10 @@
         "https://wiki.metacubex.one/config/inbound/tun/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "mihomo-tun-route-exclude-address"
+      "article": "mihomo-tun-route-exclude-address",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "mihomo fake-ip 切换 redir-host",
@@ -1438,9 +1439,10 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "mihomo-dns-enhanced-mode-migration"
+      "article": "mihomo-dns-enhanced-mode-migration",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "mihomo proxy-provider header 请求头",
@@ -1452,9 +1454,10 @@
         "https://wiki.metacubex.one/config/proxy-providers/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "mihomo-proxy-provider-request-header"
+      "article": "mihomo-proxy-provider-request-header",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "Xray-core sniffing routeOnly 配置",
@@ -1466,9 +1469,10 @@
         "https://xtls.github.io/config/inbound.html"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "xray-core-sniffing-route-only"
+      "article": "xray-core-sniffing-route-only",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box local DNS 服务器配置",
@@ -1481,13 +1485,14 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-local-dns-server"
+      "article": "sing-box-local-dns-server",
+      "publishedDate": "2026-10-30"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮5篇文章已完成官方字段语义核验，待测试、构建与API发布。",
-  "publishedCommit": "7b9ba83fec1dac4751ce6e35a4e5b9807a04ae09",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40800018855"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "229df778281b80f4e58e9f872ab9259e79147c16",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40984023120"
 }
