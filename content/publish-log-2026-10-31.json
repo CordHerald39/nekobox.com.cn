@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-31",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo PROCESS-NAME 不生效",
+      "intent": "Windows本机应用按进程分流未命中时核对进程名称与匹配模式",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-process-name-not-matching/",
+      "source": "https://wiki.metacubex.one/config/rules/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rules/",
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "mihomo-process-name-not-matching"
+    },
+    {
+      "keyword": "mihomo include-all-providers 配置",
+      "intent": "新增订阅后代理组意外包含全部provider时限定导入范围",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-include-all-providers-scope/",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "mihomo-include-all-providers-scope"
+    },
+    {
+      "keyword": "mihomo DNS listen 端口冲突",
+      "intent": "DNS监听启动失败时定位地址端口占用与实际查询入口",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-listen-port-conflict/",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "mihomo-dns-listen-port-conflict"
+    },
+    {
+      "keyword": "Xray-core protocol 规则不匹配",
+      "intent": "协议路由未命中时区分network传输类型与sniffing协议识别",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-routing-protocol-sniffing/",
+      "source": "https://xtls.github.io/config/routing.html",
+      "sources": [
+        "https://xtls.github.io/config/routing.html",
+        "https://xtls.github.io/config/inbound.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "xray-core-routing-protocol-sniffing"
+    },
+    {
+      "keyword": "Xray-core SOCKS UDP 不通",
+      "intent": "SOCKS5网页正常但UDP应用失败时检查udp开关与返回地址",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-socks-udp-relay-check/",
+      "source": "https://xtls.github.io/config/inbounds/socks.html",
+      "sources": [
+        "https://xtls.github.io/config/inbounds/socks.html",
+        "https://xtls.github.io/config/inbound.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "xray-core-socks-udp-relay-check"
+    }
+  ],
+  "allocationReason": "默认两站各5篇；按已有覆盖补齐进程分流、provider导入范围、DNS监听、协议嗅探与SOCKS UDP，未据此宣称搜索量或实机测试。",
+  "publish": {
+    "status": "planned"
+  }
+}
