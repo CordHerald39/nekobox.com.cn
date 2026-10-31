@@ -1501,9 +1501,10 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "mihomo-process-name-not-matching"
+      "article": "mihomo-process-name-not-matching",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "mihomo include-all-providers 配置",
@@ -1515,9 +1516,10 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "mihomo-include-all-providers-scope"
+      "article": "mihomo-include-all-providers-scope",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "mihomo DNS listen 端口冲突",
@@ -1529,9 +1531,10 @@
         "https://wiki.metacubex.one/config/dns/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "mihomo-dns-listen-port-conflict"
+      "article": "mihomo-dns-listen-port-conflict",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "Xray-core protocol 规则不匹配",
@@ -1545,9 +1548,10 @@
         "https://xtls.github.io/document/command.html"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "xray-core-routing-protocol-sniffing"
+      "article": "xray-core-routing-protocol-sniffing",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "Xray-core SOCKS UDP 不通",
@@ -1561,13 +1565,14 @@
         "https://xtls.github.io/document/command.html"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "xray-core-socks-udp-relay-check"
+      "article": "xray-core-socks-udp-relay-check",
+      "publishedDate": "2026-10-31"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮5篇依据官方文档核对，待本地校验、构建、API与正式页面核验。",
-  "publishedCommit": "229df778281b80f4e58e9f872ab9259e79147c16",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/40984023120"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "408b892a732a5013535c0a42454778cea8d85856",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41154467893"
 }
