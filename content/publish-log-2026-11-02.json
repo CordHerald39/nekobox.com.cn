@@ -13,9 +13,10 @@
         "https://wiki.metacubex.one/config/inbound/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "mihomo-tproxy-inbound-config"
+      "article": "mihomo-tproxy-inbound-config",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "mihomo REDIR 入站配置",
@@ -27,9 +28,10 @@
         "https://wiki.metacubex.one/config/inbound/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "mihomo-redir-inbound-config"
+      "article": "mihomo-redir-inbound-config",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "mihomo listeners 入站配置",
@@ -41,9 +43,10 @@
         "https://wiki.metacubex.one/config/inbound/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "mihomo-listeners-inbound-config"
+      "article": "mihomo-listeners-inbound-config",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "Xray-core VLESS 出站配置",
@@ -55,9 +58,10 @@
         "https://xtls.github.io/config/outbounds/vless.html"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "xray-core-vless-outbound-config"
+      "article": "xray-core-vless-outbound-config",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "Xray-core VMess 出站配置",
@@ -69,13 +73,98 @@
         "https://xtls.github.io/config/outbounds/vmess.html"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "xray-core-vmess-outbound-config"
+      "article": "xray-core-vmess-outbound-config",
+      "publishedDate": "2026-11-02"
     }
   ],
   "allocationReason": "默认两站各5篇；按现有覆盖补齐代理入站、节点出站、DNS动作与路由动作，未据此宣称搜索量或实机测试。",
   "publish": {
-    "status": "planned"
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "5854eeea6e855e23126468a5a2a83d205790333c",
+      "82015b64780612519ec03f0156768fc4f1d7047a",
+      "a8c11427176a4c688a9a9a493a9b6e56a9bdeff6",
+      "61cef1ae09987c4b1bd385869d6e2d16acdbf23d",
+      "2ecdbf6c826c2becfdf94b49ab7cc3fa19290ade",
+      "1be16b892a889794c82bf8615bfa2a3be089f95e",
+      "8404329b0e557ff7110dd0512b7a1f73ef41c176"
+    ],
+    "statusCommit": "dad7b254886c8f5e75088e2f575f731b239a3a62",
+    "contentActions": [
+      {
+        "id": 41372498271,
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41372498271",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "8404329b0e557ff7110dd0512b7a1f73ef41c176"
+      }
+    ]
+  },
+  "liveVerification": {
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "bytes": 19016,
+        "sha256": "da32df28eb394fc55c2a775927fc562be2a6cd8f65e9962b000df95cfb4568bb"
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "bytes": 21705,
+        "sha256": "138c0d162248b43ce527b387ef681321103a7e3c7d6be7cedad8a20cd272db46"
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "bytes": 3000,
+        "sha256": "a506d0dde46d8a1b95fb11d87a6c6539b0bc92d3e94f685c4baa7a13bf0b0217"
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 67,
+        "sha256": "47d966ca4878835abeca6f09725a33e2bd8fb18bc73f63fb64a38cc604b804b1"
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 16358,
+        "sha256": "9f18c665cf5973ce1a691b9bf42fb797ed1e9be59db190692e18759100a7474f"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-tproxy-inbound-config/",
+        "status": 200,
+        "bytes": 9055,
+        "sha256": "04f5533eac653c8b0f2b0418cc4383f665031ecbe890cc11ad8bff819bb9bdc1"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-redir-inbound-config/",
+        "status": 200,
+        "bytes": 9154,
+        "sha256": "5d5d8e18928c63b2ab890a373ce25ccdd6ca25bf842d7f1fe410f690b687b4f1"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-listeners-inbound-config/",
+        "status": 200,
+        "bytes": 9162,
+        "sha256": "e53e6b11116260dbde385d70ee00299d2ef125cc1e266ba8a23a133ac5979f6a"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-vless-outbound-config/",
+        "status": 200,
+        "bytes": 9146,
+        "sha256": "0f7931c5a1f13deec3c7e8d03354fafcd24b11a18663950814b4341eb9ff075b"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-vmess-outbound-config/",
+        "status": 200,
+        "bytes": 9217,
+        "sha256": "fd49cc0dc2aa24430a24464625ca64be59883c2acc8bf9dfb2104a71d78fec11"
+      }
+    ]
   }
 }
