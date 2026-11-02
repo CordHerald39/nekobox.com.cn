@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-02",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo TPROXY 入站配置",
+      "intent": "Linux透明代理使用 TPROXY 入站时核对监听地址、端口和路由标记",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tproxy-inbound-config/",
+      "source": "https://wiki.metacubex.one/config/inbound/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "mihomo-tproxy-inbound-config"
+    },
+    {
+      "keyword": "mihomo REDIR 入站配置",
+      "intent": "Linux TCP 重定向代理使用 REDIR 入站时核对端口和原目标地址",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-redir-inbound-config/",
+      "source": "https://wiki.metacubex.one/config/inbound/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "mihomo-redir-inbound-config"
+    },
+    {
+      "keyword": "mihomo listeners 入站配置",
+      "intent": "需要多个监听入口时核对 listeners 标签、类型和端口冲突",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-listeners-inbound-config/",
+      "source": "https://wiki.metacubex.one/config/inbound/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "mihomo-listeners-inbound-config"
+    },
+    {
+      "keyword": "Xray-core VLESS 出站配置",
+      "intent": "迁移 VLESS 节点时核对 address、port、id 与 security 传输对象",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-vless-outbound-config/",
+      "source": "https://xtls.github.io/config/outbounds/vless.html",
+      "sources": [
+        "https://xtls.github.io/config/outbounds/vless.html"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "xray-core-vless-outbound-config"
+    },
+    {
+      "keyword": "Xray-core VMess 出站配置",
+      "intent": "迁移 VMess 节点时核对 users、alterId 兼容性与传输设置",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-vmess-outbound-config/",
+      "source": "https://xtls.github.io/config/outbounds/vmess.html",
+      "sources": [
+        "https://xtls.github.io/config/outbounds/vmess.html"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "xray-core-vmess-outbound-config"
+    }
+  ],
+  "allocationReason": "默认两站各5篇；按现有覆盖补齐代理入站、节点出站、DNS动作与路由动作，未据此宣称搜索量或实机测试。",
+  "publish": {
+    "status": "planned"
+  }
+}
