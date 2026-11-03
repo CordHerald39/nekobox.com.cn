@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-03",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo AND OR NOT 逻辑规则",
+      "intent": "多个匹配条件组合时确认逻辑关系和括号层级",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-rule-logical-and-or-not/",
+      "source": "https://wiki.metacubex.one/config/rules/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "mihomo-rule-logical-and-or-not"
+    },
+    {
+      "keyword": "mihomo SRC-PORT 来源端口规则",
+      "intent": "分清应用来源端口与服务端目标端口并排查匹配漂移",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-rule-src-port-check/",
+      "source": "https://wiki.metacubex.one/config/rules/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "mihomo-rule-src-port-check"
+    },
+    {
+      "keyword": "mihomo IN-PORT 入站端口规则",
+      "intent": "多个代理监听端口需要独立分流时验证入站端口匹配",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-rule-in-port-check/",
+      "source": "https://wiki.metacubex.one/config/rules/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "mihomo-rule-in-port-check"
+    },
+    {
+      "keyword": "mihomo IN-NAME 入站名称规则",
+      "intent": "自定义 listener 改名后验证规则引用与实际入口一致",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-rule-in-name-check/",
+      "source": "https://wiki.metacubex.one/config/rules/",
+      "sources": [
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "mihomo-rule-in-name-check"
+    },
+    {
+      "keyword": "Xray-core blackhole response 配置",
+      "intent": "区分阻断出站的关闭连接与 HTTP 403 响应行为",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-blackhole-response-check/",
+      "source": "https://xtls.github.io/config/outbounds/blackhole.html",
+      "sources": [
+        "https://xtls.github.io/config/outbounds/blackhole.html"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "xray-core-blackhole-response-check"
+    }
+  ],
+  "allocationReason": "默认各5篇；按现有关键词和文章缺口补充 mihomo 规则、Xray 阻断行为及 sing-box TLS/拨号设置；没有搜索量或排名数据，不宣称流量预测。",
+  "publish": {
+    "status": "planned"
+  }
+}
