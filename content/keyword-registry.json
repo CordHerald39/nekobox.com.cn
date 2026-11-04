@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -1719,10 +1719,80 @@
       "plannedDate": "2026-11-03",
       "article": "xray-core-blackhole-response-check",
       "publishedDate": "2026-11-03"
+    },
+    {
+      "keyword": "mihomo TUN stack 配置",
+      "intent": "TUN 入站启动后排查 stack 模式、网卡接管与应用连接路径",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-tun-stack-config/",
+      "source": "https://wiki.metacubex.one/config/inbound/tun/",
+      "sources": [
+        "https://wiki.metacubex.one/config/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "mihomo-tun-stack-config"
+    },
+    {
+      "keyword": "mihomo external-controller 控制器认证",
+      "intent": "控制接口可访问但面板请求被拒时核对监听地址和 secret",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-external-controller-auth/",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "mihomo-external-controller-auth"
+    },
+    {
+      "keyword": "mihomo fallback 代理组配置",
+      "intent": "主节点失败时核对 fallback 组成员顺序、健康检查与路由引用",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-group-fallback/",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "mihomo-proxy-group-fallback"
+    },
+    {
+      "keyword": "Xray-core WebSocket path 配置",
+      "intent": "WebSocket 传输握手失败时核对 path、headers 与 TLS 层级",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-websocket-path-config/",
+      "source": "https://xtls.github.io/config/transport.html",
+      "sources": [
+        "https://xtls.github.io/config/transport.html"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "xray-core-websocket-path-config"
+    },
+    {
+      "keyword": "Xray-core gRPC serviceName 配置",
+      "intent": "gRPC 传输连接失败时核对 serviceName、authority 和 TLS 主机名",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-grpc-service-name-config/",
+      "source": "https://xtls.github.io/config/transport.html",
+      "sources": [
+        "https://xtls.github.io/config/transport.html"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "xray-core-grpc-service-name-config"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮10篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
   "publishedCommit": "747b742444af06947cc35124fb171fdcc6d37673",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41558206536"
 }
