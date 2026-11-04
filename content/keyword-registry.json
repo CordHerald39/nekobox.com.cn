@@ -1730,9 +1730,10 @@
         "https://wiki.metacubex.one/config/inbound/tun/"
       ],
       "sourceVerifiedDate": "2026-11-04",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-04",
-      "article": "mihomo-tun-stack-config"
+      "article": "mihomo-tun-stack-config",
+      "publishedDate": "2026-11-04"
     },
     {
       "keyword": "mihomo external-controller 控制器认证",
@@ -1744,9 +1745,10 @@
         "https://wiki.metacubex.one/config/general/"
       ],
       "sourceVerifiedDate": "2026-11-04",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-04",
-      "article": "mihomo-external-controller-auth"
+      "article": "mihomo-external-controller-auth",
+      "publishedDate": "2026-11-04"
     },
     {
       "keyword": "mihomo fallback 代理组配置",
@@ -1758,9 +1760,10 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-11-04",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-04",
-      "article": "mihomo-proxy-group-fallback"
+      "article": "mihomo-proxy-group-fallback",
+      "publishedDate": "2026-11-04"
     },
     {
       "keyword": "Xray-core WebSocket path 配置",
@@ -1772,9 +1775,10 @@
         "https://xtls.github.io/config/transport.html"
       ],
       "sourceVerifiedDate": "2026-11-04",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-04",
-      "article": "xray-core-websocket-path-config"
+      "article": "xray-core-websocket-path-config",
+      "publishedDate": "2026-11-04"
     },
     {
       "keyword": "Xray-core gRPC serviceName 配置",
@@ -1786,13 +1790,14 @@
         "https://xtls.github.io/config/transport.html"
       ],
       "sourceVerifiedDate": "2026-11-04",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-04",
-      "article": "xray-core-grpc-service-name-config"
+      "article": "xray-core-grpc-service-name-config",
+      "publishedDate": "2026-11-04"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮10篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
-  "publishedCommit": "747b742444af06947cc35124fb171fdcc6d37673",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41558206536"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "c1a8b0cb12b88d5923426683857e46556517e8d7",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41754443930"
 }
