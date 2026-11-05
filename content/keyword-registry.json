@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -1794,10 +1794,84 @@
       "plannedDate": "2026-11-04",
       "article": "xray-core-grpc-service-name-config",
       "publishedDate": "2026-11-04"
+    },
+    {
+      "keyword": "mihomo interface-name 出站网卡绑定",
+      "intent": "多网卡环境代理已接入但出口不符时核对流量出站接口与系统路由",
+      "article": "mihomo-interface-name-outbound",
+      "sources": [
+        "https://wiki.metacubex.one/config/general/"
+      ],
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-interface-name-outbound/",
+      "source": "https://wiki.metacubex.one/config/general/",
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05"
+    },
+    {
+      "keyword": "mihomo proxy-provider override 配置",
+      "intent": "多个提供者节点重名或需要本地字段覆写时验证 override 的作用范围与生效顺序",
+      "article": "mihomo-proxy-provider-override",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-providers/"
+      ],
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-proxy-provider-override/",
+      "source": "https://wiki.metacubex.one/config/proxy-providers/",
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05"
+    },
+    {
+      "keyword": "Xray-core sockopt mark 配置",
+      "intent": "Linux 出站策略路由需 SO_MARK 时区分 Xray socket 标记、权限与系统规则",
+      "article": "xray-core-sockopt-mark",
+      "sources": [
+        "https://xtls.github.io/config/transports/sockopt.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-sockopt-mark/",
+      "source": "https://xtls.github.io/config/transports/sockopt.html",
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05"
+    },
+    {
+      "keyword": "Xray-core tcpUserTimeout 配置",
+      "intent": "TCP 已建立但数据等待确认过久时核对毫秒超时与应用deadline、keepalive区别",
+      "article": "xray-core-sockopt-tcp-user-timeout",
+      "sources": [
+        "https://xtls.github.io/config/transports/sockopt.html",
+        "https://github.com/grpc/proposal/blob/master/A18-tcp-user-timeout.md",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-sockopt-tcp-user-timeout/",
+      "source": "https://xtls.github.io/config/transports/sockopt.html",
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05"
+    },
+    {
+      "keyword": "Xray-core tcpFastOpen 配置",
+      "intent": "TFO 开关导致建连异常时核对三态取值、inbound/outbound与系统支持",
+      "article": "xray-core-sockopt-tcp-fast-open",
+      "sources": [
+        "https://xtls.github.io/config/transports/sockopt.html",
+        "https://xtls.github.io/document/command.html"
+      ],
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-sockopt-tcp-fast-open/",
+      "source": "https://xtls.github.io/config/transports/sockopt.html",
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "五篇最终稿完成官方语义与跨站主题排重，待本轮测试、构建、API发布及正式核验。",
   "publishedCommit": "c1a8b0cb12b88d5923426683857e46556517e8d7",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41754443930"
 }
