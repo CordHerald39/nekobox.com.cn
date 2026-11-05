@@ -14,8 +14,9 @@
       "url": "/articles/mihomo-interface-name-outbound/",
       "source": "https://wiki.metacubex.one/config/general/",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "mihomo proxy-provider override 配置",
@@ -28,8 +29,9 @@
       "url": "/articles/mihomo-proxy-provider-override/",
       "source": "https://wiki.metacubex.one/config/proxy-providers/",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "Xray-core sockopt mark 配置",
@@ -43,8 +45,9 @@
       "url": "/articles/xray-core-sockopt-mark/",
       "source": "https://xtls.github.io/config/transports/sockopt.html",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "Xray-core tcpUserTimeout 配置",
@@ -59,8 +62,9 @@
       "url": "/articles/xray-core-sockopt-tcp-user-timeout/",
       "source": "https://xtls.github.io/config/transports/sockopt.html",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "Xray-core tcpFastOpen 配置",
@@ -74,12 +78,326 @@
       "url": "/articles/xray-core-sockopt-tcp-fast-open/",
       "source": "https://xtls.github.io/config/transports/sockopt.html",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     }
   ],
   "allocationReason": "默认5/5；初稿局域网/HTTP认证与旧文重叠被归档，最终补齐mihomo出站网卡、provider覆写及Xray套接字参数。",
   "publish": {
-    "status": "planned"
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "eb0366b3b8e68910b69fe12f513bc7668c907aa2",
+      "aeff18d6a11f9e5786cf3ab9d30002302e24f8ee",
+      "390023fa596d94ad421af789d8bbd02890ad783a",
+      "f6da818ce617c970822fc65d038fc8d77e3b21f8",
+      "92758a6a9cbf9b912017731ca10026bad505f96b",
+      "3b09610b62582b98dae7113be47c08ab7a5b46e1",
+      "b7f924eb69e455c252dc6e9bfc51b6c9ff05606d"
+    ],
+    "contentDeployment": {
+      "commit": "b7f924eb69e455c252dc6e9bfc51b6c9ff05606d",
+      "runs": [
+        {
+          "id": 41947975867,
+          "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867",
+          "head_sha": "b7f924eb69e455c252dc6e9bfc51b6c9ff05606d",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "jobs": [
+        {
+          "id": 126984958213,
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 126985101509,
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "deployments": [
+        {
+          "id": 7562555160,
+          "sha": "b7f924eb69e455c252dc6e9bfc51b6c9ff05606d",
+          "environment": "github-pages",
+          "statuses": [
+            {
+              "url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160/statuses/21401040270",
+              "id": 21401040270,
+              "node_id": "DES_kwDOUh25Cs8AAAAE-5n1jg",
+              "state": "success",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "created_at": "2026-11-05T01:23:41Z",
+              "updated_at": "2026-11-05T01:23:41Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160",
+              "repository_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn",
+              "environment_url": "http://nekobox.com.cn/",
+              "log_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160/statuses/21400945541",
+              "id": 21400945541,
+              "node_id": "DES_kwDOUh25Cs8AAAAE-5iDhQ",
+              "state": "in_progress",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "created_at": "2026-11-05T01:22:27Z",
+              "updated_at": "2026-11-05T01:22:27Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160",
+              "repository_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160/statuses/21400943433",
+              "id": 21400943433,
+              "node_id": "DES_kwDOUh25Cs8AAAAE-5h7SQ",
+              "state": "queued",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "created_at": "2026-11-05T01:22:25Z",
+              "updated_at": "2026-11-05T01:22:25Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160",
+              "repository_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160/statuses/21400943398",
+              "id": 21400943398,
+              "node_id": "DES_kwDOUh25Cs8AAAAE-5h7Jg",
+              "state": "queued",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "created_at": "2026-11-05T01:22:25Z",
+              "updated_at": "2026-11-05T01:22:25Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160",
+              "repository_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160/statuses/21400942163",
+              "id": 21400942163,
+              "node_id": "DES_kwDOUh25Cs8AAAAE-5h2Uw",
+              "state": "waiting",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "created_at": "2026-11-05T01:22:24Z",
+              "updated_at": "2026-11-05T01:22:24Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn/deployments/7562555160",
+              "repository_url": "https://api.github.com/repos/CordHerald39/nekobox.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867/job/126985101509",
+              "performed_via_github_app": null
+            }
+          ]
+        }
+      ]
+    },
+    "registryCommit": "8af359ede76b2b24dc1b3e00332522e1e2e9ad59"
+  },
+  "liveVerification": {
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://nekobox.com.cn/",
+        "status": 200,
+        "bytes": 19047,
+        "sha256": "581b11b5f62d5c366c017957d5f121c03d2eaf2583f792994d557650f3afd21a"
+      },
+      {
+        "url": "https://nekobox.com.cn/style.css",
+        "status": 200,
+        "bytes": 21705,
+        "sha256": "138c0d162248b43ce527b387ef681321103a7e3c7d6be7cedad8a20cd272db46"
+      },
+      {
+        "url": "https://nekobox.com.cn/site.js",
+        "status": 200,
+        "bytes": 3000,
+        "sha256": "a506d0dde46d8a1b95fb11d87a6c6539b0bc92d3e94f685c4baa7a13bf0b0217"
+      },
+      {
+        "url": "https://nekobox.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 67,
+        "sha256": "47d966ca4878835abeca6f09725a33e2bd8fb18bc73f63fb64a38cc604b804b1"
+      },
+      {
+        "url": "https://nekobox.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 18051,
+        "sha256": "24139c8720bb9a98586c07ee627386e983a111bebabac7d2e1aa08d1b903293b",
+        "urlCount": 169,
+        "articleCount": 150,
+        "oldUrlsPreserved": true
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-interface-name-outbound/",
+        "status": 200,
+        "bytes": 10833,
+        "sha256": "2a9bf935db94f088699d011c876c55ec0d6ab9961fc77d53c5da4812115b0a59",
+        "articleBodySha256": "18ca74e383a8835bef6bd833cf29ecee113fe266591f347aeda20ed24288751e",
+        "bodyVerification": "body, lead and official links equal reviewed build",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/mihomo-proxy-provider-override/",
+        "status": 200,
+        "bytes": 11052,
+        "sha256": "999acf3574bb755db4d91dbc781e50ee8aac204d3565a2c888135aa297412921",
+        "articleBodySha256": "59723db159f2e237f0df2559265969b72012232c8f0b6efd83dfb430347d3fce",
+        "bodyVerification": "body, lead and official links equal reviewed build",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-sockopt-mark/",
+        "status": 200,
+        "bytes": 10784,
+        "sha256": "8c12bbb7495ec7307c2bdef1fd61ed61133dad3481811e8f5b181760636fac3a",
+        "articleBodySha256": "971c6d3224dd18635d9ff74bdf4d640ea4efe94eff67687cb9892e14771cad52",
+        "bodyVerification": "body, lead and official links equal reviewed build",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-sockopt-tcp-user-timeout/",
+        "status": 200,
+        "bytes": 11015,
+        "sha256": "f0be3bd1fc17975ac37b9f7bb8ad010cc754a131ed9c6812f67a6889a142a36b",
+        "articleBodySha256": "902523fa73a68b9de12e35132ad4be1019a005f80e40e89d2ebd193eacfbe39f",
+        "bodyVerification": "body, lead and official links equal reviewed build",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://nekobox.com.cn/articles/xray-core-sockopt-tcp-fast-open/",
+        "status": 200,
+        "bytes": 11049,
+        "sha256": "ca888de12cf57f93672a4291eb5b4e730a38c2388bedf818fb2cd36da1afc9a5",
+        "articleBodySha256": "ddab23eeeda65ed9729be251ae63572f33d7bb01ff12d54fbc706e1fa1f5dc6e",
+        "bodyVerification": "body, lead and official links equal reviewed build",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      }
+    ]
   }
 }
