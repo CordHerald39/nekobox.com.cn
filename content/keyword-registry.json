@@ -1806,8 +1806,9 @@
       "url": "/articles/mihomo-interface-name-outbound/",
       "source": "https://wiki.metacubex.one/config/general/",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "mihomo proxy-provider override 配置",
@@ -1820,8 +1821,9 @@
       "url": "/articles/mihomo-proxy-provider-override/",
       "source": "https://wiki.metacubex.one/config/proxy-providers/",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "Xray-core sockopt mark 配置",
@@ -1835,8 +1837,9 @@
       "url": "/articles/xray-core-sockopt-mark/",
       "source": "https://xtls.github.io/config/transports/sockopt.html",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "Xray-core tcpUserTimeout 配置",
@@ -1851,8 +1854,9 @@
       "url": "/articles/xray-core-sockopt-tcp-user-timeout/",
       "source": "https://xtls.github.io/config/transports/sockopt.html",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "Xray-core tcpFastOpen 配置",
@@ -1866,12 +1870,13 @@
       "url": "/articles/xray-core-sockopt-tcp-fast-open/",
       "source": "https://xtls.github.io/config/transports/sockopt.html",
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
-      "plannedDate": "2026-11-05"
+      "status": "published",
+      "plannedDate": "2026-11-05",
+      "publishedDate": "2026-11-05"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "五篇最终稿完成官方语义与跨站主题排重，待本轮测试、构建、API发布及正式核验。",
-  "publishedCommit": "c1a8b0cb12b88d5923426683857e46556517e8d7",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41754443930"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "b7f924eb69e455c252dc6e9bfc51b6c9ff05606d",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/41947975867"
 }
