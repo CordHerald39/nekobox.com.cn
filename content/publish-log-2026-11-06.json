@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-06",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "Xray-core API 服务配置",
+      "intent": "启用 Xray API 服务时核对 services、监听入站与权限边界",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-api-service-config/",
+      "source": "https://xtls.github.io/config/api.html",
+      "sources": [
+        "https://xtls.github.io/config/api.html"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "xray-core-api-service-config"
+    },
+    {
+      "keyword": "Xray-core policy timeout 配置",
+      "intent": "连接超时或空闲回收异常时区分 policy level、timeout 与拨号参数",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-policy-timeout-config/",
+      "source": "https://xtls.github.io/config/policy.html",
+      "sources": [
+        "https://xtls.github.io/config/policy.html"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "xray-core-policy-timeout-config"
+    },
+    {
+      "keyword": "Xray-core StatsService 统计配置",
+      "intent": "需要流量统计时核对 StatsService、policy stats 与 API 路径",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-stats-service-config/",
+      "source": "https://xtls.github.io/config/stats.html",
+      "sources": [
+        "https://xtls.github.io/config/stats.html"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "xray-core-stats-service-config"
+    },
+    {
+      "keyword": "Xray-core HTTP 入站认证",
+      "intent": "HTTP 入站返回 401 或账号不生效时核对 accounts 与端口引用",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-http-inbound-auth/",
+      "source": "https://xtls.github.io/config/inbound.html",
+      "sources": [
+        "https://xtls.github.io/config/inbound.html"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "xray-core-http-inbound-auth"
+    },
+    {
+      "keyword": "mihomo DNS 规则顺序",
+      "intent": "DNS 规则命中错误时核对 nameserver-policy、fallback-filter 与规则先后",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/mihomo-dns-rule-order-check/",
+      "source": "https://wiki.metacubex.one/config/dns/",
+      "sources": [
+        "https://wiki.metacubex.one/config/dns/",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "mihomo-dns-rule-order-check"
+    }
+  ],
+  "allocationReason": "默认两站各5篇；按已有覆盖补齐 Xray 管理/策略/统计、mihomo DNS 规则，以及 sing-box 多种出站与 TLS 调试意图；未据此宣称搜索量或实机测试。",
+  "publish": {
+    "status": "planned"
+  }
+}
