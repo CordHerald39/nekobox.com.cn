@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "site": "nekobox.com.cn",
   "entries": [
     {
@@ -1949,10 +1949,80 @@
       "plannedDate": "2026-11-06",
       "article": "mihomo-dns-rule-order-check",
       "publishedDate": "2026-11-06"
+    },
+    {
+      "keyword": "NekoBox Android 配置导出",
+      "intent": "配置备份与迁移",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/nekobox-android-profile-export/",
+      "source": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+      "sources": [
+        "https://github.com/MatsuriDayo/NekoBoxForAndroid"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "nekobox-android-profile-export"
+    },
+    {
+      "keyword": "Xray-core REALITY 客户端配置",
+      "intent": "REALITY 传输配置与握手排错",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-reality-client-config/",
+      "source": "https://xtls.github.io/config/transport.html",
+      "sources": [
+        "https://xtls.github.io/config/transport.html"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "xray-core-reality-client-config"
+    },
+    {
+      "keyword": "Xray-core HTTPUpgrade 传输配置",
+      "intent": "HTTPUpgrade 传输配置与连接故障",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/xray-core-httpupgrade-transport-config/",
+      "source": "https://xtls.github.io/config/transport.html",
+      "sources": [
+        "https://xtls.github.io/config/transport.html"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "xray-core-httpupgrade-transport-config"
+    },
+    {
+      "keyword": "sing-box Hysteria2 出站配置",
+      "intent": "Hysteria2 出站配置与握手排错",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-hysteria2-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/hysteria2/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/hysteria2/"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "sing-box-hysteria2-outbound-config"
+    },
+    {
+      "keyword": "sing-box WireGuard 出站配置",
+      "intent": "WireGuard 出站配置与路由检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-wireguard-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/wireguard/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/wireguard/"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "sing-box-wireguard-outbound-config"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮 10 篇依据官方文档字段核对，待测试、构建、API 发布和正式页面核验。",
   "publishedCommit": "26f963abc263784c6a47d052e257b033f20534ea",
   "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/42144440426"
 }
