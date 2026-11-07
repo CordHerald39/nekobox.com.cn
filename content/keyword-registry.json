@@ -1960,9 +1960,10 @@
         "https://github.com/MatsuriDayo/NekoBoxForAndroid"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "nekobox-android-profile-export"
+      "article": "nekobox-android-profile-export",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "Xray-core REALITY 客户端配置",
@@ -1974,9 +1975,10 @@
         "https://xtls.github.io/config/transport.html"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "xray-core-reality-client-config"
+      "article": "xray-core-reality-client-config",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "Xray-core HTTPUpgrade 传输配置",
@@ -1988,9 +1990,10 @@
         "https://xtls.github.io/config/transport.html"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "xray-core-httpupgrade-transport-config"
+      "article": "xray-core-httpupgrade-transport-config",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "sing-box Hysteria2 出站配置",
@@ -2002,9 +2005,10 @@
         "https://sing-box.sagernet.org/configuration/outbound/hysteria2/"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "sing-box-hysteria2-outbound-config"
+      "article": "sing-box-hysteria2-outbound-config",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "sing-box WireGuard 出站配置",
@@ -2016,13 +2020,14 @@
         "https://sing-box.sagernet.org/configuration/outbound/wireguard/"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "sing-box-wireguard-outbound-config"
+      "article": "sing-box-wireguard-outbound-config",
+      "publishedDate": "2026-11-07"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮 10 篇依据官方文档字段核对，待测试、构建、API 发布和正式页面核验。",
-  "publishedCommit": "26f963abc263784c6a47d052e257b033f20534ea",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/42144440426"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式 HTTPS 页面已核验。",
+  "publishedCommit": "406c3a21b93cf8f950c6941f42f63b62066b3bd7",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/42322719188"
 }
