@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-09",
+  "site": "nekobox.com.cn",
+  "articlesAdded": 10,
+  "articles": [
+    {
+      "keyword": "sing-box DNS query_type 查询类型匹配",
+      "intent": "DNS 查询类型分流与 A/AAAA 响应检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-query-type-filter/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule/",
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-dns-query-type-filter"
+    },
+    {
+      "keyword": "sing-box query_client_subnet 配置",
+      "intent": "EDNS Client Subnet 条件匹配与隐私边界",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-query-client-subnet/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-dns-query-client-subnet"
+    },
+    {
+      "keyword": "sing-box DNS match_response 响应匹配",
+      "intent": "基于 evaluate 与响应码/记录的 DNS 响应检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-match-response/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule/",
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-dns-match-response"
+    },
+    {
+      "keyword": "sing-box DNS 旧地址过滤迁移",
+      "intent": "升级时旧 Legacy Address Filter Fields 弃用与兼容排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-dns-legacy-address-filter-migration/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule/",
+        "https://sing-box.sagernet.org/migration/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-dns-legacy-address-filter-migration"
+    },
+    {
+      "keyword": "sing-box route rule_set 匹配",
+      "intent": "路由规则集标签、source/format 与出站分流",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-rule-set-match/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/",
+        "https://sing-box.sagernet.org/configuration/rule-set/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-route-rule-set-match"
+    },
+    {
+      "keyword": "sing-box route rule invert 反向匹配",
+      "intent": "反向条件排除与规则命中验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-rule-invert/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-route-rule-invert"
+    },
+    {
+      "keyword": "sing-box hijack-dns 动作配置",
+      "intent": "DNS 请求接管、规则顺序与解析路径检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-hijack-dns-action/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/dns/rule/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-route-hijack-dns-action"
+    },
+    {
+      "keyword": "sing-box route reject 动作",
+      "intent": "按路由规则拒绝连接与误拦截排查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-reject-action/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-route-reject-action"
+    },
+    {
+      "keyword": "sing-box route-options 覆盖地址端口",
+      "intent": "连接目标地址/端口覆盖与路由验收",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-options-override/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-route-options-override"
+    },
+    {
+      "keyword": "sing-box Route Rule action 迁移",
+      "intent": "旧路由规则结构与动作的版本迁移检查",
+      "targetSite": "nekobox.com.cn",
+      "url": "/articles/sing-box-route-rule-action-migration/",
+      "source": "https://sing-box.sagernet.org/migration/",
+      "sources": [
+        "https://sing-box.sagernet.org/migration/",
+        "https://sing-box.sagernet.org/configuration/route/rule/",
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-09",
+      "status": "planned",
+      "plannedDate": "2026-11-09",
+      "article": "sing-box-route-rule-action-migration"
+    }
+  ],
+  "allocationReason": "FlyClash 今日无法使用安全发布凭据，按上级指示尝试由 NekoBox 补足总量；保持每篇唯一关键词与 URL。",
+  "publish": {
+    "status": "planned",
+    "replayForbidden": true
+  }
+}
