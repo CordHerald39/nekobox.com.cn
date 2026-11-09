@@ -2036,9 +2036,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-query-type-filter"
+      "article": "sing-box-dns-query-type-filter",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box query_client_subnet 配置",
@@ -2050,9 +2051,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-query-client-subnet"
+      "article": "sing-box-dns-query-client-subnet",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box DNS match_response 响应匹配",
@@ -2065,9 +2067,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-match-response"
+      "article": "sing-box-dns-match-response",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box DNS 旧地址过滤迁移",
@@ -2080,9 +2083,10 @@
         "https://sing-box.sagernet.org/migration/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-legacy-address-filter-migration"
+      "article": "sing-box-dns-legacy-address-filter-migration",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route rule_set 匹配",
@@ -2095,9 +2099,10 @@
         "https://sing-box.sagernet.org/configuration/rule-set/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-rule-set-match"
+      "article": "sing-box-route-rule-set-match",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route rule invert 反向匹配",
@@ -2109,9 +2114,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-rule-invert"
+      "article": "sing-box-route-rule-invert",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box hijack-dns 动作配置",
@@ -2124,9 +2130,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-hijack-dns-action"
+      "article": "sing-box-route-hijack-dns-action",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route reject 动作",
@@ -2138,9 +2145,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-reject-action"
+      "article": "sing-box-route-reject-action",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route-options 覆盖地址端口",
@@ -2152,9 +2160,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-options-override"
+      "article": "sing-box-route-options-override",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box Route Rule action 迁移",
@@ -2168,13 +2177,14 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-rule-action-migration"
+      "article": "sing-box-route-rule-action-migration",
+      "publishedDate": "2026-11-09"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮 10 篇依据官方文档核对，待最后复核、API 发布和正式页面验证。",
-  "publishedCommit": "406c3a21b93cf8f950c6941f42f63b62066b3bd7",
-  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/42322719188"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式 HTTPS 页面已核验。",
+  "publishedCommit": "3a2fd433c987ca77c2cfd58fc3eb73566c4fb633",
+  "deploymentUrl": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/42545541719"
 }

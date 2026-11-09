@@ -14,9 +14,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-query-type-filter"
+      "article": "sing-box-dns-query-type-filter",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box query_client_subnet 配置",
@@ -28,9 +29,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-query-client-subnet"
+      "article": "sing-box-dns-query-client-subnet",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box DNS match_response 响应匹配",
@@ -43,9 +45,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-match-response"
+      "article": "sing-box-dns-match-response",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box DNS 旧地址过滤迁移",
@@ -58,9 +61,10 @@
         "https://sing-box.sagernet.org/migration/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-dns-legacy-address-filter-migration"
+      "article": "sing-box-dns-legacy-address-filter-migration",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route rule_set 匹配",
@@ -73,9 +77,10 @@
         "https://sing-box.sagernet.org/configuration/rule-set/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-rule-set-match"
+      "article": "sing-box-route-rule-set-match",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route rule invert 反向匹配",
@@ -87,9 +92,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-rule-invert"
+      "article": "sing-box-route-rule-invert",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box hijack-dns 动作配置",
@@ -102,9 +108,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-hijack-dns-action"
+      "article": "sing-box-route-hijack-dns-action",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route reject 动作",
@@ -116,9 +123,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-reject-action"
+      "article": "sing-box-route-reject-action",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box route-options 覆盖地址端口",
@@ -130,9 +138,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-options-override"
+      "article": "sing-box-route-options-override",
+      "publishedDate": "2026-11-09"
     },
     {
       "keyword": "sing-box Route Rule action 迁移",
@@ -146,14 +155,132 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-11-09",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-09",
-      "article": "sing-box-route-rule-action-migration"
+      "article": "sing-box-route-rule-action-migration",
+      "publishedDate": "2026-11-09"
     }
   ],
   "allocationReason": "FlyClash 今日无法使用安全发布凭据，按上级指示尝试由 NekoBox 补足总量；保持每篇唯一关键词与 URL。",
   "publish": {
-    "status": "planned",
-    "replayForbidden": true
+    "status": "published-via-github-data-api",
+    "remoteSha": "3a2fd433c987ca77c2cfd58fc3eb73566c4fb633",
+    "workflowRuns": [
+      {
+        "id": 42545541719,
+        "name": "Build and deploy website",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3a2fd433c987ca77c2cfd58fc3eb73566c4fb633",
+        "html_url": "https://github.com/CordHerald39/nekobox.com.cn/actions/runs/42545541719"
+      }
+    ],
+    "contentLiveVerification": {
+      "status": "passed",
+      "pages": [
+        {
+          "url": "https://nekobox.com.cn/",
+          "status": 200,
+          "bytes": 13918,
+          "sha256": "d2b49579af4a9cb96c3ef27ad5430700bc7e495229a6431d88f58446e8654c19"
+        },
+        {
+          "url": "https://nekobox.com.cn/style.css",
+          "status": 200,
+          "bytes": 21695,
+          "sha256": "138c0d162248b43ce527b387ef681321103a7e3c7d6be7cedad8a20cd272db46"
+        },
+        {
+          "url": "https://nekobox.com.cn/site.js",
+          "status": 200,
+          "bytes": 2907,
+          "sha256": "a506d0dde46d8a1b95fb11d87a6c6539b0bc92d3e94f685c4baa7a13bf0b0217"
+        },
+        {
+          "url": "https://nekobox.com.cn/robots.txt",
+          "status": 200,
+          "bytes": 67,
+          "sha256": "47d966ca4878835abeca6f09725a33e2bd8fb18bc73f63fb64a38cc604b804b1"
+        },
+        {
+          "url": "https://nekobox.com.cn/sitemap.xml",
+          "status": 200,
+          "bytes": 20356,
+          "sha256": "32af996172ca6f4ec4bb339873d3492465ec6b8a0f5b1d07422174e26e5822e8",
+          "urlCount": 189,
+          "articleCount": 170
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-dns-query-type-filter/",
+          "status": 200,
+          "bytes": 6804,
+          "sha256": "6d6cc38cea81c22caeef55f66e62473dc5cbbf3bfd9dafb6cbc8774c928c62a4",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-dns-query-client-subnet/",
+          "status": 200,
+          "bytes": 6819,
+          "sha256": "7f28512a510c80e7b8758cff2679ab7ca4690348b31c6e40539504e2eb1c3fe4",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-dns-match-response/",
+          "status": 200,
+          "bytes": 6836,
+          "sha256": "c2ed4fadf787506c80c2313b4fd4a042be7e9a168f1dc4a71e5790572e98314d",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-dns-legacy-address-filter-migration/",
+          "status": 200,
+          "bytes": 6820,
+          "sha256": "5cb021ac252361d3f4ca7b0e2c4c6e122d111d27ce62322ba725be45702b0a47",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-route-rule-set-match/",
+          "status": 200,
+          "bytes": 6685,
+          "sha256": "ded3ed413db54fcd9df5a1371b5004bab755b5d091353cb94b2acbdc4061cd5d",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-route-rule-invert/",
+          "status": 200,
+          "bytes": 6610,
+          "sha256": "ec7a25d69211ced924aba946c70e387f5d5415024ae384fabbcb9be6d62e4591",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-route-hijack-dns-action/",
+          "status": 200,
+          "bytes": 6824,
+          "sha256": "aa559deef1c3289d71e42080633c7b7c80f575e6ab1f3530fea266fa334c0437",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-route-reject-action/",
+          "status": 200,
+          "bytes": 6572,
+          "sha256": "25f087e69ab70d8f57e080d5d8c04ccba78b6c0c04a6d827b5314804d6483b20",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-route-options-override/",
+          "status": 200,
+          "bytes": 6697,
+          "sha256": "22d1e1f704c80348be5135e6708aaf2256f7ef0f31125ba09e94b3e3b77703a9",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        },
+        {
+          "url": "https://nekobox.com.cn/articles/sing-box-route-rule-action-migration/",
+          "status": 200,
+          "bytes": 6962,
+          "sha256": "a9c7402714dea680b0835ca3541183b50b95801b2d5f0183f40a527569b21925",
+          "metadata": "canonical/description/Article-or-Breadcrumb/date markers present"
+        }
+      ]
+    }
   }
 }
